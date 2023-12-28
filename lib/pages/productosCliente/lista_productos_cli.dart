@@ -45,21 +45,21 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                 Stack(
               children: [
                 Container(
-                  margin: EdgeInsets.only(top: 80.0),
+                  margin: const EdgeInsets.only(top: 80.0),
                   width: double.infinity,
                   height: 150.0,
                   child: Lottie.asset('assets/json/productos.json'),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 30.0),
+                  margin: const EdgeInsets.only(top: 30.0),
                   child: menuCliente(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 70.0),
+                  margin: const EdgeInsets.only(top: 70.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 225.0),
+                  margin: const EdgeInsets.only(top: 225.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(
@@ -82,10 +82,10 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (BuildContext context) {
-                  return DetalleCarro();
+                  return const DetalleCarro();
                 })).then((value) => setState(() {}));
               },
-              child: Icon(Icons.car_crash),
+              child: const Icon(Icons.car_crash),
             ),
           );
         }

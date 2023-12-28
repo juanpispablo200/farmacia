@@ -1,13 +1,13 @@
 import 'package:farmacia/modelos/usuarios.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 
 class FichaUsuario extends StatelessWidget {
   final Usuario usuario;
   final VoidCallback onTapEdit, onTapDelete;
 
-  FichaUsuario(
-      {required this.usuario,
+  const FichaUsuario(
+      {super.key,
+      required this.usuario,
       required this.onTapDelete,
       required this.onTapEdit});
   @override
@@ -17,7 +17,7 @@ class FichaUsuario extends StatelessWidget {
       color: Colors.amberAccent,
       child: ListTile(
         leading: Text(
-          '${usuario.correo}',
+          usuario.correo,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         title: Text(usuario.nombres),
@@ -26,12 +26,12 @@ class FichaUsuario extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             GestureDetector(
-              child: Icon(Icons.edit),
               onTap: onTapEdit,
+              child: const Icon(Icons.edit),
             ),
             GestureDetector(
-              child: Icon(Icons.delete),
               onTap: onTapDelete,
+              child: const Icon(Icons.delete),
             )
           ],
         ),

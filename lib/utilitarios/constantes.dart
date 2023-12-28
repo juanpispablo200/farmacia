@@ -1,8 +1,8 @@
-const CONEXION = 'mongodb://localhost:27017'
+const conexion = 'mongodb://localhost:27017'
     "3eTH2xLoZQgmvko7@cluster0.y1f1kdk.mongodb.net/Restauranteuide?"
     "retryWrites=true&w=majority";
 
-const COLECCION = 'usuarios';
-const COLECCION_P = 'productos';
-const COLECCION_C = 'categorias';
-const COLECCION_CAR = 'carrito';
+const collecion = 'usuarios';
+const collecionP = 'productos';
+const collecionC = 'categorias';
+const collecionCar = 'carrito';

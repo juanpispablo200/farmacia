@@ -134,7 +134,7 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
   }
 
   _actualizarCategoria(Categoria categoria) async {
-    final u = Categoria(
+    final categoriaActulizada = Categoria(
       id: categoria.id,
       nombre: nombreController.text,
       descripcion: descripcionController.text,
@@ -173,7 +173,7 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
       child: TextField(
         controller: descripcionController,
         decoration: const InputDecoration(
-          hintText: "Descripccion",
+          hintText: "Descripcion",
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.verified_user_outlined,

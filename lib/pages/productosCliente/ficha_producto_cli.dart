@@ -6,7 +6,8 @@ class FichaProductoCli extends StatelessWidget {
   final Producto producto;
   final VoidCallback onTapAdd;
 
-  FichaProductoCli({
+  const FichaProductoCli({
+    super.key,
     required this.producto,
     required this.onTapAdd,
   });
@@ -17,7 +18,7 @@ class FichaProductoCli extends StatelessWidget {
       color: Colors.amberAccent,
       child: ListTile(
         leading: Text(
-          '${producto.nombre}',
+          producto.nombre,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         title: Text(producto.categoria),
@@ -30,8 +31,8 @@ class FichaProductoCli extends StatelessWidget {
             //onTap: onTapAdd,
             //),
             GestureDetector(
-              child: Icon(Icons.plus_one_sharp),
               onTap: onTapAdd,
+              child: const Icon(Icons.plus_one_sharp),
             )
           ],
         ),

@@ -3,7 +3,7 @@ import 'package:lottie/lottie.dart';
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/widgets/boton_atras.dart';
-import 'package:mongo_dart/mongo_dart.dart' as MD;
+import 'package:mongo_dart/mongo_dart.dart' as md;
 
 class RegistroPage extends StatefulWidget {
   const RegistroPage({Key? key}) : super(key: key);
@@ -51,7 +51,7 @@ class _RegistroPageState extends State<RegistroPage> {
             children: [
               Stack(
                 children: [
-                  Container(
+                  SizedBox(
                     width: double.infinity,
                     height: 150.0,
                     child: Lottie.asset('assets/json/registro.json'),
@@ -108,33 +108,31 @@ class _RegistroPageState extends State<RegistroPage> {
                         _carreraInput(),
                         _passwordInput(),
 
-                        Container(
-                          child: Align(
-                            alignment: Alignment.bottomCenter,
-                            child: Padding(
-                              padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
-                              child: ElevatedButton(
-                                child: Text(textoWidget),
-                                onPressed: () {
-                                  if (operacion == edicion) {
-                                    // editar el objeto
-                                    _actualizar(usuario!);
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      const SnackBar(
-                                          content: Text(
-                                              'Registro actualizado Correctamente')),
-                                    );
-                                  } else {
-                                    //Insertar el componente
-                                    _insetarUsuario();
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      const SnackBar(
-                                          content: Text('Registro con exito')),
-                                    );
-                                  }
-                                  Navigator.pop(context);
-                                },
-                              ),
+                        Align(
+                          alignment: Alignment.bottomCenter,
+                          child: Padding(
+                            padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
+                            child: ElevatedButton(
+                              child: Text(textoWidget),
+                              onPressed: () {
+                                if (operacion == edicion) {
+                                  // editar el objeto
+                                  _actualizar(usuario!);
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    const SnackBar(
+                                        content: Text(
+                                            'Registro actualizado Correctamente')),
+                                  );
+                                } else {
+                                  //Insertar el componente
+                                  _insetarUsuario();
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    const SnackBar(
+                                        content: Text('Registro con exito')),
+                                  );
+                                }
+                                Navigator.pop(context);
+                              },
                             ),
                           ),
                         ),
@@ -152,7 +150,7 @@ class _RegistroPageState extends State<RegistroPage> {
 
   _insetarUsuario() async {
     final usuario = Usuario(
-      id: MD.ObjectId(),
+      id: md.ObjectId(),
       nombres: nombresController.text,
       apellidos: apellidosController.text,
       cedula: cedulaController.text,
@@ -166,7 +164,7 @@ class _RegistroPageState extends State<RegistroPage> {
   }
 
   _actualizar(Usuario usuario) async {
-    final u = Usuario(
+    final usuarioActulizado = Usuario(
       id: usuario.id,
       nombres: nombresController.text,
       apellidos: apellidosController.text,

@@ -5,7 +5,8 @@ import 'package:farmacia/modelos/productos.dart';
 class FichaProductoCar extends StatelessWidget {
   final Producto producto;
 
-  FichaProductoCar({
+  const FichaProductoCar({
+    super.key,
     required this.producto,
   });
   @override
@@ -15,11 +16,11 @@ class FichaProductoCar extends StatelessWidget {
       color: Colors.amberAccent,
       child: ListTile(
         leading: Text(
-          '${producto.nombre}',
+          producto.nombre,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         title: Text(producto.precio),
-        trailing: Column(
+        trailing: const Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             //GestureDetector(

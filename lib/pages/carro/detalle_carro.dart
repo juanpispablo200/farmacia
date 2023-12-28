@@ -1,5 +1,5 @@
 import 'package:lottie/lottie.dart';
-// import 'package:mongo_dart/mongo_dart.dart' as MD;
+// import 'package:mongo_dart/mongo_dart.dart' as md;
 import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';

@@ -45,21 +45,21 @@ class _ListaProductosState extends State<ListaProductos> {
                 Stack(
               children: [
                 Container(
-                  margin: EdgeInsets.only(top: 80.0),
+                  margin: const EdgeInsets.only(top: 80.0),
                   width: double.infinity,
                   height: 150.0,
                   child: Lottie.asset('assets/json/productos.json'),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 25.0),
+                  margin: const EdgeInsets.only(top: 25.0),
                   child: menuCliente(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 70.0),
+                  margin: const EdgeInsets.only(top: 70.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 200.0),
+                  margin: const EdgeInsets.only(top: 200.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(
@@ -75,7 +75,7 @@ class _ListaProductosState extends State<ListaProductos> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (BuildContext context) {
-                                      return NuevoProducto();
+                                      return const NuevoProducto();
                                     },
                                     settings: RouteSettings(
                                       arguments: Producto.fromMap(
@@ -94,10 +94,10 @@ class _ListaProductosState extends State<ListaProductos> {
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (BuildContext context) {
-                  return NuevoProducto();
+                  return const NuevoProducto();
                 })).then((value) => setState(() {}));
               },
-              child: Icon(Icons.add),
+              child: const Icon(Icons.add),
             ),
           );
         }

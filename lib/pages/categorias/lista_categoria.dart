@@ -43,17 +43,17 @@ class _ListaCategoriasState extends State<ListaCategorias> {
                 //componentes de la pagina
                 Stack(
               children: [
-                Container(
+                SizedBox(
                   width: double.infinity,
                   height: 250.0,
                   child: Lottie.asset('assets/json/categorias.json'),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 40.0),
+                  margin: const EdgeInsets.only(top: 40.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 200.0),
+                  margin: const EdgeInsets.only(top: 200.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(
@@ -69,7 +69,7 @@ class _ListaCategoriasState extends State<ListaCategorias> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (BuildContext context) {
-                                      return NuevaCategoria();
+                                      return const NuevaCategoria();
                                     },
                                     settings: RouteSettings(
                                       arguments: Categoria.fromMap(
@@ -88,10 +88,10 @@ class _ListaCategoriasState extends State<ListaCategorias> {
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (BuildContext context) {
-                  return NuevaCategoria();
+                  return const NuevaCategoria();
                 })).then((value) => setState(() {}));
               },
-              child: Icon(Icons.add),
+              child: const Icon(Icons.add),
             ),
           );
         }

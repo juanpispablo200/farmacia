@@ -8,7 +8,8 @@ class FichaCarro extends StatelessWidget {
   final Usuario usuario;
   final Carro carrito;
 
-  FichaCarro({
+  const FichaCarro({
+    super.key,
     required this.usuario,
     required this.carrito,
     required this.producto,

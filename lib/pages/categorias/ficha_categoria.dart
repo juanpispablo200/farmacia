@@ -18,7 +18,7 @@ class FichaCategoria extends StatelessWidget {
       color: Colors.amberAccent,
       child: ListTile(
         leading: Text(
-          '${categoria.nombre}',
+          categoria.nombre,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         title: Text(categoria.descripcion),

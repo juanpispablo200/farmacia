@@ -44,21 +44,21 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
                 Stack(
               children: [
                 Container(
-                  margin: EdgeInsets.only(top: 35.0),
+                  margin: const EdgeInsets.only(top: 35.0),
                   width: double.infinity,
                   height: 250.0,
                   child: Lottie.asset('assets/json/lista.json'),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 25.0),
+                  margin: const EdgeInsets.only(top: 25.0),
                   child: menuAdmin(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 70.0),
+                  margin: const EdgeInsets.only(top: 70.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 200.0),
+                  margin: const EdgeInsets.only(top: 200.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(
@@ -74,7 +74,7 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (BuildContext context) {
-                                      return RegistroPage();
+                                      return const RegistroPage();
                                     },
                                     settings: RouteSettings(
                                       arguments:
@@ -93,10 +93,10 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (BuildContext context) {
-                  return RegistroPage();
+                  return const RegistroPage();
                 })).then((value) => setState(() {}));
               },
-              child: Icon(Icons.add),
+              child: const Icon(Icons.add),
             ),
           );
         }

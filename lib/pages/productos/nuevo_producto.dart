@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:mongo_dart/mongo_dart.dart' as MD;
+import 'package:mongo_dart/mongo_dart.dart' as md;
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/productos.dart';
@@ -14,8 +14,8 @@ class NuevoProducto extends StatefulWidget {
 }
 
 class _NuevoProductoState extends State<NuevoProducto> {
-  static const EDICION = 1;
-  static const INSERCION = 2;
+  static const edicion = 1;
+  static const insercion = 2;
 
   TextEditingController nombreController = TextEditingController();
   TextEditingController descripcionController = TextEditingController();
@@ -30,11 +30,11 @@ class _NuevoProductoState extends State<NuevoProducto> {
   @override
   Widget build(BuildContext context) {
     var textoWidget = "Añadir Producto";
-    int operacion = INSERCION;
+    int operacion = insercion;
     Producto? producto;
 
     if (ModalRoute.of(context)?.settings.arguments != null) {
-      operacion = EDICION;
+      operacion = edicion;
       producto = ModalRoute.of(context)?.settings.arguments as Producto;
       nombreController.text = producto.nombre;
       descripcionController.text = producto.descripcion;
@@ -52,7 +52,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
             children: [
               Stack(
                 children: [
-                  Container(
+                  SizedBox(
                     width: double.infinity,
                     height: 150.0,
                     child: Lottie.asset('assets/json/productos.json'),
@@ -115,7 +115,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
                             child: ElevatedButton(
                               child: Text(textoWidget),
                               onPressed: () {
-                                if (operacion == EDICION) {
+                                if (operacion == edicion) {
                                   // editar el objeto
                                   _actualizarProducto(producto!);
                                   ScaffoldMessenger.of(context).showSnackBar(
@@ -151,7 +151,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
 
   _insetarProducto() async {
     final producto = Producto(
-      id: MD.ObjectId(),
+      id: md.ObjectId(),
       nombre: nombreController.text,
       descripcion: descripcionController.text,
       categoria: categoriaController.text,
@@ -164,7 +164,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
   }
 
   _actualizarProducto(Producto producto) async {
-    final u = Producto(
+    final productoActualizado = Producto(
       id: producto.id,
       nombre: nombreController.text,
       descripcion: descripcionController.text,

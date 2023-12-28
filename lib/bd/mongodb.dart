@@ -13,15 +13,15 @@ class MongoDB {
       collectionCarro;
 
   static conectar() async {
-    db = await Db.create(CONEXION);
+    db = await Db.create(conexion);
     print(db);
     await db.open();
     print(db);
     // sdignar las consultas que se consume a la coleccion creada
-    collectionUsuarios = db.collection(COLECCION);
-    collectionProductos = db.collection(COLECCION_P);
-    collectionCategorias = db.collection(COLECCION_C);
-    collectionCarro = db.collection(COLECCION_CAR);
+    collectionUsuarios = db.collection(collecion);
+    collectionProductos = db.collection(collecionP);
+    collectionCategorias = db.collection(collecionC);
+    collectionCarro = db.collection(collecionCar);
   }
 
 //GET

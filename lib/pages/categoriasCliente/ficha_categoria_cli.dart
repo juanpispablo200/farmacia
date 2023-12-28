@@ -6,7 +6,8 @@ class FichaCategoriaCli extends StatelessWidget {
   final Categoria categoria;
   final VoidCallback onTapAdd;
 
-  const FichaCategoriaCli({required this.categoria, required this.onTapAdd});
+  const FichaCategoriaCli(
+      {super.key, required this.categoria, required this.onTapAdd});
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -14,7 +15,7 @@ class FichaCategoriaCli extends StatelessWidget {
       color: Colors.amberAccent,
       child: ListTile(
         leading: Text(
-          '${categoria.nombre}',
+          categoria.nombre,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         title: Text(categoria.descripcion),

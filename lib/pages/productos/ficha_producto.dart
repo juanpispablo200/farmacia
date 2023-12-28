@@ -6,7 +6,8 @@ class FichaProducto extends StatelessWidget {
   final Producto producto;
   final VoidCallback onTapEdit, onTapDelete;
 
-  FichaProducto({
+  const FichaProducto({
+    super.key,
     required this.producto,
     required this.onTapEdit,
     required this.onTapDelete,
@@ -18,7 +19,7 @@ class FichaProducto extends StatelessWidget {
       color: Colors.amberAccent,
       child: ListTile(
         leading: Text(
-          '${producto.nombre}',
+          producto.nombre,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         title: Text(producto.categoria),
@@ -31,12 +32,12 @@ class FichaProducto extends StatelessWidget {
             //onTap: onTapAdd,
             //),
             GestureDetector(
-              child: Icon(Icons.edit),
               onTap: onTapEdit,
+              child: const Icon(Icons.edit),
             ),
             GestureDetector(
-              child: Icon(Icons.delete),
               onTap: onTapDelete,
+              child: const Icon(Icons.delete),
             ),
           ],
         ),
