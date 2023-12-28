@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-///import 'package:restaurante/pages/productos/lista_productos.dart';
 
-Widget menuAdmin( BuildContext context, Color color){
+///import 'package:farmacia/pages/productos/lista_productos.dart';
+
+Widget menuAdmin(BuildContext context, Color color) {
   return Column(
     children: <Widget>[
       Row(
@@ -33,7 +34,6 @@ Widget menuAdmin( BuildContext context, Color color){
                           ),
                         );
                       },
-
                       child: const MenuAcceleratorLabel('Productos Admin'),
                     ),
                   ],
@@ -52,7 +52,6 @@ Widget menuAdmin( BuildContext context, Color color){
                       },
                       child: const MenuAcceleratorLabel('Ver Detalles'),
                     ),
-
                   ],
                   child: const MenuAcceleratorLabel('Carrito Admmmin'),
                 ),
@@ -76,6 +75,5 @@ Widget menuAdmin( BuildContext context, Color color){
         child: Image.asset('assets/img/LogoUide.png'),
       ),
     ],
-
   );
 }

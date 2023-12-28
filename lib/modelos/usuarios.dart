@@ -1,4 +1,4 @@
-///import 'package:mongo_dart/mongo_dart.dart';
+import 'package:mongo_dart/mongo_dart.dart';
 
 class Usuario {
   final ObjectId id;
@@ -11,7 +11,7 @@ class Usuario {
   final String carrera;
   final String rol;
 
-  const Usuario ({
+  const Usuario({
     required this.id,
     required this.nombres,
     required this.apellidos,
@@ -21,9 +21,9 @@ class Usuario {
     required this.telefono,
     required this.carrera,
     required this.rol,
-});
-  Map <String, dynamic> toMap(){
-    return{
+  });
+  Map<String, dynamic> toMap() {
+    return {
       '_id': id,
       'nombres': nombres,
       'apellidos': apellidos,
@@ -37,7 +37,7 @@ class Usuario {
   }
 
   Usuario.fromMap(Map<String, dynamic> map)
-      :nombres = map['nombres'],
+      : nombres = map['nombres'],
         id = map['_id'],
         apellidos = map['apellidos'],
         cedula = map['cedula'],

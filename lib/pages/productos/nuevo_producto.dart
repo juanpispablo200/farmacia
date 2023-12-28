@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-//import 'package:lottie/lottie.dart';
-///import 'package:restaurante/bd/mongodb.dart';
-///import 'package:restaurante/modelos/productos.dart';
-//import 'package:restaurante/widgets/boton_atras.dart';
-///import 'package:mongo_dart/mongo_dart.dart' as MD;
+import 'package:lottie/lottie.dart';
+import 'package:mongo_dart/mongo_dart.dart' as MD;
+
+import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/modelos/productos.dart';
+import 'package:farmacia/widgets/boton_atras.dart';
 
 class NuevoProducto extends StatefulWidget {
   const NuevoProducto({Key? key}) : super(key: key);
@@ -13,8 +14,7 @@ class NuevoProducto extends StatefulWidget {
 }
 
 class _NuevoProductoState extends State<NuevoProducto> {
-
-  static const EDICION =1;
+  static const EDICION = 1;
   static const INSERCION = 2;
 
   TextEditingController nombreController = TextEditingController();
@@ -29,12 +29,11 @@ class _NuevoProductoState extends State<NuevoProducto> {
 
   @override
   Widget build(BuildContext context) {
-
     var textoWidget = "Añadir Producto";
     int operacion = INSERCION;
     Producto? producto;
 
-    if (ModalRoute.of(context)?.settings.arguments != null){
+    if (ModalRoute.of(context)?.settings.arguments != null) {
       operacion = EDICION;
       producto = ModalRoute.of(context)?.settings.arguments as Producto;
       nombreController.text = producto.nombre;
@@ -47,8 +46,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       textoWidget = "Editar Producto";
     }
     return Scaffold(
-      body:
-      ListView(
+      body: ListView(
         children: [
           Column(
             children: [
@@ -69,19 +67,19 @@ class _NuevoProductoState extends State<NuevoProducto> {
                     ),
                   ),*/
                   Container(
-                    margin: EdgeInsets.only(top: 40.0),
+                    margin: const EdgeInsets.only(top: 40.0),
                     child: backButton(context, Colors.black),
                   ),
                   Container(
-                    margin: EdgeInsets.only(top: 40.0),
+                    margin: const EdgeInsets.only(top: 40.0),
                   )
                 ],
               ),
               // agregar un componente que permita
               Transform.translate(
-                offset: Offset(0.0, -20.0),
+                offset: const Offset(0.0, -20.0),
                 child: Container(
-                  margin: EdgeInsets.only(top: 20.0),
+                  margin: const EdgeInsets.only(top: 20.0),
                   width: double.infinity,
                   height: 630.0,
                   decoration: BoxDecoration(
@@ -89,15 +87,15 @@ class _NuevoProductoState extends State<NuevoProducto> {
                     borderRadius: BorderRadius.circular(20.0),
                   ),
                   child: Padding(
-                    padding: EdgeInsets.all(20.0),
+                    padding: const EdgeInsets.all(20.0),
                     child: Column(
                       children: [
-                        Text("Crea un nuevo producto",
+                        const Text(
+                          "Crea un nuevo producto",
                           style: TextStyle(
                             color: Colors.black87,
                             fontWeight: FontWeight.w700,
                             fontSize: 20.0,
-
                           ),
                         ),
 
@@ -110,30 +108,32 @@ class _NuevoProductoState extends State<NuevoProducto> {
                         _imgInput(),
                         _stockInput(),
                         _precioInput(),
-                        Container(
-                          child: Align(
-                            alignment: Alignment.bottomCenter,
-                            child: Padding(
-                              padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
-                              child: ElevatedButton(
-                                child: Text(textoWidget),
-                                onPressed: (){
-                                  if (operacion == EDICION){
-                                    // editar el objeto
-                                    _actualizarProducto(producto!);
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      SnackBar(content: Text('Producto actualizado Correctamente')),
-                                    );
-                                  } else {
-                                    //Insertar el componente
-                                    _insetarProducto();
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      SnackBar(content: Text('Nuevo producto con exito')),
-                                    );
-                                  }
-                                  Navigator.pop(context);
-                                },
-                              ),
+                        Align(
+                          alignment: Alignment.bottomCenter,
+                          child: Padding(
+                            padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
+                            child: ElevatedButton(
+                              child: Text(textoWidget),
+                              onPressed: () {
+                                if (operacion == EDICION) {
+                                  // editar el objeto
+                                  _actualizarProducto(producto!);
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    const SnackBar(
+                                        content: Text(
+                                            'Producto actualizado Correctamente')),
+                                  );
+                                } else {
+                                  //Insertar el componente
+                                  _insetarProducto();
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                    const SnackBar(
+                                        content:
+                                            Text('Nuevo producto con exito')),
+                                  );
+                                }
+                                Navigator.pop(context);
+                              },
                             ),
                           ),
                         ),
@@ -148,7 +148,8 @@ class _NuevoProductoState extends State<NuevoProducto> {
       ),
     );
   }
-  _insetarProducto() async{
+
+  _insetarProducto() async {
     final producto = Producto(
       id: MD.ObjectId(),
       nombre: nombreController.text,
@@ -161,7 +162,8 @@ class _NuevoProductoState extends State<NuevoProducto> {
     );
     await MongoDB.insertarP(producto);
   }
-  _actualizarProducto (Producto producto) async {
+
+  _actualizarProducto(Producto producto) async {
     final u = Producto(
       id: producto.id,
       nombre: nombreController.text,
@@ -173,22 +175,20 @@ class _NuevoProductoState extends State<NuevoProducto> {
       precio: precioController.text,
     );
   }
+
   //widget para los datos
-  Widget _nombreInput(){
+  Widget _nombreInput() {
     return Container(
-      margin: EdgeInsets.only(top:15.0),
-      padding: EdgeInsets.only(left: 20.0),
+      margin: const EdgeInsets.only(top: 15.0),
+      padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)
-      ),
+          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: nombreController,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Nombre del producto",
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.production_quantity_limits,
             color: Colors.red,
@@ -197,21 +197,19 @@ class _NuevoProductoState extends State<NuevoProducto> {
       ),
     );
   }
-  Widget _descripcionInput(){
+
+  Widget _descripcionInput() {
     return Container(
-      margin: EdgeInsets.only(top: 10.0),
-      padding: EdgeInsets.only(left: 20.0),
+      margin: const EdgeInsets.only(top: 10.0),
+      padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)
-      ),
+          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: descripcionController,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Descripcion del producto",
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.text_decrease,
             color: Colors.pink,
@@ -220,21 +218,19 @@ class _NuevoProductoState extends State<NuevoProducto> {
       ),
     );
   }
-  Widget _imgInput(){
+
+  Widget _imgInput() {
     return Container(
-      margin: EdgeInsets.only(top: 10.0),
-      padding: EdgeInsets.only(left: 20.0),
+      margin: const EdgeInsets.only(top: 10.0),
+      padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)
-      ),
+          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: imgController,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Imagen",
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.image,
             color: Colors.pink,
@@ -243,22 +239,20 @@ class _NuevoProductoState extends State<NuevoProducto> {
       ),
     );
   }
-  Widget _cantidadInput(){
+
+  Widget _cantidadInput() {
     return Container(
-      margin: EdgeInsets.only(top: 10.0),
-      padding: EdgeInsets.only(left: 20.0),
+      margin: const EdgeInsets.only(top: 10.0),
+      padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)
-      ),
+          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: cantidadController,
         keyboardType: TextInputType.number,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Cantidad",
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.numbers,
             color: Colors.pink,
@@ -267,21 +261,19 @@ class _NuevoProductoState extends State<NuevoProducto> {
       ),
     );
   }
-  Widget _categoriaInput(){
+
+  Widget _categoriaInput() {
     return Container(
-      margin: EdgeInsets.only(top: 10.0),
-      padding: EdgeInsets.only(left: 20.0),
+      margin: const EdgeInsets.only(top: 10.0),
+      padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)
-      ),
+          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: categoriaController,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Categoría",
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.list,
             color: Colors.pink,
@@ -304,10 +296,10 @@ class _NuevoProductoState extends State<NuevoProducto> {
       items: _categorias
           .map(
             (categoria) => DropdownMenuItem(
-          value: categoria['_id'],
-          child: Text(categoria['nombre']),
-        ),
-      )
+              value: categoria['_id'],
+              child: Text(categoria['nombre']),
+            ),
+          )
           .toList(),
       onChanged: (value) {
         // Aquí puedes manejar el cambio de valor seleccionado
@@ -315,22 +307,19 @@ class _NuevoProductoState extends State<NuevoProducto> {
     );
   }
 
-  Widget _stockInput(){
+  Widget _stockInput() {
     return Container(
-      margin: EdgeInsets.only(top: 10.0),
-      padding: EdgeInsets.only(left: 20.0),
+      margin: const EdgeInsets.only(top: 10.0),
+      padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)
-      ),
+          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: stockController,
         keyboardType: TextInputType.number,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Stock",
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.numbers_sharp,
             color: Colors.pink,
@@ -339,22 +328,20 @@ class _NuevoProductoState extends State<NuevoProducto> {
       ),
     );
   }
-  Widget _precioInput(){
+
+  Widget _precioInput() {
     return Container(
-      margin: EdgeInsets.only(top: 10.0),
-      padding: EdgeInsets.only(left: 20.0),
+      margin: const EdgeInsets.only(top: 10.0),
+      padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)
-      ),
+          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: precioController,
         keyboardType: TextInputType.number,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Precio",
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.money,
             color: Colors.pink,
@@ -363,5 +350,4 @@ class _NuevoProductoState extends State<NuevoProducto> {
       ),
     );
   }
-
 }

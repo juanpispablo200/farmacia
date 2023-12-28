@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-///import 'package:restaurante/bd/mongodb.dart';
-///import 'package:restaurante/modelos/categorias.dart';
-//import 'package:restaurante/pages/categorias/ficha_categoria.dart';
-//import 'package:restaurante/pages/categorias/nueva_categoria.dart';
-//import 'package:restaurante/widgets/boton_atras.dart';
-//import 'package:lottie/lottie.dart';//
+
+import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/modelos/categorias.dart';
+import 'package:farmacia/pages/categorias/ficha_categoria.dart';
+import 'package:farmacia/pages/categorias/nueva_categoria.dart';
+import 'package:farmacia/widgets/boton_atras.dart';
+import 'package:lottie/lottie.dart';
 
 class ListaCategorias extends StatefulWidget {
   const ListaCategorias({Key? key}) : super(key: key);
@@ -30,19 +31,17 @@ class _ListaCategoriasState extends State<ListaCategorias> {
           return Container(
             color: Colors.pink,
             child: Center(
-              child: Text("Lo sentimos existe un error de conexión",
-                style: Theme
-                    .of(context)
-                    .textTheme
-                    .headlineLarge,
+              child: Text(
+                "Lo sentimos existe un error de conexión",
+                style: Theme.of(context).textTheme.headlineLarge,
               ),
             ),
           );
         } else {
           return Scaffold(
             body:
-            //componentes de la pagina
-            Stack(
+                //componentes de la pagina
+                Stack(
               children: [
                 Container(
                   width: double.infinity,
@@ -62,17 +61,20 @@ class _ListaCategoriasState extends State<ListaCategorias> {
                         child: FichaCategoria(
                           categoria: Categoria.fromMap(snapshot.data[index]),
                           onTapDelete: () async {
-                            _eliminarCategoria(Categoria.fromMap(snapshot.data[index]));
+                            _eliminarCategoria(
+                                Categoria.fromMap(snapshot.data[index]));
                           },
                           onTapEdit: () async {
-                            Navigator.push(context,
+                            Navigator.push(
+                                context,
                                 MaterialPageRoute(
-                                    builder: (BuildContext context){
-                                      return NuevaCategoria();},
+                                    builder: (BuildContext context) {
+                                      return NuevaCategoria();
+                                    },
                                     settings: RouteSettings(
-                                      arguments: Categoria.fromMap(snapshot.data[index]),
-                                    ))).then((value) => setState((){}));
-
+                                      arguments: Categoria.fromMap(
+                                          snapshot.data[index]),
+                                    ))).then((value) => setState(() {}));
                           },
                         ),
                       );
@@ -83,12 +85,11 @@ class _ListaCategoriasState extends State<ListaCategorias> {
               ],
             ),
             floatingActionButton: FloatingActionButton(
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context){
-                          return NuevaCategoria();
-                        })).then((value) => setState((){}));
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return NuevaCategoria();
+                })).then((value) => setState(() {}));
               },
               child: Icon(Icons.add),
             ),
@@ -97,7 +98,8 @@ class _ListaCategoriasState extends State<ListaCategorias> {
       },
     );
   }
-  _eliminarCategoria(Categoria categoria) async{
+
+  _eliminarCategoria(Categoria categoria) async {
     await MongoDB.eliminarC(categoria);
     setState(() {});
   }

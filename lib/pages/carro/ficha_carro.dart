@@ -1,23 +1,23 @@
-import 'package:restaurante/modelos/carro.dart';
+import 'package:farmacia/modelos/carro.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 
 class FichaCarro extends StatelessWidget {
-
   final Carro carro;
   final VoidCallback onTapDelete;
 
-  FichaCarro({
-    required this.onTapDelete, required this.carro,
-  }
-      );
+  const FichaCarro({
+    super.key,
+    required this.onTapDelete,
+    required this.carro,
+  });
   @override
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
       color: Colors.amberAccent,
       child: ListTile(
-        leading: Text('${carro.producto_ids}',
+        leading: Text(
+          '${carro.productoIds}',
           style: Theme.of(context).textTheme.bodyMedium,
         ),
 
@@ -26,8 +26,8 @@ class FichaCarro extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             GestureDetector(
-              child: Icon(Icons.delete),
               onTap: onTapDelete,
+              child: const Icon(Icons.delete),
             )
           ],
         ),

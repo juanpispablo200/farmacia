@@ -1,11 +1,12 @@
+import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
-//import 'package:restaurante/bd/mongodb.dart';
-///import 'package:restaurante/modelos/productos.dart';
-///import 'package:restaurante/pages/carro/detalle_carro.dart';
-///import 'package:restaurante/pages/productosCliente/ficha_producto_cli.dart';
-///import 'package:restaurante/widgets/boton_atras.dart';
-//import 'package:restaurante/widgets/menu_cliente.dart';
-///import 'package:lottie/lottie.dart';
+
+import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/modelos/productos.dart';
+import 'package:farmacia/pages/carro/detalle_carro.dart';
+import 'package:farmacia/pages/productosCliente/ficha_producto_cli.dart';
+import 'package:farmacia/widgets/boton_atras.dart';
+import 'package:farmacia/widgets/menu_cliente.dart';
 
 class ListaProductosCli extends StatefulWidget {
   const ListaProductosCli({Key? key}) : super(key: key);
@@ -31,19 +32,17 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
           return Container(
             color: Colors.pink,
             child: Center(
-              child: Text("Lo sentimos existe un error de conexión",
-                style: Theme
-                    .of(context)
-                    .textTheme
-                    .headlineLarge,
+              child: Text(
+                "Lo sentimos existe un error de conexión",
+                style: Theme.of(context).textTheme.headlineLarge,
               ),
             ),
           );
         } else {
           return Scaffold(
             body:
-            //componentes de la pagina
-            Stack(
+                //componentes de la pagina
+                Stack(
               children: [
                 Container(
                   margin: EdgeInsets.only(top: 80.0),
@@ -53,14 +52,12 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 30.0),
-                  child: menuCliente (context,Colors.black ),
+                  child: menuCliente(context, Colors.black),
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 70.0),
                   child: backButton(context, Colors.black),
-
                 ),
-
                 Container(
                   margin: EdgeInsets.only(top: 225.0),
                   child: ListView.builder(
@@ -70,7 +67,8 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                         child: FichaProductoCli(
                           producto: Producto.fromMap(snapshot.data[index]),
                           onTapAdd: () async {
-                            _agregarProducto(Producto.fromMap(snapshot.data[index]));
+                            _agregarProducto(
+                                Producto.fromMap(snapshot.data[index]));
                           },
                         ),
                       );
@@ -81,12 +79,11 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
               ],
             ),
             floatingActionButton: FloatingActionButton(
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context){
-                          return DetalleCarro();
-                        })).then((value) => setState((){}));
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return DetalleCarro();
+                })).then((value) => setState(() {}));
               },
               child: Icon(Icons.car_crash),
             ),
@@ -95,7 +92,8 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
       },
     );
   }
-  _agregarProducto(Producto producto) async{
+
+  _agregarProducto(Producto producto) async {
     await MongoDB.eliminarP(producto);
     setState(() {});
   }

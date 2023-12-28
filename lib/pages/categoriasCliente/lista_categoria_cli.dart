@@ -1,11 +1,12 @@
-//import 'package:flutter/material.dart';
-//import 'package:restaurante/bd/mongodb.dart';
-//import 'package:restaurante/modelos/categorias.dart';
-//import 'package:restaurante/pages/categoriasCliente/ficha_categoria_cli.dart';
-//import 'package:restaurante/pages/productosCliente/lista_productos_cli.dart';
-//import 'package:restaurante/widgets/boton_atras.dart';
-//import 'package:restaurante/widgets/menu_cliente.dart';
-//import 'package:lottie/lottie.dart';
+import 'package:lottie/lottie.dart';
+import 'package:flutter/material.dart';
+
+import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/modelos/categorias.dart';
+import 'package:farmacia/pages/categoriasCliente/ficha_categoria_cli.dart';
+import 'package:farmacia/pages/productosCliente/lista_productos_cli.dart';
+import 'package:farmacia/widgets/boton_atras.dart';
+import 'package:farmacia/widgets/menu_cliente.dart';
 
 class ListaCategoriasCli extends StatefulWidget {
   const ListaCategoriasCli({Key? key}) : super(key: key);
@@ -31,19 +32,17 @@ class _ListaCategoriasCliState extends State<ListaCategoriasCli> {
           return Container(
             color: Colors.pink,
             child: Center(
-              child: Text("Lo sentimos existe un error de conexión",
-                style: Theme
-                    .of(context)
-                    .textTheme
-                    .headlineLarge,
+              child: Text(
+                "Lo sentimos existe un error de conexión",
+                style: Theme.of(context).textTheme.headlineLarge,
               ),
             ),
           );
         } else {
           return Scaffold(
             body:
-            //componentes de la pagina
-            Stack(
+                //componentes de la pagina
+                Stack(
               children: [
                 Container(
                   margin: EdgeInsets.only(top: 60.0),
@@ -53,12 +52,11 @@ class _ListaCategoriasCliState extends State<ListaCategoriasCli> {
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 25.0),
-                  child: menuCliente (context,Colors.black ),
+                  child: menuCliente(context, Colors.black),
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 70.0),
                   child: backButton(context, Colors.black),
-
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 200.0),
@@ -69,7 +67,8 @@ class _ListaCategoriasCliState extends State<ListaCategoriasCli> {
                         child: FichaCategoriaCli(
                           categoria: Categoria.fromMap(snapshot.data[index]),
                           onTapAdd: () async {
-                            _eliminarCategoria(Categoria.fromMap(snapshot.data[index]));
+                            _eliminarCategoria(
+                                Categoria.fromMap(snapshot.data[index]));
                           },
                         ),
                       );
@@ -80,12 +79,11 @@ class _ListaCategoriasCliState extends State<ListaCategoriasCli> {
               ],
             ),
             floatingActionButton: FloatingActionButton(
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context){
-                          return ListaProductosCli();
-                        })).then((value) => setState((){}));
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return ListaProductosCli();
+                })).then((value) => setState(() {}));
               },
               child: Icon(Icons.add),
             ),
@@ -94,7 +92,8 @@ class _ListaCategoriasCliState extends State<ListaCategoriasCli> {
       },
     );
   }
-  _eliminarCategoria(Categoria categoria) async{
+
+  _eliminarCategoria(Categoria categoria) async {
     await MongoDB.eliminarC(categoria);
     setState(() {});
   }

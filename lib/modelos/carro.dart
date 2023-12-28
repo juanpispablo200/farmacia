@@ -1,33 +1,33 @@
-//import 'package:mongo_dart/mongo_dart.dart';
-//import 'package:farmacia/modelos/productos.dart';
+import 'package:mongo_dart/mongo_dart.dart';
+import 'package:farmacia/modelos/productos.dart';
 
 class Carro {
   final ObjectId id;
-  final ObjectId usuario_id;
-  final List<Producto> producto_ids;
-  final double valor_total;
+  final ObjectId usuarioId;
+  final List<Producto> productoIds;
+  final double valorTotal;
 
   const Carro({
     required this.id,
-    required this.usuario_id,
-    required this.producto_ids,
-    required this.valor_total,
+    required this.usuarioId,
+    required this.productoIds,
+    required this.valorTotal,
   });
 
   Map<String, dynamic> toMap() {
     return {
       '_id': id,
-      'usuario_id': usuario_id,
-      'producto_ids': producto_ids.map((p) => p.toMap()).toList(),
-      'valor_total': valor_total,
+      'usuarioId': usuarioId,
+      'productoIds': productoIds.map((p) => p.toMap()).toList(),
+      'valorTotal': valorTotal,
     };
   }
 
   Carro.fromMap(Map<String, dynamic> map)
-      : usuario_id = map['usuario_id'],
+      : usuarioId = map['usuarioId'],
         id = map['_id'],
-        producto_ids = List<Producto>.from(
-          map['producto_ids'].map((p) => Producto.fromMap(p)),
+        productoIds = List<Producto>.from(
+          map['productoIds'].map((p) => Producto.fromMap(p)),
         ),
-        valor_total = double.parse(map['valor_total'].toString());
+        valorTotal = double.parse(map['valorTotal'].toString());
 }

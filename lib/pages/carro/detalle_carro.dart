@@ -1,16 +1,16 @@
+import 'package:lottie/lottie.dart';
+// import 'package:mongo_dart/mongo_dart.dart' as MD;
 import 'package:flutter/material.dart';
+
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/productos.dart';
 import 'package:farmacia/modelos/carro.dart';
 import 'package:farmacia/pages/productosCliente/ficha_producto_car.dart';
-import 'package:far/pages/productosCliente/ficha_producto_cli.dart';
-import 'package:restaurante/pages/carro/ficha_carro.dart';
-import 'package:restaurante/pages/productos/ficha_producto.dart';
-
-import 'package:restaurante/widgets/boton_atras.dart';
-import 'package:restaurante/widgets/menu_cliente.dart';
-import 'package:lottie/lottie.dart';
-import 'package:mongo_dart/mongo_dart.dart' as MD;
+// import 'package:farmacia/pages/productosCliente/ficha_producto_cli.dart';
+// import 'package:farmacia/pages/carro/ficha_carro.dart';
+// import 'package:farmacia/pages/productos/ficha_producto.dart';
+import 'package:farmacia/widgets/boton_atras.dart';
+import 'package:farmacia/widgets/menu_cliente.dart';
 
 class DetalleCarro extends StatefulWidget {
   const DetalleCarro({Key? key}) : super(key: key);
@@ -20,15 +20,15 @@ class DetalleCarro extends StatefulWidget {
 }
 
 class _DetalleCarroState extends State<DetalleCarro> {
-  static const INSERCION = 2;
+  static const insercion = 2;
 
-  TextEditingController valor_totalController = TextEditingController();
-  TextEditingController producto_idsController = TextEditingController();
+  TextEditingController valorTotalController = TextEditingController();
+  TextEditingController productoIdsController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     var textoWidget = "Añadir Carro";
-    int operacion = INSERCION;
+    int operacion = insercion;
     Carro? carro;
 
     return FutureBuilder(
@@ -58,21 +58,21 @@ class _DetalleCarroState extends State<DetalleCarro> {
                 Stack(
               children: [
                 Container(
-                  margin: EdgeInsets.only(top: 50.0),
+                  margin: const EdgeInsets.only(top: 50.0),
                   width: double.infinity,
                   height: 220.0,
                   child: Lottie.asset('assets/json/ventaonline.json'),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 25.0),
+                  margin: const EdgeInsets.only(top: 25.0),
                   child: menuCliente(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 70.0),
+                  margin: const EdgeInsets.only(top: 70.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 200.0),
+                  margin: const EdgeInsets.only(top: 200.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(
@@ -86,23 +86,21 @@ class _DetalleCarroState extends State<DetalleCarro> {
                   ),
                 ),
                 _valorTotalInput(),
-                Container(
-                  child: Align(
-                    alignment: Alignment.bottomCenter,
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
-                      child: ElevatedButton(
-                          child: Text("Generar Pedido"),
-                          onPressed: () {
-                            Navigator.pushNamed(context, 'lista_productos_cli');
-                            showAboutDialog(
-                              context: context,
-                              applicationName: 'Compra generada',
-                              applicationVersion:
-                                  'Recuerda que el lugar de retiro es en las instalaciones de la UIDE tus productos estaran disponibles 3 DIAS para retirar caso contrario volveran estar disponibles para la VENTA ',
-                            );
-                          }),
-                    ),
+                Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
+                    child: ElevatedButton(
+                        child: const Text("Generar Pedido"),
+                        onPressed: () {
+                          Navigator.pushNamed(context, 'lista_productos_cli');
+                          showAboutDialog(
+                            context: context,
+                            applicationName: 'Compra generada',
+                            applicationVersion:
+                                'Recuerda que el lugar de retiro es en las instalaciones de la UIDE tus productos estaran disponibles 3 DIAS para retirar caso contrario volveran estar disponibles para la VENTA ',
+                          );
+                        }),
                   ),
                 )
               ],
@@ -120,14 +118,14 @@ class _DetalleCarroState extends State<DetalleCarro> {
 
   Widget _valorTotalInput() {
     return Container(
-      margin: EdgeInsets.only(top: 600.0),
-      padding: EdgeInsets.only(left: 20.0),
+      margin: const EdgeInsets.only(top: 600.0),
+      padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 194, 0, 0.8),
+          color: const Color.fromRGBO(255, 194, 0, 0.8),
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
-        controller: valor_totalController,
-        decoration: InputDecoration(
+        controller: valorTotalController,
+        decoration: const InputDecoration(
           hintText: "Valor total --- 15",
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(

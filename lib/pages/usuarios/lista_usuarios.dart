@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:restaurante/bd/mongodb.dart';
-import 'package:restaurante/modelos/usuarios.dart';
-import 'package:restaurante/pages/usuarios/ficha_usuario.dart';
-import 'package:restaurante/pages/usuarios/registro_page.dart';
-import 'package:restaurante/widgets/boton_atras.dart';
-import 'package:restaurante/widgets/menu_admin.dart';
+import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/modelos/usuarios.dart';
+import 'package:farmacia/pages/usuarios/ficha_usuario.dart';
+import 'package:farmacia/pages/usuarios/registro_page.dart';
+import 'package:farmacia/widgets/boton_atras.dart';
+import 'package:farmacia/widgets/menu_admin.dart';
 import 'package:lottie/lottie.dart';
 
 class ListaUsuarios extends StatefulWidget {
@@ -31,19 +31,17 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
           return Container(
             color: Colors.pink,
             child: Center(
-              child: Text("Lo sentimos existe un error de conexión",
-                style: Theme
-                    .of(context)
-                    .textTheme
-                    .headlineLarge,
+              child: Text(
+                "Lo sentimos existe un error de conexión",
+                style: Theme.of(context).textTheme.headlineLarge,
               ),
             ),
           );
         } else {
           return Scaffold(
             body:
-            //componentes de la pagina
-            Stack(
+                //componentes de la pagina
+                Stack(
               children: [
                 Container(
                   margin: EdgeInsets.only(top: 35.0),
@@ -53,12 +51,11 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 25.0),
-                  child: menuAdmin (context,Colors.black ),
+                  child: menuAdmin(context, Colors.black),
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 70.0),
                   child: backButton(context, Colors.black),
-
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 200.0),
@@ -69,17 +66,20 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
                         child: FichaUsuario(
                           usuario: Usuario.fromMap(snapshot.data[index]),
                           onTapDelete: () async {
-                          _eliminarUsuario(Usuario.fromMap(snapshot.data[index]));
+                            _eliminarUsuario(
+                                Usuario.fromMap(snapshot.data[index]));
                           },
                           onTapEdit: () async {
-                            Navigator.push(context,
-                            MaterialPageRoute(
-                                builder: (BuildContext context){
-                                  return RegistroPage();},
-                              settings: RouteSettings(
-                                arguments: Usuario.fromMap(snapshot.data[index]),
-                              ))).then((value) => setState((){}));
-
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (BuildContext context) {
+                                      return RegistroPage();
+                                    },
+                                    settings: RouteSettings(
+                                      arguments:
+                                          Usuario.fromMap(snapshot.data[index]),
+                                    ))).then((value) => setState(() {}));
                           },
                         ),
                       );
@@ -90,12 +90,11 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
               ],
             ),
             floatingActionButton: FloatingActionButton(
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(context,
-                MaterialPageRoute(
-                    builder: (BuildContext context){
-                      return RegistroPage();
-                    })).then((value) => setState((){}));
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return RegistroPage();
+                })).then((value) => setState(() {}));
               },
               child: Icon(Icons.add),
             ),
@@ -104,7 +103,8 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
       },
     );
   }
-  _eliminarUsuario(Usuario usuario) async{
+
+  _eliminarUsuario(Usuario usuario) async {
     await MongoDB.eliminar(usuario);
     setState(() {});
   }

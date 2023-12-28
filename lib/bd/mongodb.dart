@@ -1,9 +1,9 @@
-///import 'package:mongo_dart/mongo_dart.dart';
-//import 'package:/modelos/productos.dart';
-//import 'package:restaurante/modelos/usuarios.dart';
-///import 'package:restaurante/modelos/categorias.dart';
-//import 'package:restaurante/modelos/carro.dart';
-//import 'package:restaurante/utilitarios/constantes.dart';
+import 'package:mongo_dart/mongo_dart.dart';
+import 'package:farmacia/modelos/productos.dart';
+import 'package:farmacia/modelos/usuarios.dart';
+import 'package:farmacia/modelos/categorias.dart';
+import 'package:farmacia/modelos/carro.dart';
+import 'package:farmacia/utilitarios/constantes.dart';
 
 class MongoDB {
   static var db,
@@ -31,7 +31,7 @@ class MongoDB {
       return usuarios;
     } catch (e) {
       print(e);
-      return Future.value();
+      return Future.value([]);
     }
   }
 
@@ -41,7 +41,7 @@ class MongoDB {
       return productos;
     } catch (e) {
       print(e);
-      return Future.value();
+      return Future.value([]);
     }
   }
 
@@ -51,7 +51,7 @@ class MongoDB {
       return categorias;
     } catch (e) {
       print(e);
-      return Future.value();
+      return Future.value([]);
     }
   }
 
@@ -66,7 +66,7 @@ class MongoDB {
       return soloNombres;
     } catch (e) {
       print(e);
-      return Future.value();
+      return Future.value([]);
     }
   }
 
@@ -76,7 +76,7 @@ class MongoDB {
       return carro;
     } catch (e) {
       print(e);
-      return Future.value();
+      return Future.value([]);
     }
   }
 
@@ -146,8 +146,8 @@ class MongoDB {
 
   static actualizarCr(Carro carro) async {
     var j = await collectionCarro.findOne({'_id': carro.id});
-    j["usuario_id"] = carro.usuario_id;
-    j["producto_ids"] = carro.producto_ids;
+    j["usuario_id"] = carro.usuarioId;
+    j["producto_ids"] = carro.productoIds;
     await collectionCarro.save(j);
   }
 

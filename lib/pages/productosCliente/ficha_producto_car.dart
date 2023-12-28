@@ -1,23 +1,21 @@
-//import 'package:restaurante/modelos/productos.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
+
+import 'package:farmacia/modelos/productos.dart';
 
 class FichaProductoCar extends StatelessWidget {
-
   final Producto producto;
 
-  FichaProductoCar ({
+  FichaProductoCar({
     required this.producto,
-
-  }
-      );
+  });
   @override
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
       color: Colors.amberAccent,
       child: ListTile(
-        leading: Text ('${producto.nombre}',
+        leading: Text(
+          '${producto.nombre}',
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         title: Text(producto.precio),
@@ -25,8 +23,8 @@ class FichaProductoCar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             //GestureDetector(
-              //child: Icon(Icons.edit),
-              //onTap: onTapAdd,
+            //child: Icon(Icons.edit),
+            //onTap: onTapAdd,
             //),
           ],
         ),

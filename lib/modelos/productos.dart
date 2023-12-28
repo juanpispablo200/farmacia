@@ -1,4 +1,4 @@
-//import 'package:mongo_dart/mongo_dart.dart';
+import 'package:mongo_dart/mongo_dart.dart';
 
 class Producto {
   final ObjectId id;
@@ -10,7 +10,7 @@ class Producto {
   final String precio;
   final String stock;
 
-  const Producto ({
+  const Producto({
     required this.id,
     required this.nombre,
     required this.descripcion,
@@ -20,8 +20,8 @@ class Producto {
     required this.precio,
     required this.stock,
   });
-  Map <String, dynamic> toMap(){
-    return{
+  Map<String, dynamic> toMap() {
+    return {
       '_id': id,
       'nombre': nombre,
       'descripcion': descripcion,
@@ -34,7 +34,7 @@ class Producto {
   }
 
   Producto.fromMap(Map<String, dynamic> map)
-      :nombre = map['nombre'],
+      : nombre = map['nombre'],
         id = map['_id'],
         descripcion = map['descripcion'],
         cantidad = map['cantidad'],
@@ -42,5 +42,4 @@ class Producto {
         img = map['img'],
         precio = map['precio'],
         stock = map['stock'];
-
 }

@@ -1,33 +1,33 @@
 import 'package:flutter/material.dart';
-///import 'package:lottie/lottie.dart';
-//import 'package:restaurante/modelos/usuarios.dart';
-//import 'package:restaurante/widgets/boton_atras.dart';
-//import 'package:restaurante/bd/mongodb.dart';
+
+import 'package:lottie/lottie.dart';
+import 'package:farmacia/modelos/usuarios.dart';
+import 'package:farmacia/widgets/boton_atras.dart';
+import 'package:farmacia/bd/mongodb.dart';
 
 class LoginPage extends StatelessWidget {
-
   final TextEditingController _correoController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  bool _isloading = false;
+  // bool _isloading = false;
+
+  LoginPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     Usuario? usuario;
-    if (ModalRoute.of(context)?.settings.arguments != null){
+    if (ModalRoute.of(context)?.settings.arguments != null) {
       usuario = ModalRoute.of(context)?.settings.arguments as Usuario;
       _correoController.text = usuario.correo;
       _passwordController.text = usuario.password;
-
     }
     return Scaffold(
-      body:
-      ListView(
+      body: ListView(
         children: [
           Column(
             children: [
               Stack(
                 children: [
-                  Container(
+                  SizedBox(
                     width: double.infinity,
                     height: 300.0,
                     child: Lottie.asset('assets/json/login.json'),
@@ -42,92 +42,96 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),*/
                   Container(
-                    margin: EdgeInsets.only(top: 40.0),
+                    margin: const EdgeInsets.only(top: 40.0),
                     child: backButton(context, Colors.black),
                   ),
                   Container(
-                    margin: EdgeInsets.only(top: 40.0),
+                    margin: const EdgeInsets.only(top: 40.0),
                   )
                 ],
               ),
               // agregar un componente que permita
               Transform.translate(
-                  offset: Offset(0.0, -20.0),
-                  child: Container(
-                    margin: EdgeInsets.only(top: 20.0),
-                    width: double.infinity,
-                    height: 450.0,
-                    decoration: BoxDecoration(
-                      color: Colors.amber,
-                      borderRadius: BorderRadius.circular(30.0),
-                    ),
-                    child: Padding(
-                      padding: EdgeInsets.all(20.0),
-                      child: Column(
-                        children: [
-                          Text("Bienvenidos tienda online",
+                offset: const Offset(0.0, -20.0),
+                child: Container(
+                  margin: const EdgeInsets.only(top: 20.0),
+                  width: double.infinity,
+                  height: 450.0,
+                  decoration: BoxDecoration(
+                    color: Colors.amber,
+                    borderRadius: BorderRadius.circular(30.0),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Column(
+                      children: [
+                        const Text(
+                          "Bienvenidos tienda online",
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w900,
                             fontSize: 30.0,
                           ),
+                        ),
+                        const Text(
+                          "Inicia sesión para acceder",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.w300,
+                            fontSize: 10.0,
                           ),
-                          Text("Inicia sesión para acceder",
-                            style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.w300,
-                                fontSize: 10.0,
-                            ),
-                          ),
-                          //vamos a agregar los textfieldd para el correo y contra
-                          // vamos agregar widgets propios para el proyecto
-                          _emailInput(),
-                          _passwordInput(),
-                          _loginButton(context),
+                        ),
+                        //vamos a agregar los textfieldd para el correo y contra
+                        // vamos agregar widgets propios para el proyecto
+                        _emailInput(),
+                        _passwordInput(),
+                        _loginButton(context),
 
-                          Container(
-                            margin: EdgeInsets.only(top: 20.0),
-                            child: Text('Olvidaste tu contraseña?',
-                              style: TextStyle(
-                                color: Colors.black87,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 16.0,
-                              ),
+                        Container(
+                          margin: const EdgeInsets.only(top: 20.0),
+                          child: const Text(
+                            'Olvidaste tu contraseña?',
+                            style: TextStyle(
+                              color: Colors.black87,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16.0,
                             ),
                           ),
-                          Container(
-                            margin: EdgeInsets.only(top: 20.0),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Text('Aun no tienes cuenta?',
+                        ),
+                        Container(
+                          margin: const EdgeInsets.only(top: 20.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Text(
+                                'Aun no tienes cuenta?',
                                 style: TextStyle(
                                   color: Colors.black87,
                                   fontWeight: FontWeight.w400,
                                   fontSize: 15.0,
                                 ),
-                                ),
-                                SizedBox( width: 20.0),
-                                GestureDetector(
-                                  onTap: (){
-                                    Navigator.pushNamed(context, 'registro');
-                                  },
-                                  child: Text('Registrate',
-                                    style: TextStyle(
-                                      color: Colors.black87,
-                                      fontSize: 15.0,
-                                      fontWeight: FontWeight.bold,
-                                    ),
+                              ),
+                              const SizedBox(width: 20.0),
+                              GestureDetector(
+                                onTap: () {
+                                  Navigator.pushNamed(context, 'registro');
+                                },
+                                child: const Text(
+                                  'Registrate',
+                                  style: TextStyle(
+                                    color: Colors.black87,
+                                    fontSize: 15.0,
+                                    fontWeight: FontWeight.bold,
                                   ),
-                                )
-
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
+                                ),
+                              )
+                            ],
+                          ),
+                        )
+                      ],
                     ),
                   ),
+                ),
               )
             ],
           ),
@@ -135,22 +139,20 @@ class LoginPage extends StatelessWidget {
       ),
     );
   }
-  Widget _emailInput(){
+
+  Widget _emailInput() {
     return Container(
-      margin: EdgeInsets.only(top: 20.0),
-      padding: EdgeInsets.only(left: 30.0),
+      margin: const EdgeInsets.only(top: 20.0),
+      padding: const EdgeInsets.only(left: 30.0),
       decoration: BoxDecoration(
-        color: Color.fromRGBO(216, 108, 62, 0.3),
-        borderRadius: BorderRadius.circular(30.0)
-      ),
+          color: const Color.fromRGBO(216, 108, 62, 0.3),
+          borderRadius: BorderRadius.circular(30.0)),
       child: TextField(
         controller: _correoController,
         keyboardType: TextInputType.emailAddress,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Correo Electronico",
-          border: OutlineInputBorder(
-            borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.email,
             color: Colors.pink,
@@ -161,22 +163,19 @@ class LoginPage extends StatelessWidget {
   }
   // widget para el password
 
-  Widget _passwordInput(){
+  Widget _passwordInput() {
     return Container(
-      margin: EdgeInsets.only(top: 20.0),
-      padding: EdgeInsets.only(left: 30.0),
+      margin: const EdgeInsets.only(top: 20.0),
+      padding: const EdgeInsets.only(left: 30.0),
       decoration: BoxDecoration(
-          color: Color.fromRGBO(216, 108, 62, 0.3),
-          borderRadius: BorderRadius.circular(30.0)
-      ),
+          color: const Color.fromRGBO(216, 108, 62, 0.3),
+          borderRadius: BorderRadius.circular(30.0)),
       child: TextField(
         controller: _passwordController,
         obscureText: true,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
           hintText: "Contraseña",
-          border: OutlineInputBorder(
-              borderSide: BorderSide.none
-          ),
+          border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.key,
             color: Colors.pink,
@@ -185,48 +184,49 @@ class LoginPage extends StatelessWidget {
       ),
     );
   }
+
   // widget para el boton
- Widget _loginButton (BuildContext context){
+  Widget _loginButton(BuildContext context) {
     return Container(
       width: 350.0,
       height: 50.0,
-      margin: EdgeInsets.only(top: 40.0),
+      margin: const EdgeInsets.only(top: 40.0),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.orange,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20.0)
-          ),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
         ),
-        onPressed: (){
-
+        onPressed: () {
           String correo = _correoController.text;
           String password = _passwordController.text;
-          MongoDB.autenticarUsuarios(correo, password).then((resultado){
+          MongoDB.autenticarUsuarios(correo, password).then((resultado) {
             print(resultado);
-            if(resultado['exito']==true) {
-              if (resultado['rol']=='cliente'){
+            if (resultado['exito'] == true) {
+              if (resultado['rol'] == 'cliente') {
                 Navigator.pushNamed(context, 'lista_productos_cli');
               }
-              if (resultado['rol']=='admin'){
+              if (resultado['rol'] == 'admin') {
                 //las paginas que sean habilitadas al usuario
                 print("El Usuario a ingresado correctamente");
                 Navigator.pushNamed(context, 'lista_usuarios');
               }
-
-            }else{
+            } else {
               print("El usuario no existe");
               ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(content: Text('El usuario no existe, Registrate')),
+                const SnackBar(
+                    content: Text('El usuario no existe, Registrate')),
               );
             }
           });
         },
-        child: Text('Ingresar',
-        style: TextStyle(
-          fontSize: 30.0,
-        ),),
+        child: const Text(
+          'Ingresar',
+          style: TextStyle(
+            fontSize: 30.0,
+          ),
+        ),
       ),
     );
- }
+  }
 }

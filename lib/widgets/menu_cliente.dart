@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-//import 'package:restaurante/pages/productos/lista_productos.dart';
+//import 'package:farmacia/pages/productos/lista_productos.dart';
 
-Widget menuCliente( BuildContext context, Color color){
+Widget menuCliente(BuildContext context, Color color) {
   return Column(
     children: <Widget>[
       Row(
@@ -51,7 +51,6 @@ Widget menuCliente( BuildContext context, Color color){
                       },
                       child: const MenuAcceleratorLabel('Ver Detalles'),
                     ),
-
                   ],
                   child: const MenuAcceleratorLabel('Carrito'),
                 ),
@@ -64,6 +63,5 @@ Widget menuCliente( BuildContext context, Color color){
         child: Image.asset('assets/img/LogoUide.png'),
       ),
     ],
-
   );
 }

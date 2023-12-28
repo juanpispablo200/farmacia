@@ -1,11 +1,12 @@
-//import 'package:flutter/material.dart';
-//import 'package:restaurante/bd/mongodb.dart';
-//import 'package:restaurante/modelos/productos.dart';
-//import 'package:restaurante/pages/productos/ficha_producto.dart';
-//import 'package:restaurante/pages/productos/nuevo_producto.dart';
-///import 'package:restaurante/widgets/boton_atras.dart';
-///import 'package:restaurante/widgets/menu_cliente.dart';
-///import 'package:lottie/lottie.dart';
+import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
+
+import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/modelos/productos.dart';
+import 'package:farmacia/pages/productos/ficha_producto.dart';
+import 'package:farmacia/pages/productos/nuevo_producto.dart';
+import 'package:farmacia/widgets/boton_atras.dart';
+import 'package:farmacia/widgets/menu_cliente.dart';
 
 class ListaProductos extends StatefulWidget {
   const ListaProductos({Key? key}) : super(key: key);
@@ -31,19 +32,17 @@ class _ListaProductosState extends State<ListaProductos> {
           return Container(
             color: Colors.pink,
             child: Center(
-              child: Text("Lo sentimos existe un error de conexión",
-                style: Theme
-                    .of(context)
-                    .textTheme
-                    .headlineLarge,
+              child: Text(
+                "Lo sentimos existe un error de conexión",
+                style: Theme.of(context).textTheme.headlineLarge,
               ),
             ),
           );
         } else {
           return Scaffold(
             body:
-            //componentes de la pagina
-            Stack(
+                //componentes de la pagina
+                Stack(
               children: [
                 Container(
                   margin: EdgeInsets.only(top: 80.0),
@@ -53,14 +52,12 @@ class _ListaProductosState extends State<ListaProductos> {
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 25.0),
-                  child: menuCliente (context,Colors.black ),
+                  child: menuCliente(context, Colors.black),
                 ),
                 Container(
                   margin: EdgeInsets.only(top: 70.0),
                   child: backButton(context, Colors.black),
-
                 ),
-
                 Container(
                   margin: EdgeInsets.only(top: 200.0),
                   child: ListView.builder(
@@ -70,17 +67,20 @@ class _ListaProductosState extends State<ListaProductos> {
                         child: FichaProducto(
                           producto: Producto.fromMap(snapshot.data[index]),
                           onTapDelete: () async {
-                            _eliminarProducto(Producto.fromMap(snapshot.data[index]));
+                            _eliminarProducto(
+                                Producto.fromMap(snapshot.data[index]));
                           },
                           onTapEdit: () async {
-                            Navigator.push(context,
+                            Navigator.push(
+                                context,
                                 MaterialPageRoute(
-                                    builder: (BuildContext context){
-                                      return NuevoProducto();},
+                                    builder: (BuildContext context) {
+                                      return NuevoProducto();
+                                    },
                                     settings: RouteSettings(
-                                      arguments: Producto.fromMap(snapshot.data[index]),
-                                    ))).then((value) => setState((){}));
-
+                                      arguments: Producto.fromMap(
+                                          snapshot.data[index]),
+                                    ))).then((value) => setState(() {}));
                           },
                         ),
                       );
@@ -91,12 +91,11 @@ class _ListaProductosState extends State<ListaProductos> {
               ],
             ),
             floatingActionButton: FloatingActionButton(
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context){
-                          return NuevoProducto();
-                        })).then((value) => setState((){}));
+                    MaterialPageRoute(builder: (BuildContext context) {
+                  return NuevoProducto();
+                })).then((value) => setState(() {}));
               },
               child: Icon(Icons.add),
             ),
@@ -105,7 +104,8 @@ class _ListaProductosState extends State<ListaProductos> {
       },
     );
   }
-  _eliminarProducto(Producto producto) async{
+
+  _eliminarProducto(Producto producto) async {
     await MongoDB.eliminarP(producto);
     setState(() {});
   }
