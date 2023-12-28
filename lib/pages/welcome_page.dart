@@ -31,7 +31,7 @@ class WelcomePage extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 50.0),
                 child: const Text(
-                  'Articulos UIDE',
+                  'Farmacia UIDE',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
