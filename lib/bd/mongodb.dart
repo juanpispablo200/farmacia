@@ -12,8 +12,8 @@ class MongoDB {
       collectionProductos,
       collectionCarro;
 
-  static conectar() async {
-    db = await Db.create(conexion);
+  static Future<void> conectar() async {
+    Db db = await Db.create(conexion);
     print(db);
     await db.open();
     print(db);

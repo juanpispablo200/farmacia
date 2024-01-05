@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+
+import 'package:farmacia/bd/mongodb.dart';
 import 'routes/routes.dart';
 
-void main() {
+void main() async {
+  await MongoDB.conectar();
   runApp(const MyApp());
 }
 

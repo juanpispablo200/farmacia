@@ -81,12 +81,9 @@ class LoginPage extends StatelessWidget {
                             fontSize: 10.0,
                           ),
                         ),
-                        //vamos a agregar los textfieldd para el correo y contra
-                        // vamos agregar widgets propios para el proyecto
                         _emailInput(),
                         _passwordInput(),
                         _loginButton(context),
-
                         Container(
                           margin: const EdgeInsets.only(top: 20.0),
                           child: const Text(
@@ -185,7 +182,6 @@ class LoginPage extends StatelessWidget {
     );
   }
 
-  // widget para el boton
   Widget _loginButton(BuildContext context) {
     return Container(
       width: 350.0,
@@ -207,8 +203,6 @@ class LoginPage extends StatelessWidget {
                 Navigator.pushNamed(context, 'lista_productos_cli');
               }
               if (resultado['rol'] == 'admin') {
-                //las paginas que sean habilitadas al usuario
-                print("El Usuario a ingresado correctamente");
                 Navigator.pushNamed(context, 'lista_usuarios');
               }
             } else {
