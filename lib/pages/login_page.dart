@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-
 import 'package:lottie/lottie.dart';
-import 'package:farmacia/modelos/usuarios.dart';
+
 import 'package:farmacia/widgets/boton_atras.dart';
+import 'package:farmacia/utilitarios/logger.dart';
+import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/bd/mongodb.dart';
 
 class LoginPage extends StatelessWidget {
@@ -197,7 +198,7 @@ class LoginPage extends StatelessWidget {
           String correo = _correoController.text;
           String password = _passwordController.text;
           MongoDB.autenticarUsuarios(correo, password).then((resultado) {
-            print(resultado);
+            log.i(resultado);
             if (resultado['exito'] == true) {
               if (resultado['rol'] == 'cliente') {
                 Navigator.pushNamed(context, 'lista_productos_cli');
@@ -206,7 +207,7 @@ class LoginPage extends StatelessWidget {
                 Navigator.pushNamed(context, 'lista_usuarios');
               }
             } else {
-              print("El usuario no existe");
+              log.i(resultado);
               ScaffoldMessenger.of(context).showSnackBar(
                 const SnackBar(
                     content: Text('El usuario no existe, Registrate')),

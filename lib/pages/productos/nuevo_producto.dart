@@ -174,6 +174,8 @@ class _NuevoProductoState extends State<NuevoProducto> {
       img: imgController.text,
       precio: precioController.text,
     );
+
+    await MongoDB.actualizarP(productoActualizado);
   }
 
   //widget para los datos

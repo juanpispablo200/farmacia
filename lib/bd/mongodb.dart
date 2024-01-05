@@ -1,23 +1,29 @@
 import 'package:mongo_dart/mongo_dart.dart';
-import 'package:farmacia/modelos/productos.dart';
-import 'package:farmacia/modelos/usuarios.dart';
-import 'package:farmacia/modelos/categorias.dart';
+
 import 'package:farmacia/modelos/carro.dart';
+import 'package:farmacia/modelos/usuarios.dart';
+import 'package:farmacia/modelos/productos.dart';
+import 'package:farmacia/modelos/categorias.dart';
+import 'package:farmacia/utilitarios/logger.dart';
 import 'package:farmacia/utilitarios/constantes.dart';
 
 class MongoDB {
-  static var db,
-      collectionUsuarios,
-      collectionCategorias,
-      collectionProductos,
-      collectionCarro;
+  static Db? db;
+  static late DbCollection collectionUsuarios;
+  static late DbCollection collectionCategorias;
+  static late DbCollection collectionProductos;
+  static late DbCollection collectionCarro;
 
   static Future<void> conectar() async {
     Db db = await Db.create(conexion);
-    print(db);
     await db.open();
-    print(db);
-    // sdignar las consultas que se consume a la coleccion creada
+    if (db.state == State.open) {
+      log.i("Conectado a la base de datos: ${db.databaseName ?? "null"}");
+    } else {
+      log.e(
+          "No se pudo conectar a la base de datos: ${db.databaseName ?? "null"}");
+    }
+    // asignar las consultas que se consume a la coleccion creada
     collectionUsuarios = db.collection(collecion);
     collectionProductos = db.collection(collecionP);
     collectionCategorias = db.collection(collecionC);
@@ -30,7 +36,7 @@ class MongoDB {
       final usuarios = await collectionUsuarios.find().toList();
       return usuarios;
     } catch (e) {
-      print(e);
+      log.e("Error al obtener usuarios");
       return Future.value([]);
     }
   }
@@ -40,7 +46,7 @@ class MongoDB {
       final productos = await collectionProductos.find().toList();
       return productos;
     } catch (e) {
-      print(e);
+      log.e("Error al obtener productos");
       return Future.value([]);
     }
   }
@@ -50,7 +56,7 @@ class MongoDB {
       final categorias = await collectionCategorias.find().toList();
       return categorias;
     } catch (e) {
-      print(e);
+      log.e("Error al obtener categorias");
       return Future.value([]);
     }
   }
@@ -61,11 +67,11 @@ class MongoDB {
     try {
       final categorias = await collectionCategorias.find().toList();
       for (var categoria in categorias) {
-        soloNombres.add(categoria.nombre);
+        soloNombres.add(categoria['nombre']);
       }
       return soloNombres;
     } catch (e) {
-      print(e);
+      log.e("Error al obtener Nombre de Categorias");
       return Future.value([]);
     }
   }
@@ -75,7 +81,7 @@ class MongoDB {
       final carro = await collectionCarro.find().toList();
       return carro;
     } catch (e) {
-      print(e);
+      log.e("Error al obtener carro");
       return Future.value([]);
     }
   }
@@ -88,14 +94,18 @@ class MongoDB {
 
   static actualizar(Usuario usuario) async {
     var j = await collectionUsuarios.findOne({'_id': usuario.id});
-    j["nombres"] = usuario.nombres;
-    j["apellidos"] = usuario.apellidos;
-    j["cedula"] = usuario.cedula;
-    j["telefono"] = usuario.telefono;
-    j["correo"] = usuario.correo;
-    j["password"] = usuario.password;
-    j["carrera"] = usuario.carrera;
-    await collectionUsuarios.save(j);
+    if (j != null) {
+      j["nombres"] = usuario.nombres;
+      j["apellidos"] = usuario.apellidos;
+      j["cedula"] = usuario.cedula;
+      j["telefono"] = usuario.telefono;
+      j["correo"] = usuario.correo;
+      j["password"] = usuario.password;
+      j["carrera"] = usuario.carrera;
+      await collectionUsuarios.replaceOne({'_id': usuario.id}, j);
+    } else {
+      log.e("Error al actualizar usuario");
+    }
   }
 
   static eliminar(Usuario usuario) async {
@@ -109,14 +119,18 @@ class MongoDB {
 
   static actualizarP(Producto producto) async {
     var j = await collectionProductos.findOne({'_id': producto.id});
-    j["nombre"] = producto.nombre;
-    j["descripcion"] = producto.descripcion;
-    j["cantidad"] = producto.cantidad;
-    j["categoria"] = producto.categoria;
-    j["img"] = producto.img;
-    j["precio"] = producto.precio;
-    j["stock"] = producto.stock;
-    await collectionProductos.save(j);
+    if (j != null) {
+      j["nombre"] = producto.nombre;
+      j["descripcion"] = producto.descripcion;
+      j["cantidad"] = producto.cantidad;
+      j["categoria"] = producto.categoria;
+      j["img"] = producto.img;
+      j["precio"] = producto.precio;
+      j["stock"] = producto.stock;
+      await collectionProductos.replaceOne({'_id': producto.id}, j);
+    } else {
+      log.e("Error al actualizar producto");
+    }
   }
 
   static eliminarP(Producto producto) async {
@@ -130,9 +144,11 @@ class MongoDB {
 
   static actualizarC(Categoria categoria) async {
     var j = await collectionCategorias.findOne({'_id': categoria.id});
-    j["nombre"] = categoria.nombre;
-    j["descripcion"] = categoria.descripcion;
-    await collectionCategorias.save(j);
+    if (j != null) {
+      j["nombre"] = categoria.nombre;
+      j["descripcion"] = categoria.descripcion;
+      await collectionCategorias.replaceOne({'_id': categoria.id}, j);
+    }
   }
 
   static eliminarC(Categoria categoria) async {
@@ -146,9 +162,11 @@ class MongoDB {
 
   static actualizarCr(Carro carro) async {
     var j = await collectionCarro.findOne({'_id': carro.id});
-    j["usuario_id"] = carro.usuarioId;
-    j["producto_ids"] = carro.productoIds;
-    await collectionCarro.save(j);
+    if (j != null) {
+      j["usuario_id"] = carro.usuarioId;
+      j["producto_ids"] = carro.productoIds;
+      await collectionCarro.replaceOne({'_id': carro.id}, j);
+    }
   }
 
   static eliminarCr(Carro carro) async {
@@ -172,7 +190,7 @@ class MongoDB {
         };
       }
     } catch (e) {
-      print(e);
+      log.e("Error al autenticar usuarios");
       return {
         'exito': false,
       };

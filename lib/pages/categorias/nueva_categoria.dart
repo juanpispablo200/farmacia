@@ -139,6 +139,8 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
       nombre: nombreController.text,
       descripcion: descripcionController.text,
     );
+
+    await MongoDB.actualizarC(categoriaActulizada);
   }
 
   //widget para el correo

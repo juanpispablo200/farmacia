@@ -175,6 +175,8 @@ class _RegistroPageState extends State<RegistroPage> {
       carrera: carreraController.text,
       rol: rolController.text,
     );
+
+    await MongoDB.actualizar(usuarioActulizado);
   }
 
   //widget para el correo
