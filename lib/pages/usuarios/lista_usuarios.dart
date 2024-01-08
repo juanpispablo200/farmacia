@@ -5,7 +5,6 @@ import 'package:farmacia/pages/usuarios/ficha_usuario.dart';
 import 'package:farmacia/pages/usuarios/registro_page.dart';
 import 'package:farmacia/widgets/boton_atras.dart';
 import 'package:farmacia/widgets/menu_admin.dart';
-import 'package:lottie/lottie.dart';
 
 class ListaUsuarios extends StatefulWidget {
   const ListaUsuarios({Key? key}) : super(key: key);
@@ -43,12 +42,6 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
                 //componentes de la pagina
                 Stack(
               children: [
-                Container(
-                  margin: const EdgeInsets.only(top: 35.0),
-                  width: double.infinity,
-                  height: 250.0,
-                  child: Lottie.asset('assets/json/lista.json'),
-                ),
                 Container(
                   margin: const EdgeInsets.only(top: 25.0),
                   child: menuAdmin(context, Colors.black),

@@ -53,7 +53,7 @@ Widget menuAdmin(BuildContext context, Color color) {
                       child: const MenuAcceleratorLabel('Ver Detalles'),
                     ),
                   ],
-                  child: const MenuAcceleratorLabel('Carrito Admmmin'),
+                  child: const MenuAcceleratorLabel('Carrito Admin'),
                 ),
                 MenuItemButton(
                   onPressed: () {
