@@ -16,6 +16,8 @@ class MongoDB {
 
   static Future<void> conectar() async {
     Db db = await Db.create(conexion);
+    log.i(
+        "Intentando conectar a la base de datos: ${db.databaseName ?? "null"}");
     await db.open();
     if (db.state == State.open) {
       log.i("Conectado a la base de datos: ${db.databaseName ?? "null"}");
