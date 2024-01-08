@@ -60,8 +60,8 @@ Widget menuCliente(BuildContext context, Color color) {
         ],
       ),
       Expanded(
-        child: Image.asset('assets/img/LogoUide.png'),
-      ),
+          child: Opacity(
+              opacity: 0.5, child: Image.asset('assets/img/LogoUide.png'))),
     ],
   );
 }
