@@ -1,9 +1,10 @@
-import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:flutter/material.dart';
+import 'package:mongo_dart/mongo_dart.dart' as md;
+
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/widgets/boton_atras.dart';
-import 'package:mongo_dart/mongo_dart.dart' as md;
 
 class RegistroPage extends StatefulWidget {
   const RegistroPage({Key? key}) : super(key: key);
@@ -27,7 +28,8 @@ class _RegistroPageState extends State<RegistroPage> {
 
   @override
   Widget build(BuildContext context) {
-    var textoWidget = "Añadir usuario";
+    var textoWidget =
+        const Text("Añadir usuario", style: TextStyle(color: Colors.black));
     int operacion = insercion;
     Usuario? usuario;
 
@@ -42,7 +44,6 @@ class _RegistroPageState extends State<RegistroPage> {
       passwordController.text = usuario.password;
       carreraController.text = usuario.carrera;
       rolController.text = 'cliente';
-      textoWidget = "Editar Usuario";
     }
     return Scaffold(
       body: ListView(
@@ -56,15 +57,6 @@ class _RegistroPageState extends State<RegistroPage> {
                     height: 150.0,
                     child: Lottie.asset('assets/json/registro.json'),
                   ),
-                  /*Container(
-                    margin: EdgeInsets.only(top: 40.0),
-                    child: Image(
-                        width: double.infinity,
-                        height: 350.0,
-                        fit: BoxFit.cover,
-                        image:  AssetImage ('assets/img/Restaurante.png')
-                    ),
-                  ),*/
                   Container(
                     margin: const EdgeInsets.only(top: 40.0),
                     child: backButton(context, Colors.black),
@@ -82,7 +74,7 @@ class _RegistroPageState extends State<RegistroPage> {
                   width: double.infinity,
                   height: 630.0,
                   decoration: BoxDecoration(
-                    color: Colors.black12,
+                    color: Colors.lightBlue,
                     borderRadius: BorderRadius.circular(20.0),
                   ),
                   child: Padding(
@@ -92,14 +84,11 @@ class _RegistroPageState extends State<RegistroPage> {
                         const Text(
                           "Registrate para acceder a los servicios",
                           style: TextStyle(
-                            color: Colors.black87,
+                            color: Colors.black,
                             fontWeight: FontWeight.w700,
                             fontSize: 20.0,
                           ),
                         ),
-
-                        //vamos a agregar los textfieldd para el correo y contra
-                        // vamos agregar widgets propios para el proyecto
                         _nombresInput(),
                         _apellidosInput(),
                         _cedulaInput(),
@@ -107,13 +96,12 @@ class _RegistroPageState extends State<RegistroPage> {
                         _telefonoInput(),
                         _carreraInput(),
                         _passwordInput(),
-
                         Align(
                           alignment: Alignment.bottomCenter,
                           child: Padding(
                             padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
                             child: ElevatedButton(
-                              child: Text(textoWidget),
+                              child: textoWidget,
                               onPressed: () {
                                 if (operacion == edicion) {
                                   // editar el objeto
@@ -185,7 +173,7 @@ class _RegistroPageState extends State<RegistroPage> {
       margin: const EdgeInsets.only(top: 15.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: nombresController,
@@ -194,7 +182,7 @@ class _RegistroPageState extends State<RegistroPage> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.person,
-            color: Colors.red,
+            color: Colors.black,
           ),
         ),
       ),
@@ -206,7 +194,7 @@ class _RegistroPageState extends State<RegistroPage> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: apellidosController,
@@ -215,7 +203,7 @@ class _RegistroPageState extends State<RegistroPage> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.verified_user_outlined,
-            color: Colors.pink,
+            color: Colors.black,
           ),
         ),
       ),
@@ -227,7 +215,7 @@ class _RegistroPageState extends State<RegistroPage> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: cedulaController,
@@ -237,7 +225,7 @@ class _RegistroPageState extends State<RegistroPage> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.person_2_rounded,
-            color: Colors.pink,
+            color: Colors.black,
           ),
         ),
       ),
@@ -249,7 +237,7 @@ class _RegistroPageState extends State<RegistroPage> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: correoController,
@@ -259,7 +247,7 @@ class _RegistroPageState extends State<RegistroPage> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.email,
-            color: Colors.pink,
+            color: Colors.black,
           ),
         ),
       ),
@@ -271,7 +259,7 @@ class _RegistroPageState extends State<RegistroPage> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: telefonoController,
@@ -281,7 +269,7 @@ class _RegistroPageState extends State<RegistroPage> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.phone,
-            color: Colors.pink,
+            color: Colors.black,
           ),
         ),
       ),
@@ -293,7 +281,7 @@ class _RegistroPageState extends State<RegistroPage> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: passwordController,
@@ -303,7 +291,7 @@ class _RegistroPageState extends State<RegistroPage> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.key,
-            color: Colors.pink,
+            color: Colors.black,
           ),
         ),
       ),
@@ -315,7 +303,7 @@ class _RegistroPageState extends State<RegistroPage> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: carreraController,
@@ -324,28 +312,7 @@ class _RegistroPageState extends State<RegistroPage> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.home_filled,
-            color: Colors.pink,
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _rolInput() {
-    return Container(
-      margin: const EdgeInsets.only(top: 10.0),
-      padding: const EdgeInsets.only(left: 20.0),
-      decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)),
-      child: TextField(
-        controller: rolController,
-        decoration: const InputDecoration(
-          hintText: "Rol",
-          border: OutlineInputBorder(borderSide: BorderSide.none),
-          prefixIcon: Icon(
-            Icons.check,
-            color: Colors.pink,
+            color: Colors.black,
           ),
         ),
       ),

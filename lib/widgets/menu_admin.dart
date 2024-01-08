@@ -55,17 +55,6 @@ Widget menuAdmin(BuildContext context, Color color) {
                   ],
                   child: const MenuAcceleratorLabel('Carrito Admin'),
                 ),
-                MenuItemButton(
-                  onPressed: () {
-                    Navigator.pushNamed(context, 'lista_usuarios');
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('Lista de usuarios!'),
-                      ),
-                    );
-                  },
-                  child: const MenuAcceleratorLabel('UsuariosAdmin'),
-                ),
               ],
             ),
           ),

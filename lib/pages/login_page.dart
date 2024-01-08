@@ -9,7 +9,6 @@ import 'package:farmacia/bd/mongodb.dart';
 class LoginPage extends StatelessWidget {
   final TextEditingController _correoController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  // bool _isloading = false;
 
   LoginPage({super.key});
 
@@ -42,7 +41,6 @@ class LoginPage extends StatelessWidget {
                   )
                 ],
               ),
-              // agregar un componente que permita
               Transform.translate(
                 offset: const Offset(0.0, -20.0),
                 child: Container(
@@ -50,7 +48,7 @@ class LoginPage extends StatelessWidget {
                   width: double.infinity,
                   height: 450.0,
                   decoration: BoxDecoration(
-                    color: Colors.amber,
+                    color: Colors.lightBlue,
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                   child: Padding(
@@ -58,7 +56,7 @@ class LoginPage extends StatelessWidget {
                     child: Column(
                       children: [
                         const Text(
-                          "Bienvenidos tienda online",
+                          "Bienvenidos a la Farmacia UIDE",
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w900,
@@ -95,7 +93,7 @@ class LoginPage extends StatelessWidget {
                               const Text(
                                 'Aun no tienes cuenta?',
                                 style: TextStyle(
-                                  color: Colors.black87,
+                                  color: Colors.black,
                                   fontWeight: FontWeight.w400,
                                   fontSize: 15.0,
                                 ),
@@ -108,7 +106,7 @@ class LoginPage extends StatelessWidget {
                                 child: const Text(
                                   'Registrate',
                                   style: TextStyle(
-                                    color: Colors.black87,
+                                    color: Colors.black,
                                     fontSize: 15.0,
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -134,7 +132,7 @@ class LoginPage extends StatelessWidget {
       margin: const EdgeInsets.only(top: 20.0),
       padding: const EdgeInsets.only(left: 30.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(216, 108, 62, 0.3),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(30.0)),
       child: TextField(
         controller: _correoController,
@@ -144,7 +142,7 @@ class LoginPage extends StatelessWidget {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.email,
-            color: Colors.pink,
+            color: Colors.black,
           ),
         ),
       ),
@@ -157,7 +155,7 @@ class LoginPage extends StatelessWidget {
       margin: const EdgeInsets.only(top: 20.0),
       padding: const EdgeInsets.only(left: 30.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(216, 108, 62, 0.3),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(30.0)),
       child: TextField(
         controller: _passwordController,
@@ -167,7 +165,7 @@ class LoginPage extends StatelessWidget {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.key,
-            color: Colors.pink,
+            color: Colors.black,
           ),
         ),
       ),
@@ -181,7 +179,7 @@ class LoginPage extends StatelessWidget {
       margin: const EdgeInsets.only(top: 40.0),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.orange,
+          backgroundColor: Colors.lightBlueAccent,
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
         ),
@@ -208,9 +206,7 @@ class LoginPage extends StatelessWidget {
         },
         child: const Text(
           'Ingresar',
-          style: TextStyle(
-            fontSize: 30.0,
-          ),
+          style: TextStyle(fontSize: 30.0, color: Colors.black),
         ),
       ),
     );

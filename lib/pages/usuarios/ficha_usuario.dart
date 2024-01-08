@@ -25,13 +25,19 @@ class FichaUsuario extends StatelessWidget {
         trailing: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            GestureDetector(
-              onTap: onTapEdit,
-              child: const Icon(Icons.edit),
+            MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: onTapEdit,
+                child: const Icon(Icons.edit),
+              ),
             ),
-            GestureDetector(
-              onTap: onTapDelete,
-              child: const Icon(Icons.delete),
+            MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: onTapDelete,
+                child: const Icon(Icons.delete),
+              ),
             )
           ],
         ),
