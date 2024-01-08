@@ -63,6 +63,11 @@ flutter:
   assets:
     - assets/json/login.json
     - assets/json/lista.json
+    - assets/json/registro.json
+    - assets/json/productos.json
+    - assets/json/categorias.json
+    - assets/json/ventaonline.json
+
     - assets/img/LogoUide.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
