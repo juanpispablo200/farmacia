@@ -1,9 +1,11 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'routes/routes.dart';
 
 void main() async {
+  HttpOverrides.global = MyHttpOverrides();
   await MongoDB.conectar();
   runApp(const MyApp());
 }
@@ -21,5 +23,14 @@ class MyApp extends StatelessWidget {
       initialRoute: 'welcome',
       routes: routes,
     );
+  }
+}
+
+class MyHttpOverrides extends HttpOverrides {
+  @override
+  HttpClient createHttpClient(SecurityContext? context) {
+    return super.createHttpClient(context)
+      ..badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
   }
 }

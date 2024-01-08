@@ -33,15 +33,6 @@ class LoginPage extends StatelessWidget {
                     height: 300.0,
                     child: Lottie.asset('assets/json/login.json'),
                   ),
-                  /*Container(
-                    margin: EdgeInsets.only(top: 40.0),
-                    child: Image(
-                        width: double.infinity,
-                        height: 350.0,
-                        fit: BoxFit.cover,
-                        image:  AssetImage ('assets/img/Restaurante.png')
-                    ),
-                  ),*/
                   Container(
                     margin: const EdgeInsets.only(top: 40.0),
                     child: backButton(context, Colors.black),
