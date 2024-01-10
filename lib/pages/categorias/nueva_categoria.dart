@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 import 'package:mongo_dart/mongo_dart.dart' as md;
 
 import 'package:farmacia/bd/mongodb.dart';
@@ -41,13 +40,8 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
             children: [
               Stack(
                 children: [
-                  SizedBox(
-                    width: double.infinity,
-                    height: 150.0,
-                    child: Lottie.asset('assets/json/categorias.json'),
-                  ),
                   Container(
-                    margin: const EdgeInsets.only(top: 40.0),
+                    margin: const EdgeInsets.only(top: 50.0, left: 5.0),
                     child: backButton(context, Colors.black),
                   ),
                   Container(
@@ -149,7 +143,7 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
       margin: const EdgeInsets.only(top: 15.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: nombreController,
@@ -170,7 +164,7 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: descripcionController,

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/productos.dart';
@@ -23,7 +22,7 @@ class _ListaProductosState extends State<ListaProductos> {
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Container(
-            color: Colors.deepOrange,
+            color: Colors.lightBlueAccent,
             child: const LinearProgressIndicator(
               backgroundColor: Colors.black87,
             ),
@@ -45,21 +44,14 @@ class _ListaProductosState extends State<ListaProductos> {
                 Stack(
               children: [
                 Container(
-                  margin: const EdgeInsets.only(top: 80.0),
-                  width: double.infinity,
-                  height: 150.0,
-                  child: Lottie.asset('assets/json/productos.json'),
-                ),
-                Container(
-                  margin: const EdgeInsets.only(top: 25.0),
                   child: menuCliente(context, Colors.black),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 70.0),
+                  margin: const EdgeInsets.only(top: 50.0, left: 5.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 200.0),
+                  margin: const EdgeInsets.only(top: 100.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(

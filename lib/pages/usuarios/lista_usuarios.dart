@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/pages/usuarios/ficha_usuario.dart';
@@ -21,7 +22,7 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Container(
-            color: Colors.deepOrange,
+            color: Colors.lightBlue,
             child: const LinearProgressIndicator(
               backgroundColor: Colors.black87,
             ),
@@ -38,20 +39,17 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
           );
         } else {
           return Scaffold(
-            body:
-                //componentes de la pagina
-                Stack(
+            body: Stack(
               children: [
                 Container(
-                  margin: const EdgeInsets.only(top: 25.0),
                   child: menuAdmin(context, Colors.black),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 70.0),
+                  margin: const EdgeInsets.only(top: 50.0, left: 5.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 200.0),
+                  margin: const EdgeInsets.only(top: 100.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(

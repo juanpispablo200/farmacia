@@ -16,6 +16,13 @@ class NuevoProducto extends StatefulWidget {
 class _NuevoProductoState extends State<NuevoProducto> {
   static const edicion = 1;
   static const insercion = 2;
+  String? _selectedCategoria;
+
+  @override
+  void initState() {
+    super.initState();
+    _getCategorias();
+  }
 
   TextEditingController nombreController = TextEditingController();
   TextEditingController descripcionController = TextEditingController();
@@ -57,17 +64,8 @@ class _NuevoProductoState extends State<NuevoProducto> {
                     height: 150.0,
                     child: Lottie.asset('assets/json/productos.json'),
                   ),
-                  /*Container(
-                    margin: EdgeInsets.only(top: 40.0),
-                    child: Image(
-                        width: double.infinity,
-                        height: 350.0,
-                        fit: BoxFit.cover,
-                        image:  AssetImage ('assets/img/Restaurante.png')
-                    ),
-                  ),*/
                   Container(
-                    margin: const EdgeInsets.only(top: 40.0),
+                    margin: const EdgeInsets.only(top: 50.0, left: 5.0),
                     child: backButton(context, Colors.black),
                   ),
                   Container(
@@ -75,7 +73,6 @@ class _NuevoProductoState extends State<NuevoProducto> {
                   )
                 ],
               ),
-              // agregar un componente que permita
               Transform.translate(
                 offset: const Offset(0.0, -20.0),
                 child: Container(
@@ -98,12 +95,9 @@ class _NuevoProductoState extends State<NuevoProducto> {
                             fontSize: 20.0,
                           ),
                         ),
-
-                        // vamos agregar widgets propios para el proyecto
                         _nombreInput(),
                         _descripcionInput(),
                         _cantidadInput(),
-                        _categoriaInput(),
                         _mostrarcategorias(context),
                         _imgInput(),
                         _stockInput(),
@@ -154,7 +148,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       id: md.ObjectId(),
       nombre: nombreController.text,
       descripcion: descripcionController.text,
-      categoria: categoriaController.text,
+      categoria: _selectedCategoria ?? 'default',
       cantidad: cantidadController.text,
       stock: stockController.text,
       img: imgController.text,
@@ -168,7 +162,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       id: producto.id,
       nombre: nombreController.text,
       descripcion: descripcionController.text,
-      categoria: categoriaController.text,
+      categoria: _selectedCategoria ?? 'default',
       cantidad: cantidadController.text,
       stock: stockController.text,
       img: imgController.text,
@@ -184,7 +178,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       margin: const EdgeInsets.only(top: 15.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: nombreController,
@@ -205,7 +199,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: descripcionController,
@@ -213,7 +207,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
           hintText: "Descripcion del producto",
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
-            Icons.text_decrease,
+            Icons.description,
             color: Colors.pink,
           ),
         ),
@@ -226,7 +220,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: imgController,
@@ -247,7 +241,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: cantidadController,
@@ -264,48 +258,46 @@ class _NuevoProductoState extends State<NuevoProducto> {
     );
   }
 
-  Widget _categoriaInput() {
-    return Container(
-      margin: const EdgeInsets.only(top: 10.0),
-      padding: const EdgeInsets.only(left: 20.0),
-      decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
-          borderRadius: BorderRadius.circular(20.0)),
-      child: TextField(
-        controller: categoriaController,
-        decoration: const InputDecoration(
-          hintText: "Categoría",
-          border: OutlineInputBorder(borderSide: BorderSide.none),
-          prefixIcon: Icon(
-            Icons.list,
-            color: Colors.pink,
-          ),
-        ),
-      ),
-    );
-  }
-
   // desplegable
   Future<void> _getCategorias() async {
     final categorias = await MongoDB.getCategorias();
     setState(() {
       _categorias = categorias;
+      _selectedCategoria =
+          _categorias.isNotEmpty ? _categorias[0]['_id'].toString() : null;
     });
   }
 
   Widget _mostrarcategorias(BuildContext context) {
-    return DropdownButton(
-      items: _categorias
-          .map(
-            (categoria) => DropdownMenuItem(
-              value: categoria['_id'],
-              child: Text(categoria['nombre']),
-            ),
-          )
-          .toList(),
-      onChanged: (value) {
-        // Aquí puedes manejar el cambio de valor seleccionado
-      },
+    return Container(
+      margin: const EdgeInsets.only(top: 10.0),
+      padding: const EdgeInsets.only(left: 20.0, right: 20),
+      decoration: BoxDecoration(
+          color: Colors.lightBlueAccent,
+          borderRadius: BorderRadius.circular(20.0)),
+      child: InputDecorator(
+        decoration: const InputDecoration(
+            prefixIcon: Icon(Icons.category, color: Colors.pink),
+            border: InputBorder.none),
+        child: DropdownButtonHideUnderline(
+          // This hides the default underline of DropdownButton
+          child: DropdownButton<String>(
+            isExpanded: true,
+            value: _selectedCategoria,
+            items: _categorias.map((categoria) {
+              return DropdownMenuItem<String>(
+                value: categoria['_id'].toString(),
+                child: Text(categoria['nombre']),
+              );
+            }).toList(),
+            onChanged: (String? newValue) {
+              setState(() {
+                _selectedCategoria = newValue;
+              });
+            },
+          ),
+        ),
+      ),
     );
   }
 
@@ -314,7 +306,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: stockController,
@@ -336,7 +328,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       margin: const EdgeInsets.only(top: 10.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: precioController,

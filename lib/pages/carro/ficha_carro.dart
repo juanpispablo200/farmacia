@@ -14,14 +14,12 @@ class FichaCarro extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
-      color: Colors.amberAccent,
+      color: Colors.lightBlueAccent,
       child: ListTile(
         leading: Text(
           '${carro.productoIds}',
           style: Theme.of(context).textTheme.bodyMedium,
         ),
-
-        //subtitle: Text(categoria.),
         trailing: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [

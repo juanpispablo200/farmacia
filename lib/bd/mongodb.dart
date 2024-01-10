@@ -15,7 +15,7 @@ class MongoDB {
   static late DbCollection collectionCarro;
 
   static Future<void> conectar() async {
-    Db db = await Db.create(testConexion);
+    Db db = await Db.create(conexion);
     log.i("Intentando conectar a la base de datos");
     await db.open();
     if (db.state == State.open) {
@@ -81,6 +81,19 @@ class MongoDB {
     try {
       final carro = await collectionCarro.find().toList();
       return carro;
+    } catch (e) {
+      log.e("Error al obtener carro");
+      return Future.value([]);
+    }
+  }
+
+  static Future<List<Map<String, dynamic>>> getProductosPorCategoria(
+      Categoria categoria) async {
+    try {
+      final productos = await collectionProductos
+          .find({'categoria': categoria.nombre}).toList();
+
+      return productos;
     } catch (e) {
       log.e("Error al obtener carro");
       return Future.value([]);
@@ -159,6 +172,10 @@ class MongoDB {
   //CARRITO
   static insertarCr(Carro carro) async {
     await collectionCarro.insertAll([carro.toMap()]);
+  }
+
+  static insertarProdCr(Producto producto) async {
+    log.e("to do");
   }
 
   static actualizarCr(Carro carro) async {

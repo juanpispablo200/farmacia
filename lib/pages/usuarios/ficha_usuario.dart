@@ -14,14 +14,28 @@ class FichaUsuario extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
-      color: Colors.amberAccent,
+      color: Colors.lightBlue,
       child: ListTile(
-        leading: Text(
-          usuario.correo,
-          style: Theme.of(context).textTheme.bodyMedium,
+        leading: SizedBox(
+          width: 125, // Adjust this value as needed
+          child: Text(
+            usuario.correo,
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
         ),
-        title: Text(usuario.nombres),
-        subtitle: Text(usuario.apellidos),
+        title: Row(
+          children: [
+            SizedBox(
+              width: 125, // Adjust this value as needed
+              child: Text(usuario.nombres),
+            ),
+            const SizedBox(width: 8.0), // Add some space between the names
+            SizedBox(
+              width: 120, // Adjust this value as needed
+              child: Text(usuario.apellidos),
+            ),
+          ],
+        ),
         trailing: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [

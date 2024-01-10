@@ -15,7 +15,7 @@ class FichaProductoCli extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
-      color: Colors.amberAccent,
+      color: Colors.lightBlueAccent,
       child: ListTile(
         leading: Text(
           producto.nombre,
@@ -26,10 +26,6 @@ class FichaProductoCli extends StatelessWidget {
         trailing: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            //GestureDetector(
-            //child: Icon(Icons.edit),
-            //onTap: onTapAdd,
-            //),
             GestureDetector(
               onTap: onTapAdd,
               child: const Icon(Icons.plus_one_sharp),

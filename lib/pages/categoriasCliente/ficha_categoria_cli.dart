@@ -1,35 +1,52 @@
 import 'package:flutter/material.dart';
-
+import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/categorias.dart';
 
-class FichaCategoriaCli extends StatelessWidget {
+class ProductDropdown extends StatefulWidget {
   final Categoria categoria;
-  final VoidCallback onTapAdd;
 
-  const FichaCategoriaCli(
-      {super.key, required this.categoria, required this.onTapAdd});
+  const ProductDropdown({super.key, required this.categoria});
+
+  @override
+  ProductDropdownState createState() => ProductDropdownState();
+}
+
+class ProductDropdownState extends State<ProductDropdown> {
+  String? dropdownValue;
+
   @override
   Widget build(BuildContext context) {
-    return Material(
-      elevation: 2.0,
-      color: Colors.amberAccent,
-      child: ListTile(
-        leading: Text(
-          categoria.nombre,
-          style: Theme.of(context).textTheme.bodyMedium,
-        ),
-        title: Text(categoria.descripcion),
-        //subtitle: Text(categoria.),
-        trailing: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            GestureDetector(
-              onTap: onTapAdd,
-              child: const Icon(Icons.plus_one_sharp),
-            )
-          ],
-        ),
-      ),
+    return FutureBuilder<List<Map<String, dynamic>>>(
+      future: MongoDB.getProductosPorCategoria(widget.categoria),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const CircularProgressIndicator();
+        } else if (snapshot.hasError) {
+          return Text('Error: ${snapshot.error}');
+        } else {
+          return SizedBox(
+            height: 50,
+            width: 200,
+            child: Material(
+              child: DropdownButton<String>(
+                value: dropdownValue,
+                onChanged: (String? newValue) {
+                  setState(() {
+                    dropdownValue = newValue;
+                  });
+                },
+                items: snapshot.data!.map<DropdownMenuItem<String>>(
+                    (Map<String, dynamic> product) {
+                  return DropdownMenuItem<String>(
+                    value: product['nombre'],
+                    child: Text(product['nombre']),
+                  );
+                }).toList(),
+              ),
+            ),
+          );
+        }
+      },
     );
   }
 }

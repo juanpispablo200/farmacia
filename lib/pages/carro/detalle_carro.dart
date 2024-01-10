@@ -1,4 +1,3 @@
-import 'package:lottie/lottie.dart';
 // import 'package:mongo_dart/mongo_dart.dart' as md;
 import 'package:flutter/material.dart';
 
@@ -36,14 +35,14 @@ class _DetalleCarroState extends State<DetalleCarro> {
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Container(
-            color: Colors.deepOrange,
+            color: Colors.lightBlueAccent,
             child: const LinearProgressIndicator(
               backgroundColor: Colors.black87,
             ),
           );
         } else if (snapshot.hasError) {
           return Container(
-            color: Colors.pink,
+            color: Colors.black,
             child: Center(
               child: Text(
                 "Lo sentimos existe un error de conexión",
@@ -58,21 +57,14 @@ class _DetalleCarroState extends State<DetalleCarro> {
                 Stack(
               children: [
                 Container(
-                  margin: const EdgeInsets.only(top: 50.0),
-                  width: double.infinity,
-                  height: 220.0,
-                  child: Lottie.asset('assets/json/ventaonline.json'),
-                ),
-                Container(
-                  margin: const EdgeInsets.only(top: 25.0),
                   child: menuCliente(context, Colors.black),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 70.0),
+                  margin: const EdgeInsets.only(top: 50.0, left: 5.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 200.0),
+                  margin: const EdgeInsets.only(top: 100.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(
@@ -121,7 +113,7 @@ class _DetalleCarroState extends State<DetalleCarro> {
       margin: const EdgeInsets.only(top: 600.0),
       padding: const EdgeInsets.only(left: 20.0),
       decoration: BoxDecoration(
-          color: const Color.fromRGBO(255, 194, 0, 0.8),
+          color: Colors.lightBlueAccent,
           borderRadius: BorderRadius.circular(20.0)),
       child: TextField(
         controller: valorTotalController,
@@ -130,7 +122,7 @@ class _DetalleCarroState extends State<DetalleCarro> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.production_quantity_limits,
-            color: Colors.red,
+            color: Colors.black,
           ),
         ),
       ),

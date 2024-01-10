@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-import 'package:farmacia/widgets/boton_atras.dart';
-import 'package:farmacia/utilitarios/logger.dart';
 import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/bd/mongodb.dart';
 
@@ -32,13 +30,6 @@ class LoginPage extends StatelessWidget {
                     height: 300.0,
                     child: Lottie.asset('assets/json/login.json'),
                   ),
-                  Container(
-                    margin: const EdgeInsets.only(top: 40.0),
-                    child: backButton(context, Colors.black),
-                  ),
-                  Container(
-                    margin: const EdgeInsets.only(top: 40.0),
-                  )
                 ],
               ),
               Transform.translate(
@@ -48,7 +39,7 @@ class LoginPage extends StatelessWidget {
                   width: double.infinity,
                   height: 450.0,
                   decoration: BoxDecoration(
-                    color: Colors.lightBlue,
+                    color: Colors.blue,
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                   child: Padding(
@@ -56,7 +47,7 @@ class LoginPage extends StatelessWidget {
                     child: Column(
                       children: [
                         const Text(
-                          "Bienvenidos a la Farmacia UIDE",
+                          "Bienvenidos a la Farmacia",
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w900,
@@ -187,7 +178,6 @@ class LoginPage extends StatelessWidget {
           String correo = _correoController.text;
           String password = _passwordController.text;
           MongoDB.autenticarUsuarios(correo, password).then((resultado) {
-            log.i(resultado);
             if (resultado['exito'] == true) {
               if (resultado['rol'] == 'cliente') {
                 Navigator.pushNamed(context, 'lista_productos_cli');
@@ -196,7 +186,6 @@ class LoginPage extends StatelessWidget {
                 Navigator.pushNamed(context, 'lista_usuarios');
               }
             } else {
-              log.i(resultado);
               ScaffoldMessenger.of(context).showSnackBar(
                 const SnackBar(
                     content: Text('El usuario no existe, Registrate')),

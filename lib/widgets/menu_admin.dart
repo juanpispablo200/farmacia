@@ -16,11 +16,6 @@ Widget menuAdmin(BuildContext context, Color color) {
                     MenuItemButton(
                       onPressed: () {
                         Navigator.pushNamed(context, 'lista_categorias');
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('Listado de categorías!'),
-                          ),
-                        );
                       },
                       child: const MenuAcceleratorLabel('Categorías Admin'),
                     ),
@@ -28,11 +23,6 @@ Widget menuAdmin(BuildContext context, Color color) {
                       onPressed: () {
                         //Navigator.push(context, 'lista_productos');
                         Navigator.pushNamed(context, 'lista_productos');
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('Listado de Productos!'),
-                          ),
-                        );
                       },
                       child: const MenuAcceleratorLabel('Productos Admin'),
                     ),
@@ -44,11 +34,6 @@ Widget menuAdmin(BuildContext context, Color color) {
                     MenuItemButton(
                       onPressed: () {
                         Navigator.pushNamed(context, 'carrito');
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text('Detalle Carrito!'),
-                          ),
-                        );
                       },
                       child: const MenuAcceleratorLabel('Ver Detalles'),
                     ),

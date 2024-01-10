@@ -58,7 +58,7 @@ class _RegistroPageState extends State<RegistroPage> {
                     child: Lottie.asset('assets/json/registro.json'),
                   ),
                   Container(
-                    margin: const EdgeInsets.only(top: 40.0),
+                    margin: const EdgeInsets.only(top: 50.0, left: 5.0),
                     child: backButton(context, Colors.black),
                   ),
                   Container(

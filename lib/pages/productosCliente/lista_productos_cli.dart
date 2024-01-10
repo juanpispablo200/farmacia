@@ -23,7 +23,7 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Container(
-            color: Colors.deepOrange,
+            color: Colors.lightBlueAccent,
             child: const LinearProgressIndicator(
               backgroundColor: Colors.black87,
             ),
@@ -51,11 +51,10 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                   child: Lottie.asset('assets/json/productos.json'),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 30.0),
                   child: menuCliente(context, Colors.black),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(top: 70.0),
+                  margin: const EdgeInsets.only(top: 50.0, left: 5.0),
                   child: backButton(context, Colors.black),
                 ),
                 Container(
@@ -85,7 +84,7 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                   return const DetalleCarro();
                 })).then((value) => setState(() {}));
               },
-              child: const Icon(Icons.car_crash),
+              child: const Icon(Icons.shopping_bag),
             ),
           );
         }
@@ -94,7 +93,7 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
   }
 
   _agregarProducto(Producto producto) async {
-    await MongoDB.eliminarP(producto);
+    await MongoDB.insertarProdCr(producto);
     setState(() {});
   }
 }

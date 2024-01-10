@@ -7,15 +7,13 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //cuerpo del proyecto
       body: Stack(
         children: [
           Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: NetworkImage(
-                      'https://ccq.ec/wp-content/uploads/2020/06/UIDE-1024x829.jpeg'),
+                  image: AssetImage('assets/img/campus.jpg'),
                 ),
               ),
               child: BackdropFilter(
@@ -24,7 +22,6 @@ class WelcomePage extends StatelessWidget {
                   color: Colors.black.withOpacity(0.7),
                 ),
               )),
-          //Segunda Parte
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -51,13 +48,12 @@ class WelcomePage extends StatelessWidget {
                 ),
               ),
               Container(
-                //colocar primer boton
                 margin: const EdgeInsets.only(top: 30.0),
                 width: 300.0,
                 height: 40.0,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.amber,
+                      backgroundColor: Colors.lightBlueAccent,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10.0))),
                   onPressed: () {
@@ -67,6 +63,7 @@ class WelcomePage extends StatelessWidget {
                     'Ingresar',
                     style: TextStyle(
                       fontSize: 20.0,
+                      color: Colors.white,
                     ),
                   ),
                 ),

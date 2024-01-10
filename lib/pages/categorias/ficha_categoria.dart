@@ -15,7 +15,7 @@ class FichaCategoria extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
-      color: Colors.amberAccent,
+      color: Colors.lightBlueAccent,
       child: ListTile(
         leading: Text(
           categoria.nombre,
