@@ -8,7 +8,6 @@ import 'package:farmacia/pages/productosCliente/ficha_producto_car.dart';
 // import 'package:farmacia/pages/productosCliente/ficha_producto_cli.dart';
 // import 'package:farmacia/pages/carro/ficha_carro.dart';
 // import 'package:farmacia/pages/productos/ficha_producto.dart';
-import 'package:farmacia/widgets/boton_atras.dart';
 import 'package:farmacia/widgets/menu_cliente.dart';
 
 class DetalleCarro extends StatefulWidget {
@@ -52,16 +51,20 @@ class _DetalleCarroState extends State<DetalleCarro> {
           );
         } else {
           return Scaffold(
+            appBar: AppBar(
+              title: const Text("Login"),
+              leading: IconButton(
+                  icon: const Icon(Icons.arrow_back),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  }),
+            ),
             body:
                 //componentes de la pagina
                 Stack(
               children: [
                 Container(
                   child: menuCliente(context, Colors.black),
-                ),
-                Container(
-                  margin: const EdgeInsets.only(top: 50.0, left: 5.0),
-                  child: backButton(context, Colors.black),
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 100.0),
@@ -101,11 +104,6 @@ class _DetalleCarroState extends State<DetalleCarro> {
         }
       },
     );
-  }
-
-  _eliminarProducto(Carro carro) async {
-    await MongoDB.eliminarCr(carro);
-    setState(() {});
   }
 
   Widget _valorTotalInput() {

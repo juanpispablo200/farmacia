@@ -15,7 +15,7 @@ class MongoDB {
   static late DbCollection collectionCarro;
 
   static Future<void> conectar() async {
-    Db db = await Db.create(conexion);
+    Db db = await Db.create(testConexion);
     log.i("Intentando conectar a la base de datos");
     await db.open();
     if (db.state == State.open) {

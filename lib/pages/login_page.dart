@@ -19,6 +19,14 @@ class LoginPage extends StatelessWidget {
       _passwordController.text = usuario.password;
     }
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Login"),
+        leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.pushNamed(context, 'welcome');
+            }),
+      ),
       body: ListView(
         children: [
           Column(

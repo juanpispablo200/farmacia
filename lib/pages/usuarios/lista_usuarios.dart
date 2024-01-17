@@ -4,7 +4,6 @@ import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/pages/usuarios/ficha_usuario.dart';
 import 'package:farmacia/pages/usuarios/registro_page.dart';
-import 'package:farmacia/widgets/boton_atras.dart';
 import 'package:farmacia/widgets/menu_admin.dart';
 
 class ListaUsuarios extends StatefulWidget {
@@ -39,14 +38,18 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
           );
         } else {
           return Scaffold(
+            appBar: AppBar(
+              title: const Text("Login"),
+              leading: IconButton(
+                  icon: const Icon(Icons.arrow_back),
+                  onPressed: () {
+                    Navigator.pushNamed(context, 'login');
+                  }),
+            ),
             body: Stack(
               children: [
                 Container(
                   child: menuAdmin(context, Colors.black),
-                ),
-                Container(
-                  margin: const EdgeInsets.only(top: 50.0, left: 5.0),
-                  child: backButton(context, Colors.black),
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 100.0),

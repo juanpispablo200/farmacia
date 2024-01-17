@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/categorias.dart';
 import 'package:farmacia/widgets/menu_admin.dart';
-import 'package:farmacia/widgets/boton_atras.dart';
 import 'package:farmacia/pages/categorias/ficha_categoria.dart';
 import 'package:farmacia/pages/categorias/nueva_categoria.dart';
 
@@ -39,14 +38,18 @@ class _ListaCategoriasState extends State<ListaCategorias> {
           );
         } else {
           return Scaffold(
+            appBar: AppBar(
+              title: const Text("Login"),
+              leading: IconButton(
+                  icon: const Icon(Icons.arrow_back),
+                  onPressed: () {
+                    Navigator.pushNamed(context, 'lista_usuarios');
+                  }),
+            ),
             body: Stack(
               children: [
                 Container(
                   child: menuAdmin(context, Colors.black),
-                ),
-                Container(
-                  margin: const EdgeInsets.only(top: 50.0, left: 5.0),
-                  child: backButton(context, Colors.black),
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 100.0),

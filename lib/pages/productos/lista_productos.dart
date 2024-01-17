@@ -4,7 +4,6 @@ import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/productos.dart';
 import 'package:farmacia/pages/productos/ficha_producto.dart';
 import 'package:farmacia/pages/productos/nuevo_producto.dart';
-import 'package:farmacia/widgets/boton_atras.dart';
 import 'package:farmacia/widgets/menu_cliente.dart';
 
 class ListaProductos extends StatefulWidget {
@@ -39,16 +38,20 @@ class _ListaProductosState extends State<ListaProductos> {
           );
         } else {
           return Scaffold(
+            appBar: AppBar(
+              title: const Text("Login"),
+              leading: IconButton(
+                  icon: const Icon(Icons.arrow_back),
+                  onPressed: () {
+                    Navigator.pushNamed(context, 'lista_usuarios');
+                  }),
+            ),
             body:
                 //componentes de la pagina
                 Stack(
               children: [
                 Container(
                   child: menuCliente(context, Colors.black),
-                ),
-                Container(
-                  margin: const EdgeInsets.only(top: 50.0, left: 5.0),
-                  child: backButton(context, Colors.black),
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 100.0),

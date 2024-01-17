@@ -4,7 +4,6 @@ import 'package:mongo_dart/mongo_dart.dart' as md;
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/usuarios.dart';
-import 'package:farmacia/widgets/boton_atras.dart';
 
 class RegistroPage extends StatefulWidget {
   const RegistroPage({Key? key}) : super(key: key);
@@ -46,6 +45,14 @@ class _RegistroPageState extends State<RegistroPage> {
       rolController.text = 'cliente';
     }
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Login"),
+        leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.pushNamed(context, 'login');
+            }),
+      ),
       body: ListView(
         children: [
           Column(
@@ -56,10 +63,6 @@ class _RegistroPageState extends State<RegistroPage> {
                     width: double.infinity,
                     height: 150.0,
                     child: Lottie.asset('assets/json/registro.json'),
-                  ),
-                  Container(
-                    margin: const EdgeInsets.only(top: 50.0, left: 5.0),
-                    child: backButton(context, Colors.black),
                   ),
                   Container(
                     margin: const EdgeInsets.only(top: 40.0),

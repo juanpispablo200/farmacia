@@ -3,7 +3,6 @@ import 'package:mongo_dart/mongo_dart.dart' as md;
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/categorias.dart';
-import 'package:farmacia/widgets/boton_atras.dart';
 
 class NuevaCategoria extends StatefulWidget {
   const NuevaCategoria({Key? key}) : super(key: key);
@@ -34,16 +33,20 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
       textoWidget = "Editar Categoria";
     }
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Login"),
+        leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.pop(context);
+            }),
+      ),
       body: ListView(
         children: [
           Column(
             children: [
               Stack(
                 children: [
-                  Container(
-                    margin: const EdgeInsets.only(top: 50.0, left: 5.0),
-                    child: backButton(context, Colors.black),
-                  ),
                   Container(
                     margin: const EdgeInsets.only(top: 40.0),
                   )
