@@ -12,6 +12,8 @@ import 'package:farmacia/pages/categorias/lista_categoria.dart';
 import 'package:farmacia/pages/productosCliente/lista_productos_cli.dart';
 import 'package:farmacia/pages/categoriasCliente/lista_categoria_cli.dart';
 import 'package:farmacia/pages/carro/detalle_carro.dart';
+import 'package:farmacia/pages/perfilCliente/perfil_cliente.dart';
+import 'package:farmacia/pages/config/config_page.dart';
 
 final routes = <String, WidgetBuilder>{
   'welcome': (BuildContext context) => const WelcomePage(),
@@ -25,4 +27,6 @@ final routes = <String, WidgetBuilder>{
   'nuevo_producto': (BuildContext context) => const NuevoProducto(),
   'nueva_categoria': (BuildContext context) => const NuevaCategoria(),
   'carrito': (BuildContext context) => const DetalleCarro(),
+  'perfil': (BuildContext context) => PerfilClientePage(),
+  'config': (BuildContext context) => const ConfigPage(),
 };

@@ -1,39 +1,56 @@
 import 'package:flutter/material.dart';
+import 'package:popup_menu/popup_menu.dart';
 
-Widget menuAdmin(BuildContext context, Color color) {
-  return Column(
-    children: <Widget>[
-      Row(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          Expanded(
-            child: MenuBar(
-              children: <Widget>[
-                SubmenuButton(
-                  menuChildren: <Widget>[
-                    MenuItemButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, 'lista_categorias');
-                      },
-                      child: const MenuAcceleratorLabel('Categorías Admin'),
-                    ),
-                    MenuItemButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, 'lista_productos');
-                      },
-                      child: const MenuAcceleratorLabel('Productos Admin'),
-                    ),
-                  ],
-                  child: const MenuAcceleratorLabel('Productos Admin'),
-                ),
-              ],
-            ),
+Widget menuAdmin(BuildContext context) {
+  GlobalKey btnKey = GlobalKey();
+
+  return Padding(
+    padding: const EdgeInsets.only(right: 15.0), // Adjust the value as needed
+    child: GestureDetector(
+      key: btnKey,
+      child: const Icon(Icons.menu),
+      onTap: () {
+        PopupMenu menu = PopupMenu(
+          config: const MenuConfig(
+            backgroundColor: Colors.transparent,
+            highlightColor: Colors.black,
+            lineColor: Colors.black,
+            itemWidth: 75,
           ),
-        ],
-      ),
-      Expanded(
-          child: Opacity(
-              opacity: 0.5, child: Image.asset('assets/img/LogoUide.png')))
-    ],
+          items: [
+            MenuItem(
+              title: 'Categorías',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.category),
+            ),
+            MenuItem(
+              title: 'Productos',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.list),
+            ),
+            MenuItem(
+              title: 'Perfil',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.person),
+            )
+          ],
+          onClickMenu: (MenuItemProvider item) {
+            switch (item.menuTitle) {
+              case 'Categorías':
+                Navigator.pushNamed(context, 'lista_categorias');
+                break;
+              case 'Productos':
+                Navigator.pushNamed(context, 'lista_productos');
+                break;
+              case 'Perfil':
+                Navigator.pushNamed(context, 'perfil');
+                break;
+            }
+          },
+          context: context,
+        );
+        menu.show(widgetKey: btnKey);
+      },
+    ),
   );
 }

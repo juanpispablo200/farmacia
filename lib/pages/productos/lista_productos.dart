@@ -39,20 +39,18 @@ class _ListaProductosState extends State<ListaProductos> {
         } else {
           return Scaffold(
             appBar: AppBar(
-              title: const Text("Login"),
+              title: const Text("Productos Admin"),
               leading: IconButton(
                   icon: const Icon(Icons.arrow_back),
                   onPressed: () {
                     Navigator.pushNamed(context, 'lista_usuarios');
                   }),
+              actions: [menuCliente(context)],
             ),
             body:
                 //componentes de la pagina
                 Stack(
               children: [
-                Container(
-                  child: menuCliente(context, Colors.black),
-                ),
                 Container(
                   margin: const EdgeInsets.only(top: 100.0),
                   child: ListView.builder(

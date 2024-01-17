@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-
 import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/bd/mongodb.dart';
 
@@ -35,7 +34,7 @@ class LoginPage extends StatelessWidget {
                 children: [
                   SizedBox(
                     width: double.infinity,
-                    height: 300.0,
+                    height: 200.0,
                     child: Lottie.asset('assets/json/login.json'),
                   ),
                 ],
@@ -185,6 +184,7 @@ class LoginPage extends StatelessWidget {
         onPressed: () {
           String correo = _correoController.text;
           String password = _passwordController.text;
+
           MongoDB.autenticarUsuarios(correo, password).then((resultado) {
             if (resultado['exito'] == true) {
               if (resultado['rol'] == 'cliente') {

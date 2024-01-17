@@ -29,12 +29,11 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
       categoria = ModalRoute.of(context)?.settings.arguments as Categoria;
       nombreController.text = categoria.nombre;
       descripcionController.text = categoria.descripcion;
-      //producto_idsController.text = categoria.producto_ids;
       textoWidget = "Editar Categoria";
     }
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Login"),
+        title: const Text("Nueva Categoria"),
         leading: IconButton(
             icon: const Icon(Icons.arrow_back),
             onPressed: () {

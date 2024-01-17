@@ -17,18 +17,18 @@ class _ListaCategoriasCliState extends State<ListaCategoriasCli> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Login"),
+          title: const Text("Categorias"),
           leading: IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () {
                 Navigator.pushNamed(context, 'lista_productos_cli');
               }),
+          actions: [menuCliente(context)],
         ),
         body: Stack(
           children: [
-            Container(child: menuCliente(context, Colors.black)),
             Container(
-              margin: const EdgeInsets.only(top: 100.0, left: 15.0),
+              margin: const EdgeInsets.only(left: 15.0),
               child: FutureBuilder(
                 future: MongoDB.getCategorias(),
                 builder: (BuildContext context, AsyncSnapshot snapshot) {

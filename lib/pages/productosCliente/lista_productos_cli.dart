@@ -40,28 +40,25 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
         } else {
           return Scaffold(
             appBar: AppBar(
-              title: const Text("Login"),
+              title: const Text("Produtos"),
               leading: IconButton(
                   icon: const Icon(Icons.arrow_back),
                   onPressed: () {
                     Navigator.pushNamed(context, 'login');
                   }),
+              actions: [menuCliente(context)],
             ),
             body:
                 //componentes de la pagina
                 Stack(
               children: [
-                Container(
-                  margin: const EdgeInsets.only(top: 80.0),
+                SizedBox(
                   width: double.infinity,
                   height: 150.0,
                   child: Lottie.asset('assets/json/productos.json'),
                 ),
                 Container(
-                  child: menuCliente(context, Colors.black),
-                ),
-                Container(
-                  margin: const EdgeInsets.only(top: 225.0),
+                  margin: const EdgeInsets.only(top: 150.0),
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Padding(

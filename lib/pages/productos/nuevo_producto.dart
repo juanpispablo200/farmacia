@@ -53,7 +53,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
     }
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Login"),
+        title: const Text("Nuevo Producto"),
         leading: IconButton(
             icon: const Icon(Icons.arrow_back),
             onPressed: () {

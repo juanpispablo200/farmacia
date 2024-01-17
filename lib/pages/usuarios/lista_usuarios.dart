@@ -39,18 +39,18 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
         } else {
           return Scaffold(
             appBar: AppBar(
-              title: const Text("Login"),
+              title: const Text("Usuarios Admin"),
               leading: IconButton(
                   icon: const Icon(Icons.arrow_back),
                   onPressed: () {
                     Navigator.pushNamed(context, 'login');
                   }),
+              actions: [
+                menuAdmin(context),
+              ],
             ),
             body: Stack(
               children: [
-                Container(
-                  child: menuAdmin(context, Colors.black),
-                ),
                 Container(
                   margin: const EdgeInsets.only(top: 100.0),
                   child: ListView.builder(

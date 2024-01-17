@@ -1,52 +1,71 @@
 import 'package:flutter/material.dart';
-//import 'package:farmacia/pages/productos/lista_productos.dart';
+import 'package:popup_menu/popup_menu.dart';
 
-Widget menuCliente(BuildContext context, Color color) {
-  return Column(
-    children: <Widget>[
-      Row(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          Expanded(
-            child: MenuBar(
-              children: <Widget>[
-                SubmenuButton(
-                  menuChildren: <Widget>[
-                    MenuItemButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, 'lista_categorias_cli');
-                      },
-                      child: const MenuAcceleratorLabel('Categorías'),
-                    ),
-                    MenuItemButton(
-                      onPressed: () {
-                        //Navigator.push(context, 'lista_productos');
-                        Navigator.pushNamed(context, 'lista_productos_cli');
-                      },
-                      child: const MenuAcceleratorLabel('Productos'),
-                    ),
-                  ],
-                  child: const MenuAcceleratorLabel('Productos'),
-                ),
-                SubmenuButton(
-                  menuChildren: <Widget>[
-                    MenuItemButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, 'carrito');
-                      },
-                      child: const MenuAcceleratorLabel('Ver Detalles'),
-                    ),
-                  ],
-                  child: const MenuAcceleratorLabel('Carrito'),
-                ),
-              ],
-            ),
+Widget menuCliente(BuildContext context) {
+  GlobalKey btnKey = GlobalKey();
+
+  return Padding(
+    padding: const EdgeInsets.only(right: 15.0), // Adjust the value as needed
+    child: GestureDetector(
+      key: btnKey,
+      child: const Icon(Icons.menu),
+      onTap: () {
+        PopupMenu menu = PopupMenu(
+          config: const MenuConfig(
+            backgroundColor: Colors.transparent,
+            highlightColor: Colors.black,
+            lineColor: Colors.black,
+            itemWidth: 75,
           ),
-        ],
-      ),
-      Expanded(
-          child: Opacity(
-              opacity: 0.5, child: Image.asset('assets/img/LogoUide.png'))),
-    ],
+          items: [
+            MenuItem(
+              title: 'Categorías',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.category),
+            ),
+            MenuItem(
+              title: 'Productos',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.list),
+            ),
+            MenuItem(
+              title: 'Carrito',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.shopping_cart),
+            ),
+            MenuItem(
+                title: 'Perfil',
+                textStyle: const TextStyle(color: Colors.black),
+                image: const Icon(Icons.person)),
+            MenuItem(
+              title: 'Config',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.settings),
+            )
+          ],
+          onClickMenu: (MenuItemProvider item) {
+            switch (item.menuTitle) {
+              case 'Categorías':
+                Navigator.pushNamed(context, 'lista_categorias_cli');
+                break;
+              case 'Productos':
+                Navigator.pushNamed(context, 'lista_productos_cli');
+                break;
+              case 'Carrito':
+                Navigator.pushNamed(context, 'carrito');
+                break;
+              case 'Perfil':
+                Navigator.pushNamed(context, 'perfil');
+                break;
+              case 'Config':
+                Navigator.pushNamed(context, 'config');
+                break;
+            }
+          },
+          context: context,
+        );
+        menu.show(widgetKey: btnKey);
+      },
+    ),
   );
 }

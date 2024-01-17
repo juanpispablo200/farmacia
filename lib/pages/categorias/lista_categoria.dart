@@ -39,18 +39,18 @@ class _ListaCategoriasState extends State<ListaCategorias> {
         } else {
           return Scaffold(
             appBar: AppBar(
-              title: const Text("Login"),
+              title: const Text("Categorias Admin"),
               leading: IconButton(
                   icon: const Icon(Icons.arrow_back),
                   onPressed: () {
                     Navigator.pushNamed(context, 'lista_usuarios');
                   }),
+              actions: [
+                menuAdmin(context),
+              ],
             ),
             body: Stack(
               children: [
-                Container(
-                  child: menuAdmin(context, Colors.black),
-                ),
                 Container(
                   margin: const EdgeInsets.only(top: 100.0),
                   child: ListView.builder(

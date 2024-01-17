@@ -15,7 +15,7 @@ class MongoDB {
   static late DbCollection collectionCarro;
 
   static Future<void> conectar() async {
-    Db db = await Db.create(testConexion);
+    Db db = await Db.create(conexion);
     log.i("Intentando conectar a la base de datos");
     await db.open();
     if (db.state == State.open) {
@@ -39,6 +39,17 @@ class MongoDB {
     } catch (e) {
       log.e("Error al obtener usuarios");
       return Future.value([]);
+    }
+  }
+
+  static Future<Map<String, dynamic>> getUsuarioPorId(String id) async {
+    try {
+      final usuario = await collectionUsuarios
+          .findOne(where.id(ObjectId.fromHexString(id)));
+      return usuario ?? {};
+    } catch (e) {
+      log.e("Error al obtener usuario por id");
+      return Future.value({});
     }
   }
 
@@ -200,6 +211,7 @@ class MongoDB {
       if (usuario != null && usuario['password'] == password) {
         return {
           'exito': true,
+          'id': usuario['_id'].toString(),
           'rol': usuario['rol'],
         };
       } else {

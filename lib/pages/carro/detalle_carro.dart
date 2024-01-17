@@ -52,33 +52,27 @@ class _DetalleCarroState extends State<DetalleCarro> {
         } else {
           return Scaffold(
             appBar: AppBar(
-              title: const Text("Login"),
+              title: const Text("Carro"),
               leading: IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  }),
+                icon: const Icon(Icons.arrow_back),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+              ),
+              actions: [menuCliente(context)],
             ),
-            body:
-                //componentes de la pagina
-                Stack(
+            body: Stack(
               children: [
-                Container(
-                  child: menuCliente(context, Colors.black),
-                ),
-                Container(
-                  margin: const EdgeInsets.only(top: 100.0),
-                  child: ListView.builder(
-                    itemBuilder: (context, index) {
-                      return Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: FichaProductoCar(
-                          producto: Producto.fromMap(snapshot.data[index]),
-                        ),
-                      );
-                    },
-                    itemCount: snapshot.data.length,
-                  ),
+                ListView.builder(
+                  itemBuilder: (context, index) {
+                    return Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: FichaProductoCar(
+                        producto: Producto.fromMap(snapshot.data[index]),
+                      ),
+                    );
+                  },
+                  itemCount: snapshot.data.length,
                 ),
                 _valorTotalInput(),
                 Align(

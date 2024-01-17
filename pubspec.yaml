@@ -33,6 +33,7 @@ dependencies:
   mongo_dart: any
   lottie: any
   logger: any
+  popup_menu: any
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -67,8 +68,9 @@ flutter:
     - assets/json/categorias.json
     - assets/json/ventaonline.json
 
-    - assets/img/LogoUide.png
-    - assets/img/Campus.jpg
+    - assets/img/logo_uide.png
+    - assets/img/avatar.png
+    - assets/img/campus.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

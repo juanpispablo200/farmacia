@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
-import 'routes/routes.dart';
+import 'pages/usuarios/routes/routes.dart';
 
 void main() async {
   await MongoDB.conectar();
@@ -18,8 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: 'welcome',
       routes: routes,
+      initialRoute: 'welcome',
+      debugShowCheckedModeBanner: false,
     );
   }
 }

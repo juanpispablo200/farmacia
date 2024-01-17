@@ -46,7 +46,7 @@ class _RegistroPageState extends State<RegistroPage> {
     }
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Login"),
+        title: const Text("Registro"),
         leading: IconButton(
             icon: const Icon(Icons.arrow_back),
             onPressed: () {
