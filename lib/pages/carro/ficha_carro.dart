@@ -10,6 +10,7 @@ class FichaCarro extends StatelessWidget {
     required this.onTapDelete,
     required this.carro,
   });
+
   @override
   Widget build(BuildContext context) {
     return Material(

@@ -1,3 +1,4 @@
+import 'package:farmacia/pages/chatbot/chabot_cli.dart';
 import 'package:flutter/material.dart';
 
 //paginas
@@ -27,6 +28,7 @@ final routes = <String, WidgetBuilder>{
   'nuevo_producto': (BuildContext context) => const NuevoProducto(),
   'nueva_categoria': (BuildContext context) => const NuevaCategoria(),
   'carrito': (BuildContext context) => const DetalleCarro(),
-  'perfil': (BuildContext context) => PerfilClientePage(),
+  'perfil': (BuildContext context) => const PerfilClientePage(),
   'config': (BuildContext context) => const ConfigPage(),
+  'chatbot_cli': (BuildContext context) => const ChatBotScreen()
 };

@@ -34,14 +34,20 @@ Widget menuCliente(BuildContext context) {
               image: const Icon(Icons.shopping_cart),
             ),
             MenuItem(
-                title: 'Perfil',
-                textStyle: const TextStyle(color: Colors.black),
-                image: const Icon(Icons.person)),
+              title: 'Perfil',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.person),
+            ),
             MenuItem(
               title: 'Config',
               textStyle: const TextStyle(color: Colors.black),
               image: const Icon(Icons.settings),
-            )
+            ),
+            MenuItem(
+              title: 'ChatBot',
+              textStyle: const TextStyle(color: Colors.black),
+              image: const Icon(Icons.chat),
+            ),
           ],
           onClickMenu: (MenuItemProvider item) {
             switch (item.menuTitle) {
@@ -59,6 +65,9 @@ Widget menuCliente(BuildContext context) {
                 break;
               case 'Config':
                 Navigator.pushNamed(context, 'config');
+                break;
+              case 'ChatBot':
+                Navigator.pushNamed(context, 'chatbot_cli');
                 break;
             }
           },

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:logger/logger.dart';
 
-var log = Logger(
+var logger = Logger(
   printer: PrettyPrinter(
       methodCount: 0,
       errorMethodCount: 8,

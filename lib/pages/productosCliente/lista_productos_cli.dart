@@ -1,3 +1,4 @@
+import 'package:farmacia/pages/login_page.dart';
 import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
 
@@ -6,6 +7,7 @@ import 'package:farmacia/modelos/productos.dart';
 import 'package:farmacia/pages/carro/detalle_carro.dart';
 import 'package:farmacia/pages/productosCliente/ficha_producto_cli.dart';
 import 'package:farmacia/widgets/menu_cliente.dart';
+import 'package:provider/provider.dart';
 
 class ListaProductosCli extends StatefulWidget {
   const ListaProductosCli({Key? key}) : super(key: key);
@@ -15,8 +17,12 @@ class ListaProductosCli extends StatefulWidget {
 }
 
 class _ListaProductosCliState extends State<ListaProductosCli> {
+  late String userId;
+
   @override
   Widget build(BuildContext context) {
+    userId = Provider.of<UserProvider>(context, listen: false).userId;
+
     return FutureBuilder(
       future: MongoDB.getProductos(),
       builder: (BuildContext context, AsyncSnapshot snapshot) {
@@ -48,9 +54,7 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                   }),
               actions: [menuCliente(context)],
             ),
-            body:
-                //componentes de la pagina
-                Stack(
+            body: Stack(
               children: [
                 SizedBox(
                   width: double.infinity,
@@ -67,7 +71,9 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                           producto: Producto.fromMap(snapshot.data[index]),
                           onTapAdd: () async {
                             _agregarProducto(
-                                Producto.fromMap(snapshot.data[index]));
+                              userId,
+                              Producto.fromMap(snapshot.data[index]),
+                            );
                           },
                         ),
                       );
@@ -92,8 +98,8 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
     );
   }
 
-  _agregarProducto(Producto producto) async {
-    await MongoDB.insertarProdCr(producto);
+  _agregarProducto(String userId, Producto producto) async {
+    await MongoDB.insertarProdCr(userId, producto);
     setState(() {});
   }
 }

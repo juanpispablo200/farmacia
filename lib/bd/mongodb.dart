@@ -15,13 +15,13 @@ class MongoDB {
   static late DbCollection collectionCarro;
 
   static Future<void> conectar() async {
-    Db db = await Db.create(conexion);
-    log.i("Intentando conectar a la base de datos");
+    Db db = await Db.create(testConexion);
+    logger.i("Intentando conectar a la base de datos");
     await db.open();
     if (db.state == State.open) {
-      log.i("Conectado a la base de datos: ${db.databaseName ?? "null"}");
+      logger.i("Conectado a la base de datos: ${db.databaseName ?? "null"}");
     } else {
-      log.e(
+      logger.e(
           "No se pudo conectar a la base de datos: ${db.databaseName ?? "null"}");
     }
     // asignar las consultas que se consume a la coleccion creada
@@ -37,20 +37,22 @@ class MongoDB {
       final usuarios = await collectionUsuarios.find().toList();
       return usuarios;
     } catch (e) {
-      log.e("Error al obtener usuarios");
+      logger.e("Error al obtener usuarios");
       return Future.value([]);
     }
   }
 
-  static Future<Map<String, dynamic>> getUsuarioPorId(String id) async {
+  static Future<Usuario?> getUsuarioPorId(String userId) async {
     try {
-      final usuario = await collectionUsuarios
-          .findOne(where.id(ObjectId.fromHexString(id)));
-      return usuario ?? {};
+      final usuarioMap =
+          await collectionUsuarios.findOne(where.id(ObjectId.parse(userId)));
+      if (usuarioMap != null) {
+        return Usuario.fromMap(usuarioMap);
+      }
     } catch (e) {
-      log.e("Error al obtener usuario por id");
-      return Future.value({});
+      logger.e("Error al obtener usuario por ID $e");
     }
+    return null;
   }
 
   static Future<List<Map<String, dynamic>>> getProductos() async {
@@ -58,9 +60,25 @@ class MongoDB {
       final productos = await collectionProductos.find().toList();
       return productos;
     } catch (e) {
-      log.e("Error al obtener productos");
+      logger.e("Error al obtener productos");
       return Future.value([]);
     }
+  }
+
+  static Future<Producto?> getProductoPorId(String productId) async {
+    try {
+      final productoMap = await collectionProductos.findOne(
+        where.id(
+          ObjectId.parse(productId),
+        ),
+      );
+      if (productoMap != null) {
+        return Producto.fromMap(productoMap);
+      }
+    } catch (e) {
+      logger.e("Error al obtener productos");
+    }
+    return null;
   }
 
   static Future<List<Map<String, dynamic>>> getCategorias() async {
@@ -68,7 +86,7 @@ class MongoDB {
       final categorias = await collectionCategorias.find().toList();
       return categorias;
     } catch (e) {
-      log.e("Error al obtener categorias");
+      logger.e("Error al obtener categorias");
       return Future.value([]);
     }
   }
@@ -83,7 +101,7 @@ class MongoDB {
       }
       return soloNombres;
     } catch (e) {
-      log.e("Error al obtener Nombre de Categorias");
+      logger.e("Error al obtener Nombre de Categorias");
       return Future.value([]);
     }
   }
@@ -93,7 +111,22 @@ class MongoDB {
       final carro = await collectionCarro.find().toList();
       return carro;
     } catch (e) {
-      log.e("Error al obtener carro");
+      logger.e("Error al obtener carro");
+      return Future.value([]);
+    }
+  }
+
+  static Future<List<Map<String, dynamic>>> getCarroPorUsuario(
+      String usuarioId) async {
+    try {
+      final carro = await collectionCarro
+          .find(
+            where.eq('usuarioId', ObjectId.parse(usuarioId)),
+          )
+          .toList();
+      return carro;
+    } catch (e) {
+      logger.e("Error al obtener carro");
       return Future.value([]);
     }
   }
@@ -106,7 +139,7 @@ class MongoDB {
 
       return productos;
     } catch (e) {
-      log.e("Error al obtener carro");
+      logger.e("Error al obtener carro");
       return Future.value([]);
     }
   }
@@ -129,7 +162,7 @@ class MongoDB {
       j["carrera"] = usuario.carrera;
       await collectionUsuarios.replaceOne({'_id': usuario.id}, j);
     } else {
-      log.e("Error al actualizar usuario");
+      logger.e("Error al actualizar usuario");
     }
   }
 
@@ -154,7 +187,7 @@ class MongoDB {
       j["stock"] = producto.stock;
       await collectionProductos.replaceOne({'_id': producto.id}, j);
     } else {
-      log.e("Error al actualizar producto");
+      logger.e("Error al actualizar producto");
     }
   }
 
@@ -185,8 +218,17 @@ class MongoDB {
     await collectionCarro.insertAll([carro.toMap()]);
   }
 
-  static insertarProdCr(Producto producto) async {
-    log.e("to do");
+  static insertarProdCr(String usuarioId, Producto producto) async {
+    var j =
+        await collectionCarro.findOne({'usuarioId': ObjectId.parse(usuarioId)});
+    if (j != null) {
+      if (j["productoIds"] == null) {
+        j["productoIds"] = [];
+      }
+      j["productoIds"].add(producto.id);
+      await collectionCarro
+          .replaceOne({'usuarioId': ObjectId.parse(usuarioId).toString()}, j);
+    }
   }
 
   static actualizarCr(Carro carro) async {
@@ -211,7 +253,7 @@ class MongoDB {
       if (usuario != null && usuario['password'] == password) {
         return {
           'exito': true,
-          'id': usuario['_id'].toString(),
+          '_id': usuario['_id'].toString(),
           'rol': usuario['rol'],
         };
       } else {
@@ -220,7 +262,7 @@ class MongoDB {
         };
       }
     } catch (e) {
-      log.e("Error al autenticar usuarios");
+      logger.e("Error al autenticar usuarios");
       return {
         'exito': false,
       };

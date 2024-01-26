@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "dialogflowfarmacia",
+  "private_key_id": "d453f24da4ec94ffdfd37329a9035e3207b2c8d8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDrjknrNAfYw/w+\nQn0xaWk7CmRZDNr6P1fBKBCNwsfyW8lT4z87opisvMETREfEuv2huJxr+RSm3Ubg\nodXFr5g+wQUtyYktKPKGxMCnpyQ9saUVUOpZJhkQEp38xcCFt0f3ox0rIOiXfVAf\nMWQYsyBoEGxIe8lFKk0Ji9QlHGFWqBxsxm/SnK5uhbqFhgNacTigBQ0tR+Lru4ba\n3f743VwpTVPgSEcoqHVeoXzDbgrxW8tOtVG8DXC+q2LZc8nON7JhKFepoqrE+JzW\nPuWVyORcTZlodODFejPmzSeLmnwvtIYcv1YFan2mYcq3S54a0bpPmbkOw0dlBCAj\nfpGRAcYvAgMBAAECggEACdQtGqBYKqy62L1p5ebrgI6SQCXJX7z6F2tpjWpXcRhw\nkfLrte+DhimpUMZKzFdITNHPZrErZTva2kKs3die3KqtlNe4K2c6/3HN31dmq4a/\nFODRQ0w6Q+TS+Zol/cf3bv2iZb6AyT/UWQjbKWCudUkoi4aGwz92aXPCzWDRLifP\nHdABLCNA91GzD4sC7XOxLSw7X8PLXuiIdEvlvPMcz/SBA+ss1cMLWJUGpBaDPo2m\n6t9wuws8jSbSoZKPOypFdXu7thmesgK3ebl3GYR1xqL8JR/ccto7JD+o3qCfyTu+\nE59AIZIGA1F2OdCSjLlV9kWyykBO78rwz8LqCz4gqQKBgQD5H6VX2u08HCrYk0OS\nRnuaE81b6euUZgoXbcaNEaxVuHIiq3x6T6or0rChZvRmoEFY4NySOo1YC91f5rOL\nZd3sIwdFP0THFjcxAIM65cUO993muuuZn330YjV/yM9sJ58goA2Hdt82jdlqzrmJ\nQT8VJTKF71IEXtSfEU0h2238RQKBgQDyDsUvBV6Sc/TrOp4HNkbksmSdLHJP9EyP\nHxiQqR6y6TwDA6+9G4JBfkaRmb3DOOxAKi+CoSBsF4l8oTG+EXwlymJXRpMjW1fj\n4hO81PDIk6QH0eodr1lIjb9zDCQqDRuoiZ7J5I/ZAoax3ujifqCHlR5mEqoDMBlk\nUlhcbbiR4wKBgQCAUMh9RApFl8yJ2PBI+3zWk7SGzynEOfqgrq5CIwQ88s/3A5UN\n+tKP1+maeMkRwyFlggyaVQZQf2v65X09I6723eP0yu3GDa9H0hfF0mt5ljn5ifWo\nHvplUeB0fR45ev7/cvEFATlfhBikZu4xwCWZ4prvWaFJFv81H1g3RCqWcQKBgQDX\nR7mpwz3ERSsr1ptb0LMmjV6cxz33zFAW7lIbvr4V4wfDqpCvQPsNIrDCqBi0uzir\nLJnKtWEvoZNe68JgyA5BUgk6lAMi7Ad0HsrtI/nuehjl95Ufx6dBtwfx23eCitvx\nfkxiRUyGdg+zvIwlfPdq/n3lzG22nh3HMtFxiwgffwKBgHj/xg5bSXtRgTDcxb5N\nyHdy9bQF88PwE0RyH8ZRcpRceguAMhAlJPZb1zEluIwvvxEQbKcLy3WhU7Gq0baK\nQ5MECSWHND6lERDC39x+0cqtUI15EGNS+yHmomas38eF9Ke9XL92PckJhk5Ltm5X\nutvLguuOVGpzd29KOM99tbr6\n-----END PRIVATE KEY-----\n",
+  "client_email": "chatbot@dialogflowfarmacia.iam.gserviceaccount.com",
+  "client_id": "111555692235462885494",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chatbot%40dialogflowfarmacia.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

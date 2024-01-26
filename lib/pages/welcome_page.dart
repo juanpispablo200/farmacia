@@ -13,7 +13,7 @@ class WelcomePage extends StatelessWidget {
               decoration: const BoxDecoration(
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: AssetImage('assets/img/campus.jpg'),
+                  image: AssetImage('assets/img/campus.png'),
                 ),
               ),
               child: BackdropFilter(

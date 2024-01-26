@@ -1,7 +1,21 @@
-import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
 import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/bd/mongodb.dart';
+
+class UserProvider with ChangeNotifier {
+  String _userId = '';
+
+  String get userId => _userId;
+
+  void setUserId(String id) {
+    id = id.substring(10, 34);
+    _userId = id;
+    notifyListeners();
+  }
+}
 
 class LoginPage extends StatelessWidget {
   final TextEditingController _correoController = TextEditingController();
@@ -187,6 +201,8 @@ class LoginPage extends StatelessWidget {
 
           MongoDB.autenticarUsuarios(correo, password).then((resultado) {
             if (resultado['exito'] == true) {
+              Provider.of<UserProvider>(context, listen: false)
+                  .setUserId(resultado['_id']);
               if (resultado['rol'] == 'cliente') {
                 Navigator.pushNamed(context, 'lista_productos_cli');
               }

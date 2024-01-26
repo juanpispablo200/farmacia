@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
+import 'pages/routes/routes.dart';
 import 'package:farmacia/bd/mongodb.dart';
-import 'pages/usuarios/routes/routes.dart';
+import 'package:farmacia/pages/login_page.dart';
 
 void main() async {
   await MongoDB.conectar();
-  runApp(const MyApp());
+  runApp(ChangeNotifierProvider(
+    create: (context) => UserProvider(),
+    child: const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {

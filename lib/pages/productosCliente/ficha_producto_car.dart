@@ -1,35 +1,50 @@
 import 'package:flutter/material.dart';
 
+import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/productos.dart';
 
 class FichaProductoCar extends StatelessWidget {
-  final Producto producto;
+  final String productoId;
 
   const FichaProductoCar({
-    super.key,
-    required this.producto,
-  });
+    Key? key,
+    required this.productoId,
+  }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return Material(
-      elevation: 2.0,
-      color: Colors.lightBlueAccent,
-      child: ListTile(
-        leading: Text(
-          producto.nombre,
-          style: Theme.of(context).textTheme.bodyMedium,
-        ),
-        title: Text(producto.precio),
-        trailing: const Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            //GestureDetector(
-            //child: Icon(Icons.edit),
-            //onTap: onTapAdd,
-            //),
-          ],
-        ),
-      ),
+    return FutureBuilder<Producto?>(
+      future: MongoDB.getProductoPorId(productoId),
+      builder: (BuildContext context, AsyncSnapshot<Producto?> snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const CircularProgressIndicator();
+        } else if (snapshot.hasError) {
+          return Text('Error: ${snapshot.error}');
+        } else if (snapshot.hasData) {
+          Producto? producto = snapshot.data;
+          return Material(
+            elevation: 2.0,
+            color: Colors.lightBlueAccent,
+            child: ListTile(
+              leading: Text(
+                producto!.nombre,
+                style: Theme.of(context).textTheme.bodyLarge,
+              ),
+              title: Text(producto.precio),
+              trailing: const Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  //GestureDetector(
+                  //child: Icon(Icons.edit),
+                  //onTap: onTapAdd,
+                  //),
+                ],
+              ),
+            ),
+          );
+        }
+        return const Text("No hay datos");
+      },
     );
   }
 }
