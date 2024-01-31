@@ -3,18 +3,38 @@ import 'package:flutter/material.dart';
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/productos.dart';
 
-class FichaProductoCar extends StatelessWidget {
+class FichaProductoCar extends StatefulWidget {
   final String productoId;
+  final String userId;
 
-  const FichaProductoCar({
-    Key? key,
-    required this.productoId,
-  }) : super(key: key);
+  const FichaProductoCar(
+      {required this.productoId, required this.userId, Key? key})
+      : super(key: key);
+
+  @override
+  FichaProductoCarState createState() => FichaProductoCarState();
+}
+
+class FichaProductoCarState extends State<FichaProductoCar> {
+  String get productoId => widget.productoId;
+  String get userId => widget.userId;
+
+  late Future<Producto?> _productoFuture;
+
+  @override
+  void initState() {
+    super.initState();
+    _productoFuture = MongoDB.getProductoPorId(productoId);
+  }
+
+  void _removeProductoCarro(String usuarioId, Producto producto) {
+    MongoDB.removerProdCr(usuarioId, producto);
+  }
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<Producto?>(
-      future: MongoDB.getProductoPorId(productoId),
+      future: _productoFuture,
       builder: (BuildContext context, AsyncSnapshot<Producto?> snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const CircularProgressIndicator();
@@ -31,14 +51,11 @@ class FichaProductoCar extends StatelessWidget {
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
               title: Text(producto.precio),
-              trailing: const Column(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  //GestureDetector(
-                  //child: Icon(Icons.edit),
-                  //onTap: onTapAdd,
-                  //),
-                ],
+              trailing: IconButton(
+                icon: const Icon(Icons.delete),
+                onPressed: () {
+                  _removeProductoCarro(userId, producto);
+                },
               ),
             ),
           );

@@ -116,18 +116,16 @@ class MongoDB {
     }
   }
 
-  static Future<List<Map<String, dynamic>>> getCarroPorUsuario(
+  static Future<Map<String, dynamic>?> getCarroPorUsuario(
       String usuarioId) async {
     try {
-      final carro = await collectionCarro
-          .find(
-            where.eq('usuarioId', ObjectId.parse(usuarioId)),
-          )
-          .toList();
+      final carro = await collectionCarro.findOne(
+        where.eq('usuarioId', ObjectId.parse(usuarioId)),
+      );
       return carro;
     } catch (e) {
       logger.e("Error al obtener carro");
-      return Future.value([]);
+      return Future.value(null);
     }
   }
 
@@ -227,7 +225,20 @@ class MongoDB {
       }
       j["productoIds"].add(producto.id);
       await collectionCarro
-          .replaceOne({'usuarioId': ObjectId.parse(usuarioId).toString()}, j);
+          .replaceOne({'usuarioId': ObjectId.parse(usuarioId)}, j);
+    }
+  }
+
+  static removerProdCr(String usuarioId, Producto producto) async {
+    var j =
+        await collectionCarro.findOne({'usuarioId': ObjectId.parse(usuarioId)});
+    if (j != null) {
+      if (j["productoIds"] == null) {
+        j["productoIds"] = [];
+      }
+      j["productoIds"].remove(producto.id);
+      await collectionCarro
+          .replaceOne({'usuarioId': ObjectId.parse(usuarioId)}, j);
     }
   }
 

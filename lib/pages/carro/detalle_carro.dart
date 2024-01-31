@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:farmacia/bd/mongodb.dart';
+import 'package:lottie/lottie.dart';
 import 'package:mongo_dart/mongo_dart.dart' as md;
 
 import 'package:farmacia/modelos/carro.dart';
 import 'package:farmacia/pages/login_page.dart';
 import 'package:farmacia/widgets/menu_cliente.dart';
-import 'package:farmacia/pages/productosCliente/ficha_producto_car.dart';
+import 'package:farmacia/pages/carro/ficha_producto_carro.dart';
 import 'package:provider/provider.dart';
-
-// import 'package:farmacia/pages/carro/ficha_carro.dart';
 
 class DetalleCarro extends StatefulWidget {
   const DetalleCarro({Key? key}) : super(key: key);
@@ -18,8 +17,6 @@ class DetalleCarro extends StatefulWidget {
 }
 
 class _DetalleCarroState extends State<DetalleCarro> {
-  static const insercion = 2;
-
   late String userId;
 
   get valorTotalController => null;
@@ -28,8 +25,6 @@ class _DetalleCarroState extends State<DetalleCarro> {
   Widget build(BuildContext context) {
     userId = Provider.of<UserProvider>(context, listen: false).userId;
 
-    var textoWidget = "Añadir Carro";
-    int operacion = insercion;
     Carro? carro;
 
     return FutureBuilder(
@@ -69,6 +64,7 @@ class _DetalleCarroState extends State<DetalleCarro> {
                 const Text("Se a creado un carro, porfavor vuelva a ingresar"),
           );
         } else {
+          carro = Carro.fromMap(snapshot.data);
           return Scaffold(
             appBar: AppBar(
               title: const Text("Carro"),
@@ -82,16 +78,25 @@ class _DetalleCarroState extends State<DetalleCarro> {
             ),
             body: Column(
               children: [
+                SizedBox(
+                  width: double.infinity,
+                  height: 150.0,
+                  child: Lottie.asset('assets/json/productos.json'),
+                ),
                 Expanded(
                   child: ListView.builder(
-                    itemCount: snapshot.data.length,
+                    itemCount: carro!.productoIds.length,
                     itemBuilder: (BuildContext context, int index) {
-                      carro = Carro.fromMap(snapshot.data[index]);
                       if (carro!.productoIds.isEmpty) {
                         return const Text("No hay productos");
                       }
-                      return FichaProductoCar(
-                        productoId: carro!.productoIds[index],
+                      return Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: FichaProductoCar(
+                          productoId:
+                              carro!.productoIds[index].substring(10, 34),
+                          userId: userId,
+                        ),
                       );
                     },
                   ),
