@@ -25,7 +25,6 @@ class _NuevoProductoState extends State<NuevoProducto> {
 
   TextEditingController nombreController = TextEditingController();
   TextEditingController descripcionController = TextEditingController();
-  TextEditingController cantidadController = TextEditingController();
   TextEditingController imgController = TextEditingController();
   TextEditingController precioController = TextEditingController();
   TextEditingController stockController = TextEditingController();
@@ -44,9 +43,8 @@ class _NuevoProductoState extends State<NuevoProducto> {
       producto = ModalRoute.of(context)?.settings.arguments as Producto;
       nombreController.text = producto.nombre;
       descripcionController.text = producto.descripcion;
-      cantidadController.text = producto.cantidad;
       imgController.text = producto.img;
-      precioController.text = producto.precio;
+      precioController.text = producto.precio.toString();
       stockController.text = producto.stock;
       categoriaController.text = producto.categoria;
       textoWidget = "Editar Producto";
@@ -100,7 +98,6 @@ class _NuevoProductoState extends State<NuevoProducto> {
                         ),
                         _nombreInput(),
                         _descripcionInput(),
-                        _cantidadInput(),
                         _mostrarcategorias(context),
                         _imgInput(),
                         _stockInput(),
@@ -152,10 +149,9 @@ class _NuevoProductoState extends State<NuevoProducto> {
       nombre: nombreController.text,
       descripcion: descripcionController.text,
       categoria: _selectedCategoria ?? 'default',
-      cantidad: cantidadController.text,
       stock: stockController.text,
       img: imgController.text,
-      precio: precioController.text,
+      precio: double.parse(precioController.text),
     );
     await MongoDB.insertarP(producto);
   }
@@ -166,10 +162,9 @@ class _NuevoProductoState extends State<NuevoProducto> {
       nombre: nombreController.text,
       descripcion: descripcionController.text,
       categoria: _selectedCategoria ?? 'default',
-      cantidad: cantidadController.text,
       stock: stockController.text,
       img: imgController.text,
-      precio: precioController.text,
+      precio: double.parse(precioController.text),
     );
 
     await MongoDB.actualizarP(productoActualizado);
@@ -232,28 +227,6 @@ class _NuevoProductoState extends State<NuevoProducto> {
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.image,
-            color: Colors.pink,
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _cantidadInput() {
-    return Container(
-      margin: const EdgeInsets.only(top: 10.0),
-      padding: const EdgeInsets.only(left: 20.0),
-      decoration: BoxDecoration(
-          color: Colors.lightBlueAccent,
-          borderRadius: BorderRadius.circular(20.0)),
-      child: TextField(
-        controller: cantidadController,
-        keyboardType: TextInputType.number,
-        decoration: const InputDecoration(
-          hintText: "Cantidad",
-          border: OutlineInputBorder(borderSide: BorderSide.none),
-          prefixIcon: Icon(
-            Icons.numbers,
             color: Colors.pink,
           ),
         ),

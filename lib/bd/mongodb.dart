@@ -24,7 +24,6 @@ class MongoDB {
       logger.e(
           "No se pudo conectar a la base de datos: ${db.databaseName ?? "null"}");
     }
-    // asignar las consultas que se consume a la coleccion creada
     collectionUsuarios = db.collection(collecion);
     collectionProductos = db.collection(collecionP);
     collectionCategorias = db.collection(collecionC);
@@ -60,7 +59,7 @@ class MongoDB {
       final productos = await collectionProductos.find().toList();
       return productos;
     } catch (e) {
-      logger.e("Error al obtener productos");
+      logger.e("Error al obtener todos los productos $e");
       return Future.value([]);
     }
   }
@@ -69,16 +68,40 @@ class MongoDB {
     try {
       final productoMap = await collectionProductos.findOne(
         where.id(
-          ObjectId.parse(productId),
+          ObjectId.parse(productId.substring(10, 34)),
         ),
       );
       if (productoMap != null) {
         return Producto.fromMap(productoMap);
       }
     } catch (e) {
-      logger.e("Error al obtener productos");
+      logger.e("Error al obtener producto por id $e");
     }
     return null;
+  }
+
+  static Future<List<Producto>> getProductosPorCarro(
+      Map<String, int> productos) async {
+    try {
+      final productoIds = productos.keys.toList();
+      final productosMaps = await collectionProductos
+          .find(
+            where.oneFrom(
+              '_id',
+              productoIds
+                  .map((id) => ObjectId.parse(id.substring(10, 34)))
+                  .toList(),
+            ),
+          )
+          .toList();
+
+      return productosMaps
+          .map((productoMap) => Producto.fromMap(productoMap))
+          .toList();
+    } catch (e) {
+      logger.e("Error al obtener productos por carro");
+      return Future.value([]);
+    }
   }
 
   static Future<List<Map<String, dynamic>>> getCategorias() async {
@@ -178,7 +201,6 @@ class MongoDB {
     if (j != null) {
       j["nombre"] = producto.nombre;
       j["descripcion"] = producto.descripcion;
-      j["cantidad"] = producto.cantidad;
       j["categoria"] = producto.categoria;
       j["img"] = producto.img;
       j["precio"] = producto.precio;
@@ -220,34 +242,54 @@ class MongoDB {
     var j =
         await collectionCarro.findOne({'usuarioId': ObjectId.parse(usuarioId)});
     if (j != null) {
-      if (j["productoIds"] == null) {
-        j["productoIds"] = [];
+      if (j["productos"] == null) {
+        j["productos"] = {};
       }
-      j["productoIds"].add(producto.id);
-      await collectionCarro
-          .replaceOne({'usuarioId': ObjectId.parse(usuarioId)}, j);
+      j["productos"][producto.id.toString()] = 1;
+      collectionCarro.replaceOne({'usuarioId': ObjectId.parse(usuarioId)}, j);
+    } else {
+      logger.e("Error al insertar producto en carro");
     }
   }
 
-  static removerProdCr(String usuarioId, Producto producto) async {
+  static removerProdCr(String usuarioId, String productoId) async {
     var j =
         await collectionCarro.findOne({'usuarioId': ObjectId.parse(usuarioId)});
     if (j != null) {
-      if (j["productoIds"] == null) {
-        j["productoIds"] = [];
+      if (j["productos"] != null && j["productos"][productoId] != null) {
+        j["productos"].remove(productoId);
+        await collectionCarro
+            .replaceOne({'usuarioId': ObjectId.parse(usuarioId)}, j);
+      } else {
+        logger.e("Error: Producto not found in carro");
       }
-      j["productoIds"].remove(producto.id);
-      await collectionCarro
-          .replaceOne({'usuarioId': ObjectId.parse(usuarioId)}, j);
+    } else {
+      logger.e("Error: Carro not found for the given usuarioId");
     }
   }
 
   static actualizarCr(Carro carro) async {
     var j = await collectionCarro.findOne({'_id': carro.id});
     if (j != null) {
-      j["usuario_id"] = carro.usuarioId;
-      j["producto_ids"] = carro.productoIds;
+      j["producto_ids"] = carro.productos;
       await collectionCarro.replaceOne({'_id': carro.id}, j);
+    }
+  }
+
+  static actualizarCantidadCr(
+      String usuarioId, String productoId, int cantidad) async {
+    var j =
+        await collectionCarro.findOne({'usuarioId': ObjectId.parse(usuarioId)});
+    if (j != null) {
+      if (j["productos"] != null && j["productos"][productoId] != null) {
+        j["productos"][productoId] = cantidad;
+        await collectionCarro
+            .replaceOne({'usuarioId': ObjectId.parse(usuarioId)}, j);
+      } else {
+        logger.e("Error: Producto not found in carro");
+      }
+    } else {
+      logger.e("Error: Carro not found for the given usuarioId");
     }
   }
 

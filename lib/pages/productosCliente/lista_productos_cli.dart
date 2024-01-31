@@ -69,12 +69,10 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                         padding: const EdgeInsets.all(8.0),
                         child: FichaProductoCli(
                           producto: Producto.fromMap(snapshot.data[index]),
-                          onTapAdd: () async {
-                            _agregarProducto(
-                              userId,
-                              Producto.fromMap(snapshot.data[index]),
-                            );
-                          },
+                          onTapAdd: () => _agregarProducto(
+                            userId,
+                            Producto.fromMap(snapshot.data[index]),
+                          ),
                         ),
                       );
                     },

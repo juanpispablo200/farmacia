@@ -3,25 +3,25 @@ import 'package:mongo_dart/mongo_dart.dart';
 class Carro {
   final ObjectId id;
   final ObjectId usuarioId;
-  final List<String> productoIds;
+  final Map<String, int> productos;
 
   const Carro({
     required this.id,
     required this.usuarioId,
-    required this.productoIds,
+    required this.productos,
   });
 
   Map<String, dynamic> toMap() {
     return {
       '_id': id,
       'usuarioId': usuarioId,
-      'productoIds': productoIds,
+      'productos': productos,
     };
   }
 
   Carro.fromMap(Map<String, dynamic> map)
       : usuarioId = map['usuarioId'],
         id = map['_id'],
-        productoIds =
-            List<String>.from(map['productoIds'].map((id) => id.toString()));
+        productos = (map['productos'] as Map<String, dynamic>)
+            .map((key, value) => MapEntry(key, value as int));
 }

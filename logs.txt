@@ -1,889 +1,434 @@
+[38;5;196m⛔ Error al obtener productos[0m
+[38;5;196m⛔ Error al obtener carro[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;196m⛔ to do[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ text: [0m
-[38;5;196m⛔ text: }[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ text: [0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 hello[0m
-[38;5;12m💡 hello[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 hola[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 hola[0m
-[38;5;196m⛔ hola[0m
-[38;5;196m⛔ Erro ao autenticar com o DialogFlow: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;12m💡 assets/etc/dialogflowfarmacia-d453f24da4ec.json[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: Unable to load asset: "/assets/etc/dialogflowfarmacia-d453f24da4ec.json".[0m
-[38;5;196m⛔ The asset does not exist or has empty data.[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: Failed to obtain access credentials. Error: invalid_scope Invalid OAuth scope or ID token audience provided. Status code: 400[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: Failed to obtain access credentials. Error: invalid_scope Invalid OAuth scope or ID token audience provided. Status code: 400[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ Error al autentificar con DialogFlow: type 'Null' is not a subtype of type 'Map<dynamic, dynamic>'[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "exito": true,[0m
-[38;5;12m💡   "_id": "ObjectId(\"659bf433760a608ddc20d02e\")",[0m
-[38;5;12m💡   "rol": "admin"[0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 ObjectId("659bf433760a608ddc20d02e")[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ Error al obtener usuario por ID[0m
-[38;5;196m⛔ Error al obtener usuario por ID Invalid argument(s): Expected hexadecimal string with length of 24, got ObjectId("659c101690f98802630c3bbc")[0m
-[38;5;196m⛔ Error al obtener usuario por ID Invalid argument(s): Expected hexadecimal string with length of 24, got ObjectId("659c101690f98802630c3bbc")[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;196m⛔ Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;196m⛔ Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;196m⛔ Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;196m⛔ Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Carro: [][0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Carro: [][0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Carro vacio[0m
-[38;5;12m💡 Carro: [][0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Getting Carro for 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [][0m
-[38;5;12m💡 [][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
+[38;5;196m⛔ Error al obtener productos por carro[0m
+[38;5;196m⛔ Error al obtener productos por carro[0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")",[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")",[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")"[0m
+[38;5;12m💡 ][0m
+[38;5;196m⛔ Error al obtener productos por carro[0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")",[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")",[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")"[0m
+[38;5;12m💡 ][0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")",[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")",[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")"[0m
+[38;5;12m💡 ][0m
 [38;5;12m💡 [[0m
 [38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
+[38;5;12m💡     "_id": "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")",[0m
+[38;5;12m💡     "nombre": "Producto 1",[0m
+[38;5;12m💡     "descripcion": "Producto 1",[0m
+[38;5;12m💡     "cantidad": "Producto 1",[0m
+[38;5;12m💡     "categoria": "Categoria 1",[0m
+[38;5;12m💡     "img": "Producto 1",[0m
+[38;5;12m💡     "precio": "Producto 1",[0m
+[38;5;12m💡     "stock": "Producto 1"[0m
 [38;5;12m💡   },[0m
 [38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12368abbddd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
+[38;5;12m💡     "_id": "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")",[0m
+[38;5;12m💡     "nombre": "Producto 2",[0m
+[38;5;12m💡     "descripcion": "Producto 2",[0m
+[38;5;12m💡     "cantidad": "Producto 2",[0m
+[38;5;12m💡     "categoria": "Categoria 2",[0m
+[38;5;12m💡     "img": "Producto 2",[0m
+[38;5;12m💡     "precio": "Producto 2",[0m
+[38;5;12m💡     "stock": "Producto 2"[0m
 [38;5;12m💡   },[0m
 [38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f16168abbedd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
+[38;5;12m💡     "_id": "ObjectId(\"659f0d8509924e7c9b6fbbd7\")",[0m
+[38;5;12m💡     "nombre": "Producto 3",[0m
+[38;5;12m💡     "descripcion": "Producto 3",[0m
+[38;5;12m💡     "cantidad": "Producto 3",[0m
+[38;5;12m💡     "categoria": "Categoria 3",[0m
+[38;5;12m💡     "img": "Producto 3",[0m
+[38;5;12m💡     "precio": "Producto 3",[0m
+[38;5;12m💡     "stock": "Producto 3"[0m
+[38;5;12m💡   }[0m
+[38;5;12m💡 ][0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   {[0m
+[38;5;12m💡     "_id": "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")",[0m
+[38;5;12m💡     "nombre": "Producto 1",[0m
+[38;5;12m💡     "descripcion": "Producto 1",[0m
+[38;5;12m💡     "cantidad": "Producto 1",[0m
+[38;5;12m💡     "categoria": "Categoria 1",[0m
+[38;5;12m💡     "img": "Producto 1",[0m
+[38;5;12m💡     "precio": "Producto 1",[0m
+[38;5;12m💡     "stock": "Producto 1"[0m
 [38;5;12m💡   },[0m
 [38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f16768abbfdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
+[38;5;12m💡     "_id": "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")",[0m
+[38;5;12m💡     "nombre": "Producto 2",[0m
+[38;5;12m💡     "descripcion": "Producto 2",[0m
+[38;5;12m💡     "cantidad": "Producto 2",[0m
+[38;5;12m💡     "categoria": "Categoria 2",[0m
+[38;5;12m💡     "img": "Producto 2",[0m
+[38;5;12m💡     "precio": "Producto 2",[0m
+[38;5;12m💡     "stock": "Producto 2"[0m
 [38;5;12m💡   },[0m
 [38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f17c68abc0dd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   },[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f18b68abc1dd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   },[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f1be68abc2dd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   },[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f1f268abc3dd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   },[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f1f768abc4dd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   },[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f21e68abc5dd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
+[38;5;12m💡     "_id": "ObjectId(\"659f0d8509924e7c9b6fbbd7\")",[0m
+[38;5;12m💡     "nombre": "Producto 3",[0m
+[38;5;12m💡     "descripcion": "Producto 3",[0m
+[38;5;12m💡     "cantidad": "Producto 3",[0m
+[38;5;12m💡     "categoria": "Categoria 3",[0m
+[38;5;12m💡     "img": "Producto 3",[0m
+[38;5;12m💡     "precio": "Producto 3",[0m
+[38;5;12m💡     "stock": "Producto 3"[0m
 [38;5;12m💡   }[0m
 [38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
+[38;5;12m💡 [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 [0m
 [38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
+[38;5;12m💡   "Instance of 'Producto'",[0m
+[38;5;12m💡   "Instance of 'Producto'",[0m
+[38;5;12m💡   "Instance of 'Producto'"[0m
 [38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [],[0m
-[38;5;12m💡     "valorTotal": 0.0[0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 659c101690f98802630c3bbc[0m
+[38;5;12m💡 [0m
+[38;5;12m💡 Producto 2[0m
+[38;5;12m💡 [0m
+[38;5;12m💡 Producto 1[0m
+[38;5;12m💡 [0m
+[38;5;12m💡 Producto 1[0m
+[38;5;12m💡 [0m
+[38;5;12m💡 100[0m
+[38;5;12m💡 [0m
+[38;5;12m💡 100200300[0m
+[38;5;12m💡 100200300[0m
+[38;5;12m💡 [0m
+[38;5;12m💡 100200300[0m
+[38;5;12m💡 [0m
+[38;5;12m💡 100200300[0m
+[38;5;12m💡 100200300[0m
+[38;5;12m💡 600.0[0m
+[38;5;12m💡 600.0[0m
+[38;5;12m💡 600.0[0m
+[38;5;12m💡 600.0[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c[0m
+[38;5;12m💡 ProductoIds: [ObjectId("659f0d6c09924e7c9b6fbbd5"), ObjectId("659f0d7a09924e7c9b6fbbd6"), ObjectId("659f0d8509924e7c9b6fbbd7")][0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, con 659f0d6c09924e7c9b6fbbd5[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, con ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c[0m
+[38;5;12m💡 ProductoIds before removal: [ObjectId("659f0d6c09924e7c9b6fbbd5"), ObjectId("659f0d7a09924e7c9b6fbbd6"), ObjectId("659f0d8509924e7c9b6fbbd7")][0m
+[38;5;12m💡 ProductoIds after removal: [ObjectId("659f0d6c09924e7c9b6fbbd5"), ObjectId("659f0d7a09924e7c9b6fbbd6")][0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, 659f0d7a09924e7c9b6fbbd6[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, 659f0d8509924e7c9b6fbbd7[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, 659f0d7a09924e7c9b6fbbd6[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, 659f0d8509924e7c9b6fbbd7[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, 659f0d7a09924e7c9b6fbbd6[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, 659f0d7a09924e7c9b6fbbd6[0m
+[38;5;12m💡 Removiendo producto del carro de 65984bfae7c7db78b39f3d5c, 659f0d6c09924e7c9b6fbbd5[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Agregando producto al carro[0m
-[38;5;12m💡 Agregando producto al carro[0m
-[38;5;12m💡 Agregando producto al carro[0m
-[38;5;12m💡 Agregando producto al carro[0m
-[38;5;12m💡 Agregando producto al carro Instance of 'Producto', a 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Agregando producto al carro Instance of 'Producto', a 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Agregando producto al carro prod, a 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Agregando producto prod al carro de 659c101690f98802630c3bbc[0m
-[38;5;12m💡 Insertando producto en carro[0m
-[38;5;12m💡 Insertando producto en carro, usuarioId: 659c101690f98802630c3bbc, producto: Instance of 'Producto'[0m
-[38;5;12m💡 Insertando producto en carro, usuarioId: 659c101690f98802630c3bbc, producto: Instance of 'Producto'[0m
-[38;5;12m💡 Insertando producto en carro, usuarioId: 659c101690f98802630c3bbc, producto: prod[0m
-[38;5;12m💡 Insertando producto en carro, usuarioId: 659c101690f98802630c3bbc, producto: prod[0m
-[38;5;12m💡 Carro encontrado: {_id: ObjectId("65b2f12168abbcdd86000000"), usuarioId: ObjectId("659c101690f98802630c3bbc"), productoIds: []}[0m
-[38;5;12m💡 Insertando producto en carro, usuarioId: 659c101690f98802630c3bbc, producto: prod[0m
-[38;5;12m💡 Carro encontrado: {_id: ObjectId("65b2f12168abbcdd86000000"), usuarioId: ObjectId("659c101690f98802630c3bbc"), productoIds: []}[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "_id": "ObjectId(\"65ba7f9e1ea1719523000000\")",[0m
+[38;5;12m💡   "usuarioId": "ObjectId(\"65984bfae7c7db78b39f3d5c\")",[0m
+[38;5;12m💡   "productos": {}[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 Producto a insertar: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 Producto a insertar: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 Productos en carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1}[0m
+[38;5;12m💡 Producto a insertar: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 Productos en carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1}[0m
+[38;5;12m💡 Producto final {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1}}[0m
+[38;5;12m💡 Producto a insertar: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 Productos en carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1}[0m
+[38;5;12m💡 Producto final {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1}}[0m
+[38;5;12m💡 null[0m
 [38;5;196m⛔ Error al obtener productos[0m
+[38;5;12m💡 null[0m
 [38;5;196m⛔ Error al obtener productos[0m
+[38;5;12m💡 null[0m
 [38;5;196m⛔ Error al obtener productos[0m
-[38;5;196m⛔ Error al obtener productos[0m
-[38;5;12m💡 Obteniendo producto por ID ObjectId("659e22ec1f9de5c7c2cd173e")[0m
-[38;5;196m⛔ Error al obtener productos[0m
-[38;5;12m💡 Carro: ObjectId("659e22ec1f9de5c7c2cd173e")[0m
-[38;5;12m💡 Obteniendo producto por ID ObjectId("659e22ec1f9de5c7c2cd173e")[0m
-[38;5;196m⛔ Error al obtener productos[0m
-[38;5;196m⛔ Error al obtener productos[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 1[0m
+[38;5;12m💡 null[0m
+[38;5;196m⛔ Error al obtener producto por id[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 Obteniendo producto por id ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;196m⛔ Error al obtener producto por id[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 Obteniendo producto por id ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;196m⛔ Error al obtener producto por id Invalid argument(s): Expected hexadecimal string with length of 24, got ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 Obteniendo producto por id ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;196m⛔ Error al obtener producto por id Invalid argument(s): Expected hexadecimal string with length of 24, got ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 null[0m
+[38;5;196m⛔ Error al obtener producto por id Invalid argument(s): Expected hexadecimal string with length of 24, got ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 null[0m
 [38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 Intentando conectar a la base de datos[0m
-[38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [[0m
-[38;5;12m💡       "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡       "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡       "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡     ][0m
+[38;5;12m💡   "_id": "ObjectId(\"65ba7f9e1ea1719523000000\")",[0m
+[38;5;12m💡   "usuarioId": "ObjectId(\"65984bfae7c7db78b39f3d5c\")",[0m
+[38;5;12m💡   "productos": {[0m
+[38;5;12m💡     "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 1[0m
 [38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 AsyncSnapshot<List<Map<String, dynamic>>>(ConnectionState.done, [{_id: ObjectId("65b2f12168abbcdd86000000"), usuarioId: ObjectId("659c101690f98802630c3bbc"), productoIds: [ObjectId("659e22ec1f9de5c7c2cd173e"), ObjectId("659ecf3d54cb1fdbbfacdb0d"), ObjectId("659ee835563bc868365b320e")]}], null, null)[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   {[0m
-[38;5;12m💡     "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡     "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡     "productoIds": [[0m
-[38;5;12m💡       "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡       "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡       "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡     ][0m
-[38;5;12m💡   }[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
 [38;5;12m💡 }[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [[0m
-[38;5;12m💡     "ObjectId(\"659e22ec1f9de5c7c2cd173e\")",[0m
-[38;5;12m💡     "ObjectId(\"659ecf3d54cb1fdbbfacdb0d\")",[0m
-[38;5;12m💡     "ObjectId(\"659ee835563bc868365b320e\")"[0m
-[38;5;12m💡   ][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 3[0m
-[38;5;12m💡 3[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 3[0m
-[38;5;12m💡 3[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 {[0m
-[38;5;12m💡   "_id": "ObjectId(\"65b2f12168abbcdd86000000\")",[0m
-[38;5;12m💡   "usuarioId": "ObjectId(\"659c101690f98802630c3bbc\")",[0m
-[38;5;12m💡   "productoIds": [][0m
-[38;5;12m💡 }[0m
-[38;5;12m💡 0[0m
-[38;5;12m💡 0[0m
-[38;5;12m💡 0[0m
-[38;5;12m💡 Instance of 'Carro'[0m
-[38;5;12m💡 Instance of 'Carro'[0m
-[38;5;12m💡 Instance of 'Carro'[0m
-[38;5;12m💡 ObjectId("65b2f12168abbcdd86000000")[0m
-[38;5;12m💡 ObjectId("65b2f12168abbcdd86000000")[0m
-[38;5;12m💡 ObjectId("65b2f12168abbcdd86000000")[0m
-[38;5;12m💡 ObjectId("659c101690f98802630c3bbc")[0m
-[38;5;12m💡 ObjectId("659c101690f98802630c3bbc")[0m
-[38;5;12m💡 ObjectId("659c101690f98802630c3bbc")[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   "ObjectId(\"659e22ec1f9de5c7c2cd173e\")"[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   "ObjectId(\"659e22ec1f9de5c7c2cd173e\")"[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   "ObjectId(\"659e22ec1f9de5c7c2cd173e\")"[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   "ObjectId(\"659e22ec1f9de5c7c2cd173e\")"[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   "ObjectId(\"659e22ec1f9de5c7c2cd173e\")"[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   "ObjectId(\"659e22ec1f9de5c7c2cd173e\")"[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   "ObjectId(\"659e22ec1f9de5c7c2cd173e\")"[0m
-[38;5;12m💡 ][0m
-[38;5;12m💡 Carro 1[0m
-[38;5;12m💡 Carro 1[0m
-[38;5;12m💡 [[0m
-[38;5;12m💡   "659e22ec1f9de5c7c2cd173e",[0m
-[38;5;12m💡   "659ecf3d54cb1fdbbfacdb0d",[0m
-[38;5;12m💡   "659ee835563bc868365b320e"[0m
-[38;5;12m💡 ][0m
-[38;5;196m⛔ Error al obtener productos[0m
-[38;5;196m⛔ Error al obtener productos[0m
-[38;5;196m⛔ Error al obtener productos[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Instance of 'Future<Map<String, dynamic>?>'[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   "Instance of 'Producto'",[0m
+[38;5;12m💡   "Instance of 'Producto'",[0m
+[38;5;12m💡   "Instance of 'Producto'"[0m
+[38;5;12m💡 ][0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   "Instance of 'Producto'",[0m
+[38;5;12m💡   "Instance of 'Producto'",[0m
+[38;5;12m💡   "Instance of 'Producto'"[0m
+[38;5;12m💡 ][0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 4,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 5,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 6[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 4,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 5,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 6[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 4,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 5,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 6[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 4,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 5,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 6[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 MapEntry(ObjectId("659f0d6c09924e7c9b6fbbd5"): 4)[0m
+[38;5;12m💡 MapEntry(ObjectId("659f0d8509924e7c9b6fbbd7"): 5)[0m
+[38;5;12m💡 MapEntry(ObjectId("659f0d7a09924e7c9b6fbbd6"): 6)[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5"), 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7"), 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6"), 6[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 Price: 100.0, Quantity: null[0m
+[38;5;12m💡 Price: 200.0, Quantity: null[0m
+[38;5;12m💡 Price: 300.0, Quantity: null[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 Price: 100.0,ID: ObjectId("659f0d6c09924e7c9b6fbbd5"), Quantity: null[0m
+[38;5;12m💡 Price: 200.0,ID: ObjectId("659f0d7a09924e7c9b6fbbd6"), Quantity: null[0m
+[38;5;12m💡 Price: 300.0,ID: ObjectId("659f0d8509924e7c9b6fbbd7"), Quantity: null[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 Price: 100.0,ID: ObjectId("659f0d6c09924e7c9b6fbbd5"), Quantity: null[0m
+[38;5;12m💡 Price: 200.0,ID: ObjectId("659f0d7a09924e7c9b6fbbd6"), Quantity: null[0m
+[38;5;12m💡 Price: 300.0,ID: ObjectId("659f0d8509924e7c9b6fbbd7"), Quantity: null[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 Price: 100.0,ID: 659f0d6c09924e7c9b6fbbd5, Quantity: null[0m
+[38;5;12m💡 Price: 200.0,ID: 659f0d7a09924e7c9b6fbbd6, Quantity: null[0m
+[38;5;12m💡 Price: 300.0,ID: 659f0d8509924e7c9b6fbbd7, Quantity: null[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 Price: 100.0,ID: ObjectId("659f0d6c09924e7c9b6fbbd5"), Quantity: null[0m
+[38;5;12m💡 Price: 200.0,ID: ObjectId("659f0d7a09924e7c9b6fbbd6"), Quantity: null[0m
+[38;5;12m💡 Price: 300.0,ID: ObjectId("659f0d8509924e7c9b6fbbd7"), Quantity: null[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 Price: 100.0,ID: ObjectId("659f0d6c09924e7c9b6fbbd5"), Quantity: null[0m
+[38;5;12m💡 Price: 200.0,ID: ObjectId("659f0d7a09924e7c9b6fbbd6"), Quantity: null[0m
+[38;5;12m💡 Price: 300.0,ID: ObjectId("659f0d8509924e7c9b6fbbd7"), Quantity: null[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 5[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 6[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 0.0[0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   100.0,[0m
+[38;5;12m💡   200.0,[0m
+[38;5;12m💡   300.0[0m
+[38;5;12m💡 ][0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   "Instance of 'Producto'",[0m
+[38;5;12m💡   "Instance of 'Producto'",[0m
+[38;5;12m💡   "Instance of 'Producto'"[0m
+[38;5;12m💡 ][0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 4,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 5,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 6[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 "(4, 5, 6)"[0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   4,[0m
+[38;5;12m💡   5,[0m
+[38;5;12m💡   6[0m
+[38;5;12m💡 ][0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 [[0m
+[38;5;12m💡   4,[0m
+[38;5;12m💡   5,[0m
+[38;5;12m💡   6[0m
+[38;5;12m💡 ][0m
+[38;5;12m💡 "(100.0, 200.0, 300.0)"[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 4[0m
+[38;5;12m💡 4[0m
+[38;5;196m⛔ Error al obtener carro[0m
+[38;5;196m⛔ Error al obtener carro[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
