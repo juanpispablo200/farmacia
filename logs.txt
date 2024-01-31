@@ -883,3 +883,7 @@
 [38;5;196m⛔ Error al obtener productos[0m
 [38;5;196m⛔ Error al obtener productos[0m
 [38;5;196m⛔ Error al obtener productos[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m

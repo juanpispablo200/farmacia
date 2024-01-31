@@ -50,7 +50,7 @@ class FichaProductoCarState extends State<FichaProductoCar> {
                 producto!.nombre,
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
-              title: Text(producto.precio),
+              title: Text("${producto.precio} \$"),
               trailing: IconButton(
                 icon: const Icon(Icons.delete),
                 onPressed: () {

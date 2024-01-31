@@ -47,7 +47,8 @@ class _DetalleCarroState extends State<DetalleCarro> {
               ),
             ),
           );
-        } else if (snapshot.hasData && snapshot.data.isEmpty) {
+        } else if (!snapshot.hasData ||
+            (snapshot.hasData && snapshot.data.isEmpty)) {
           _insetarCarro();
           return Scaffold(
             appBar: AppBar(
