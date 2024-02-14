@@ -2,7 +2,6 @@ import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/bd/mongodb.dart';
 
 class UserProvider with ChangeNotifier {
@@ -25,127 +24,101 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Usuario? usuario;
-    if (ModalRoute.of(context)?.settings.arguments != null) {
-      usuario = ModalRoute.of(context)?.settings.arguments as Usuario;
-      _correoController.text = usuario.correo;
-      _passwordController.text = usuario.password;
-    }
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Login"),
-        leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pushNamed(context, 'welcome');
-            }),
-      ),
-      body: ListView(
-        children: [
-          Column(
-            children: [
-              Stack(
-                children: [
-                  SizedBox(
-                    width: double.infinity,
-                    height: 200.0,
-                    child: Lottie.asset('assets/json/login.json'),
-                  ),
-                ],
-              ),
-              Transform.translate(
-                offset: const Offset(0.0, -20.0),
-                child: Container(
-                  margin: const EdgeInsets.only(top: 20.0),
-                  width: double.infinity,
-                  height: 450.0,
-                  decoration: BoxDecoration(
-                    color: Colors.blue,
-                    borderRadius: BorderRadius.circular(30.0),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(20.0),
-                    child: Column(
-                      children: [
-                        const Text(
-                          "Bienvenidos a la Farmacia",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w900,
-                            fontSize: 30.0,
-                          ),
-                        ),
-                        const Text(
-                          "Inicia sesión para acceder",
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontWeight: FontWeight.w300,
-                            fontSize: 10.0,
-                          ),
-                        ),
-                        _emailInput(),
-                        _passwordInput(),
-                        _loginButton(context),
-                        Container(
-                          margin: const EdgeInsets.only(top: 20.0),
-                          child: const Text(
-                            'Olvidaste tu contraseña?',
-                            style: TextStyle(
-                              color: Colors.black87,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 16.0,
-                            ),
-                          ),
-                        ),
-                        Container(
-                          margin: const EdgeInsets.only(top: 20.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              const Text(
-                                'Aun no tienes cuenta?',
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 15.0,
-                                ),
-                              ),
-                              const SizedBox(width: 20.0),
-                              GestureDetector(
-                                onTap: () {
-                                  Navigator.pushNamed(context, 'registro');
-                                },
-                                child: const Text(
-                                  'Registrate',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 15.0,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                ),
-              )
+      backgroundColor: Colors.transparent,
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              Color.fromARGB(255, 31, 162, 255),
+              Color.fromARGB(255, 18, 216, 250),
+              Color.fromARGB(255, 166, 255, 203),
             ],
           ),
-        ],
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              Expanded(
+                child: Lottie.asset('assets/json/login.json'),
+              ),
+              Card(
+                color: const Color.fromARGB(160, 255, 255, 255),
+                shadowColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16.0),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      _emailInput(),
+                      const SizedBox(height: 16.0),
+                      _passwordInput(),
+                      const SizedBox(height: 16.0),
+                      _loginButton(context),
+                      Container(
+                        margin: const EdgeInsets.only(top: 20.0),
+                        child: const Text(
+                          'Olvidaste tu contraseña?',
+                          style: TextStyle(
+                            color: Colors.black87,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16.0,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        margin: const EdgeInsets.only(top: 20.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            const Text(
+                              'Aun no tienes cuenta?',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.w400,
+                                fontSize: 15.0,
+                              ),
+                            ),
+                            const SizedBox(width: 20.0),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.pushNamed(context, 'registro');
+                              },
+                              child: const Text(
+                                'Registrate',
+                                style: TextStyle(
+                                  color: Colors.black,
+                                  fontSize: 15.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
 
   Widget _emailInput() {
     return Container(
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(30.0),
+      ),
       margin: const EdgeInsets.only(top: 20.0),
       padding: const EdgeInsets.only(left: 30.0),
-      decoration: BoxDecoration(
-          color: Colors.lightBlueAccent,
-          borderRadius: BorderRadius.circular(30.0)),
       child: TextField(
         controller: _correoController,
         keyboardType: TextInputType.emailAddress,
@@ -160,15 +133,15 @@ class LoginPage extends StatelessWidget {
       ),
     );
   }
-  // widget para el password
 
   Widget _passwordInput() {
     return Container(
-      margin: const EdgeInsets.only(top: 20.0),
       padding: const EdgeInsets.only(left: 30.0),
+      margin: const EdgeInsets.only(top: 20.0),
       decoration: BoxDecoration(
-          color: Colors.lightBlueAccent,
-          borderRadius: BorderRadius.circular(30.0)),
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(30.0),
+      ),
       child: TextField(
         controller: _passwordController,
         obscureText: true,
@@ -191,9 +164,11 @@ class LoginPage extends StatelessWidget {
       margin: const EdgeInsets.only(top: 40.0),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
+          elevation: 10,
           backgroundColor: Colors.lightBlueAccent,
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20.0),
+          ),
         ),
         onPressed: () {
           String correo = _correoController.text;

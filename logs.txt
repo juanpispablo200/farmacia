@@ -432,3 +432,331 @@
 [38;5;196m⛔ Error al obtener carro[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDB ConnectionException: connection closed: The socket connection has been reset by peer.[0m
+[38;5;196m⛔ Possible causes:[0m
+[38;5;196m⛔ - Trying to connect to an ssl/tls encrypted database without specifiyng[0m
+[38;5;196m⛔   either the query parm tls=true or the secure=true parameter in db.open()[0m
+[38;5;196m⛔ - The server requires a key certificate from the client, but no certificate has been sent[0m
+[38;5;196m⛔ - Others[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al autenticar usuarios[0m
+[38;5;196m⛔ Error al autenticar usuarios[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;196m⛔ Error al obtener categoria por id RangeError (end): Invalid value: Not in inclusive range 10..11: 34[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener carro[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;196m⛔ [][0m
+[38;5;196m⛔ [][0m
+[38;5;196m⛔ [][0m
+[38;5;196m⛔ [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 [][0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0009924e7c9b6fbbd3")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 ObjectId("659f0d0a09924e7c9b6fbbd4")[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0009924e7c9b6fbbd3[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 659f0d0a09924e7c9b6fbbd4[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;196m⛔ Error al obtener categorias[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDB ConnectionException: connection closed: SocketException: The semaphore timeout period has expired.[0m
+[38;5;196m⛔  (OS Error: The semaphore timeout period has expired.[0m
+[38;5;196m⛔ , errno = 121), address = ac-nhutrnd-shard-00-01.iydbmj6.mongodb.net, port = 63652[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDB ConnectionException: connection closed: SocketException: The semaphore timeout period has expired.[0m
+[38;5;196m⛔  (OS Error: The semaphore timeout period has expired.[0m
+[38;5;196m⛔ , errno = 121), address = ac-nhutrnd-shard-00-01.iydbmj6.mongodb.net, port = 63652[0m
+[38;5;196m⛔ Error al obtener categorias[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categorias[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categorias[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categorias[0m
+[38;5;196m⛔ Error al obtener categorias[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener usuario por ID MongoDart Error: No master connection[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDB ConnectionException: connection closed: SocketException: The semaphore timeout period has expired.[0m
+[38;5;196m⛔  (OS Error: The semaphore timeout period has expired.[0m
+[38;5;196m⛔ , errno = 121), address = ac-nhutrnd-shard-00-01.iydbmj6.mongodb.net, port = 50258[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al autenticar usuarios[0m
+[38;5;196m⛔ Error al autenticar usuarios[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;196m⛔ Error al obtener productos por carro[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener producto por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener producto por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener producto por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al autenticar usuarios[0m
+[38;5;196m⛔ Error al obtener todos los productos MongoDart Error: No master connection[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m

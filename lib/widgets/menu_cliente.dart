@@ -1,80 +1,64 @@
 import 'package:flutter/material.dart';
-import 'package:popup_menu/popup_menu.dart';
 
 Widget menuCliente(BuildContext context) {
-  GlobalKey btnKey = GlobalKey();
-
-  return Padding(
-    padding: const EdgeInsets.only(right: 15.0), // Adjust the value as needed
-    child: GestureDetector(
-      key: btnKey,
-      child: const Icon(Icons.menu),
-      onTap: () {
-        PopupMenu menu = PopupMenu(
-          config: const MenuConfig(
-            backgroundColor: Colors.transparent,
-            highlightColor: Colors.black,
-            lineColor: Colors.black,
-            itemWidth: 75,
+  return PopupMenuButton<String>(
+    icon: const Icon(Icons.menu),
+    onSelected: (String result) {
+      switch (result) {
+        case 'Categorías':
+          Navigator.pushNamed(context, 'lista_categorias_cli');
+          break;
+        case 'Productos':
+          Navigator.pushNamed(context, 'lista_productos_cli');
+          break;
+        case 'Carrito':
+          Navigator.pushNamed(context, 'carrito');
+          break;
+        case 'Perfil':
+          Navigator.pushNamed(context, 'perfil');
+          break;
+        case 'Config':
+          Navigator.pushNamed(context, 'config');
+          break;
+        case 'ChatBot':
+          Navigator.pushNamed(context, 'chatbot_cli');
+          break;
+      }
+    },
+    itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
+      PopupMenuItem<String>(
+        child: SizedBox(
+          height: 170,
+          width: 250,
+          child: GridView.count(
+            crossAxisCount: 3,
+            children: <Widget>[
+              _buildMenuItem(context, 'Categorías', Icons.category),
+              _buildMenuItem(context, 'Productos', Icons.list),
+              _buildMenuItem(context, 'Carrito', Icons.shopping_cart),
+              _buildMenuItem(context, 'Perfil', Icons.person),
+              _buildMenuItem(context, 'Config', Icons.settings),
+              _buildMenuItem(context, 'ChatBot', Icons.chat),
+            ],
           ),
-          items: [
-            MenuItem(
-              title: 'Categorías',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.category),
-            ),
-            MenuItem(
-              title: 'Productos',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.list),
-            ),
-            MenuItem(
-              title: 'Carrito',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.shopping_cart),
-            ),
-            MenuItem(
-              title: 'Perfil',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.person),
-            ),
-            MenuItem(
-              title: 'Config',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.settings),
-            ),
-            MenuItem(
-              title: 'ChatBot',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.chat),
-            ),
-          ],
-          onClickMenu: (MenuItemProvider item) {
-            switch (item.menuTitle) {
-              case 'Categorías':
-                Navigator.pushNamed(context, 'lista_categorias_cli');
-                break;
-              case 'Productos':
-                Navigator.pushNamed(context, 'lista_productos_cli');
-                break;
-              case 'Carrito':
-                Navigator.pushNamed(context, 'carrito');
-                break;
-              case 'Perfil':
-                Navigator.pushNamed(context, 'perfil');
-                break;
-              case 'Config':
-                Navigator.pushNamed(context, 'config');
-                break;
-              case 'ChatBot':
-                Navigator.pushNamed(context, 'chatbot_cli');
-                break;
-            }
-          },
-          context: context,
-        );
-        menu.show(widgetKey: btnKey);
-      },
+        ),
+      ),
+    ],
+  );
+}
+
+Widget _buildMenuItem(BuildContext context, String title, IconData icon) {
+  return InkWell(
+    onTap: () {
+      Navigator.pop(context, title);
+    },
+    onHover: (value) {},
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[
+        Icon(icon, size: 30.0),
+        Text(title),
+      ],
     ),
   );
 }

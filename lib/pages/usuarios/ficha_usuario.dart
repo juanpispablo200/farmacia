@@ -1,5 +1,6 @@
-import 'package:farmacia/modelos/usuarios.dart';
 import 'package:flutter/material.dart';
+
+import 'package:farmacia/modelos/usuarios.dart';
 
 class FichaUsuario extends StatelessWidget {
   final Usuario usuario;
@@ -10,52 +11,75 @@ class FichaUsuario extends StatelessWidget {
       required this.usuario,
       required this.onTapDelete,
       required this.onTapEdit});
+
   @override
   Widget build(BuildContext context) {
-    return Material(
+    return Card(
       elevation: 2.0,
-      color: Colors.lightBlue,
-      child: ListTile(
-        leading: SizedBox(
-          width: 125, // Adjust this value as needed
-          child: Text(
-            usuario.correo,
-            style: Theme.of(context).textTheme.bodyMedium,
-          ),
-        ),
-        title: Row(
-          children: [
-            SizedBox(
-              width: 125, // Adjust this value as needed
-              child: Text(usuario.nombres),
-            ),
-            const SizedBox(width: 8.0), // Add some space between the names
-            SizedBox(
-              width: 120, // Adjust this value as needed
-              child: Text(usuario.apellidos),
-            ),
-          ],
-        ),
-        trailing: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            MouseRegion(
-              cursor: SystemMouseCursors.click,
-              child: GestureDetector(
-                onTap: onTapEdit,
-                child: const Icon(Icons.edit),
-              ),
-            ),
-            MouseRegion(
-              cursor: SystemMouseCursors.click,
-              child: GestureDetector(
-                onTap: onTapDelete,
-                child: const Icon(Icons.delete),
-              ),
-            )
-          ],
+      color: const Color.fromARGB(174, 64, 195, 255),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16.0),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: ListTile(
+          leading: _buildLeading(context),
+          title: _buildBody(context),
+          trailing: _buildTrailing(context),
         ),
       ),
+    );
+  }
+
+  Widget _buildBody(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          '${usuario.nombres} ${usuario.apellidos}',
+          style: const TextStyle(
+            fontSize: 18.0,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        const SizedBox(height: 8.0),
+        Text(
+          usuario.correo,
+          style: const TextStyle(fontSize: 16.0),
+        ),
+        const SizedBox(height: 4.0),
+        Text(
+          usuario.telefono,
+          style: const TextStyle(
+            fontSize: 16.0,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildLeading(BuildContext context) {
+    return Image.asset(
+      'assets/img/avatar.png',
+      width: 200,
+      height: 200,
+      fit: BoxFit.fitHeight,
+    );
+  }
+
+  Widget _buildTrailing(BuildContext context) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        IconButton(
+          icon: const Icon(Icons.edit),
+          onPressed: onTapEdit,
+        ),
+        IconButton(
+          icon: const Icon(Icons.delete),
+          onPressed: onTapDelete,
+        ),
+      ],
     );
   }
 }

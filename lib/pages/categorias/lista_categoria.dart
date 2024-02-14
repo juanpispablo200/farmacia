@@ -1,3 +1,4 @@
+import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
@@ -20,12 +21,7 @@ class _ListaCategoriasState extends State<ListaCategorias> {
       future: MongoDB.getCategorias(),
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return Container(
-            color: Colors.lightBlueAccent,
-            child: const LinearProgressIndicator(
-              backgroundColor: Colors.black87,
-            ),
-          );
+          return const LoadingScreen();
         } else if (snapshot.hasError) {
           return Container(
             color: Colors.pink,
@@ -51,35 +47,32 @@ class _ListaCategoriasState extends State<ListaCategorias> {
             ),
             body: Stack(
               children: [
-                Container(
-                  margin: const EdgeInsets.only(top: 100.0),
-                  child: ListView.builder(
-                    itemBuilder: (context, index) {
-                      return Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: FichaCategoria(
-                          categoria: Categoria.fromMap(snapshot.data[index]),
-                          onTapDelete: () async {
-                            _eliminarCategoria(
-                                Categoria.fromMap(snapshot.data[index]));
-                          },
-                          onTapEdit: () async {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (BuildContext context) {
-                                      return const NuevaCategoria();
-                                    },
-                                    settings: RouteSettings(
-                                      arguments: Categoria.fromMap(
-                                          snapshot.data[index]),
-                                    ))).then((value) => setState(() {}));
-                          },
-                        ),
-                      );
-                    },
-                    itemCount: snapshot.data.length,
-                  ),
+                ListView.builder(
+                  itemBuilder: (context, index) {
+                    return Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: FichaCategoria(
+                        categoria: Categoria.fromMap(snapshot.data[index]),
+                        onTapDelete: () async {
+                          _eliminarCategoria(
+                              Categoria.fromMap(snapshot.data[index]));
+                        },
+                        onTapEdit: () async {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (BuildContext context) {
+                                    return const NuevaCategoria();
+                                  },
+                                  settings: RouteSettings(
+                                    arguments:
+                                        Categoria.fromMap(snapshot.data[index]),
+                                  ))).then((value) => setState(() {}));
+                        },
+                      ),
+                    );
+                  },
+                  itemCount: snapshot.data.length,
                 ),
               ],
             ),

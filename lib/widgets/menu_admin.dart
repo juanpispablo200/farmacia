@@ -1,56 +1,52 @@
 import 'package:flutter/material.dart';
-import 'package:popup_menu/popup_menu.dart';
 
 Widget menuAdmin(BuildContext context) {
-  GlobalKey btnKey = GlobalKey();
-
-  return Padding(
-    padding: const EdgeInsets.only(right: 15.0), // Adjust the value as needed
-    child: GestureDetector(
-      key: btnKey,
-      child: const Icon(Icons.menu),
-      onTap: () {
-        PopupMenu menu = PopupMenu(
-          config: const MenuConfig(
-            backgroundColor: Colors.transparent,
-            highlightColor: Colors.black,
-            lineColor: Colors.black,
-            itemWidth: 75,
+  return PopupMenuButton<String>(
+    icon: const Icon(Icons.menu),
+    onSelected: (String result) {
+      switch (result) {
+        case 'Categorías':
+          Navigator.pushNamed(context, 'lista_categorias');
+          break;
+        case 'Productos':
+          Navigator.pushNamed(context, 'lista_productos');
+          break;
+        case 'Perfil':
+          Navigator.pushNamed(context, 'perfil');
+          break;
+      }
+    },
+    itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
+      PopupMenuItem<String>(
+        child: SizedBox(
+          height: 90,
+          width: 250,
+          child: GridView.count(
+            crossAxisCount: 3,
+            children: <Widget>[
+              _buildMenuItem(context, 'Categorías', Icons.category),
+              _buildMenuItem(context, 'Productos', Icons.list),
+              _buildMenuItem(context, 'Perfil', Icons.person),
+            ],
           ),
-          items: [
-            MenuItem(
-              title: 'Categorías',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.category),
-            ),
-            MenuItem(
-              title: 'Productos',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.list),
-            ),
-            MenuItem(
-              title: 'Perfil',
-              textStyle: const TextStyle(color: Colors.black),
-              image: const Icon(Icons.person),
-            )
-          ],
-          onClickMenu: (MenuItemProvider item) {
-            switch (item.menuTitle) {
-              case 'Categorías':
-                Navigator.pushNamed(context, 'lista_categorias');
-                break;
-              case 'Productos':
-                Navigator.pushNamed(context, 'lista_productos');
-                break;
-              case 'Perfil':
-                Navigator.pushNamed(context, 'perfil');
-                break;
-            }
-          },
-          context: context,
-        );
-        menu.show(widgetKey: btnKey);
-      },
+        ),
+      ),
+    ],
+  );
+}
+
+Widget _buildMenuItem(BuildContext context, String title, IconData icon) {
+  return InkWell(
+    onTap: () {
+      Navigator.pop(context, title);
+    },
+    onHover: (value) {},
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[
+        Icon(icon, size: 30.0),
+        Text(title),
+      ],
     ),
   );
 }

@@ -7,7 +7,7 @@ class Producto {
   final String categoria;
   final String img;
   final double precio;
-  final String stock;
+  final int stock;
 
   const Producto({
     required this.id,
@@ -36,6 +36,6 @@ class Producto {
         descripcion = map['descripcion'],
         categoria = map['categoria'],
         img = map['img'],
-        precio = double.parse(map['precio']),
+        precio = map['precio'],
         stock = map['stock'];
 }

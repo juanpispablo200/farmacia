@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/productos.dart';
+import 'package:farmacia/widgets/loading_screen.dart';
 
 class FichaProductoCar extends StatefulWidget {
   final String userId;
   final String productoId;
-  final Future<void> Function() onTapDelete;
+  final ValueChanged<int> onQuantityChange;
   final Future<Map<String, dynamic>?> carro;
+  final Future<void> Function() onTapDelete;
 
   const FichaProductoCar({
     super.key,
@@ -15,6 +17,7 @@ class FichaProductoCar extends StatefulWidget {
     required this.userId,
     required this.productoId,
     required this.onTapDelete,
+    required this.onQuantityChange,
   });
 
   @override
@@ -23,97 +26,130 @@ class FichaProductoCar extends StatefulWidget {
 
 class FichaProductoCarState extends State<FichaProductoCar> {
   late final Future<Producto?> _productoFuture;
+  late final ValueNotifier<int> _currentQuantity = ValueNotifier<int>(1);
 
   bool _isLoading = false;
-  int _currentQuantity = 1;
 
   @override
   void initState() {
     super.initState();
     _productoFuture = MongoDB.getProductoPorId(widget.productoId);
-    widget.carro.then((value) {
-      if (value != null) {
-        setState(() {
-          _currentQuantity = value['productos'][widget.productoId];
-        });
-      }
-    });
+    _initializeQuantity();
+  }
+
+  Future<void> _initializeQuantity() async {
+    final value = await widget.carro;
+    if (value != null) {
+      _currentQuantity.value = value['productos'][widget.productoId];
+    }
   }
 
   @override
   Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      child: Material(
+        elevation: 2.0,
+        color: const Color.fromARGB(174, 64, 195, 255),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16.0),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: _buildLeading(),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildLeading() {
     return FutureBuilder<Producto?>(
       future: _productoFuture,
       builder: (BuildContext context, AsyncSnapshot<Producto?> snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const CircularProgressIndicator();
+          return const LoadingScreen();
         } else if (snapshot.hasError) {
           return Text('Error: ${snapshot.error}');
         } else if (snapshot.hasData) {
           final producto = snapshot.data;
-          return Material(
-              elevation: 2.0,
-              color: Colors.lightBlueAccent,
-              child: ListTile(
-                leading: Text(
-                  producto!.nombre,
-                  style: Theme.of(context).textTheme.bodyLarge,
-                ),
-                title: Row(
-                  children: [
-                    Text("${producto.precio}\$"),
-                    const Spacer(),
-                    IconButton(
-                      icon: const Icon(Icons.remove),
-                      onPressed: () async {
-                        if (_currentQuantity > 0) {
-                          _currentQuantity--;
-                          await MongoDB.actualizarCantidadCr(
-                            widget.userId,
-                            widget.productoId,
-                            _currentQuantity,
-                          );
-                          setState(() {});
-                        }
-                      },
-                    ),
-                    Text(_currentQuantity.toString()),
-                    IconButton(
-                      icon: const Icon(Icons.add),
-                      onPressed: () async {
-                        _currentQuantity++;
-                        await MongoDB.actualizarCantidadCr(
-                          widget.userId,
-                          widget.productoId,
-                          _currentQuantity,
-                        );
-                        setState(() {});
-                      },
-                    ),
-                  ],
-                ),
-                trailing: GestureDetector(
-                  onTap: () async {
-                    setState(() {
-                      _isLoading = true;
-                    });
-                    await widget.onTapDelete();
-                    setState(() {
-                      _isLoading = false;
-                    });
-                  },
-                  child: _isLoading
-                      ? const SizedBox(
-                          height: 20.0,
-                          width: 20.0,
-                          child: CircularProgressIndicator(strokeWidth: 2.0),
-                        )
-                      : const Icon(Icons.delete),
-                ),
-              ));
+          return Row(
+            children: [
+              Text(
+                producto!.nombre,
+                style: Theme.of(context).textTheme.bodyLarge,
+              ),
+              const SizedBox(width: 8.0),
+              Text("${producto.precio}\$",
+                  style: Theme.of(context).textTheme.bodyMedium),
+              const Spacer(),
+              _buildCounter(),
+              _buildRemove(),
+            ],
+          );
+        } else {
+          return const Text('Producto no encontrado');
         }
-        return const Text("No hay datos");
       },
+    );
+  }
+
+  Widget _buildCounter() {
+    return Row(children: [
+      IconButton(
+        icon: const Icon(Icons.remove),
+        onPressed: _currentQuantity.value > 0 ? _decrementQuantity : null,
+      ),
+      ValueListenableBuilder<int>(
+        valueListenable: _currentQuantity,
+        builder: (_, value, __) => Text(value.toString()),
+      ),
+      IconButton(
+        icon: const Icon(Icons.add),
+        onPressed: _incrementQuantity,
+      ),
+    ]);
+  }
+
+  Future<void> _decrementQuantity() async {
+    _currentQuantity.value--;
+    await MongoDB.actualizarCantidadCr(
+      widget.userId,
+      widget.productoId,
+      _currentQuantity.value,
+    );
+    widget.onQuantityChange(_currentQuantity.value);
+  }
+
+  Future<void> _incrementQuantity() async {
+    _currentQuantity.value++;
+    await MongoDB.actualizarCantidadCr(
+      widget.userId,
+      widget.productoId,
+      _currentQuantity.value,
+    );
+    widget.onQuantityChange(_currentQuantity.value);
+  }
+
+  Widget _buildRemove() {
+    return IconButton(
+      onPressed: _isLoading
+          ? null
+          : () async {
+              setState(() {
+                _isLoading = true;
+              });
+              await widget.onTapDelete();
+              setState(() {
+                _isLoading = false;
+              });
+            },
+      icon: _isLoading
+          ? const SizedBox(
+              height: 20.0,
+              width: 20.0,
+              child: CircularProgressIndicator.adaptive(strokeWidth: 2.0),
+            )
+          : const Icon(Icons.delete),
     );
   }
 }

@@ -1,13 +1,14 @@
-import 'package:farmacia/pages/login_page.dart';
 import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/pages/login_page.dart';
 import 'package:farmacia/modelos/productos.dart';
+import 'package:farmacia/widgets/menu_cliente.dart';
+import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:farmacia/pages/carro/detalle_carro.dart';
 import 'package:farmacia/pages/productosCliente/ficha_producto_cli.dart';
-import 'package:farmacia/widgets/menu_cliente.dart';
-import 'package:provider/provider.dart';
 
 class ListaProductosCli extends StatefulWidget {
   const ListaProductosCli({Key? key}) : super(key: key);
@@ -27,12 +28,7 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
       future: MongoDB.getProductos(),
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return Container(
-            color: Colors.lightBlueAccent,
-            child: const LinearProgressIndicator(
-              backgroundColor: Colors.black87,
-            ),
-          );
+          return const LoadingScreen();
         } else if (snapshot.hasError) {
           return Container(
             color: Colors.pink,
@@ -52,32 +48,31 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                   onPressed: () {
                     Navigator.pushNamed(context, 'login');
                   }),
-              actions: [menuCliente(context)],
+              actions: [
+                menuCliente(context),
+              ],
             ),
             body: Stack(
               children: [
                 SizedBox(
                   width: double.infinity,
-                  height: 150.0,
+                  height: 300.0,
                   child: Lottie.asset('assets/json/productos.json'),
                 ),
-                Container(
-                  margin: const EdgeInsets.only(top: 150.0),
-                  child: ListView.builder(
-                    itemBuilder: (context, index) {
-                      return Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: FichaProductoCli(
-                          producto: Producto.fromMap(snapshot.data[index]),
-                          onTapAdd: () => _agregarProducto(
-                            userId,
-                            Producto.fromMap(snapshot.data[index]),
-                          ),
+                ListView.builder(
+                  itemBuilder: (context, index) {
+                    return Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: FichaProductoCli(
+                        producto: Producto.fromMap(snapshot.data[index]),
+                        onTapAdd: () => _agregarProducto(
+                          userId,
+                          Producto.fromMap(snapshot.data[index]),
                         ),
-                      );
-                    },
-                    itemCount: snapshot.data.length,
-                  ),
+                      ),
+                    );
+                  },
+                  itemCount: snapshot.data.length,
                 ),
               ],
             ),
@@ -88,7 +83,9 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                   return const DetalleCarro();
                 })).then((value) => setState(() {}));
               },
-              child: const Icon(Icons.shopping_bag),
+              child: const Icon(
+                Icons.shopping_bag,
+              ),
             ),
           );
         }

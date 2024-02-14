@@ -1,3 +1,4 @@
+import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -18,16 +19,16 @@ class DetalleCarro extends StatefulWidget {
 }
 
 class DetalleCarroState extends State<DetalleCarro> {
-  late String userId;
   late Future<Map<String, dynamic>?> futureCarro;
-
   final valorTotalController = TextEditingController();
 
   @override
   void initState() {
     super.initState();
-    userId = Provider.of<UserProvider>(context, listen: false).userId;
-    futureCarro = MongoDB.getCarroPorUsuario(userId);
+    futureCarro = MongoDB.getCarroPorUsuario(Provider.of<UserProvider>(
+      context,
+      listen: false,
+    ).userId);
   }
 
   @override
@@ -38,31 +39,29 @@ class DetalleCarroState extends State<DetalleCarro> {
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
-      future: futureCarro,
-      builder: (BuildContext context, AsyncSnapshot snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting) {
-          return _buildLoading();
-        } else if (snapshot.hasError) {
-          return _buildError();
-        } else if (!snapshot.hasData ||
-            (snapshot.hasData && snapshot.data.isEmpty)) {
-          _insetarCarro();
-          return _buildEmptyCart();
-        } else {
-          Carro? carro = Carro.fromMap(snapshot.data);
-          return _buildCart(carro);
-        }
-      },
-    );
-  }
+    return Consumer<UserProvider>(
+      builder: (context, userProvider, child) {
+        final userId = userProvider.userId;
+        futureCarro = MongoDB.getCarroPorUsuario(userId);
 
-  Widget _buildLoading() {
-    return Container(
-      color: Colors.lightBlueAccent,
-      child: const LinearProgressIndicator(
-        backgroundColor: Colors.black87,
-      ),
+        return FutureBuilder(
+          future: futureCarro,
+          builder: (BuildContext context, AsyncSnapshot snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return const LoadingScreen();
+            } else if (snapshot.hasError) {
+              return _buildError();
+            } else if (!snapshot.hasData ||
+                (snapshot.hasData && snapshot.data.isEmpty)) {
+              _insetarCarro(userId);
+              return _buildEmptyCart();
+            } else {
+              Carro? carro = Carro.fromMap(snapshot.data);
+              return _buildCart(userId, carro);
+            }
+          },
+        );
+      },
     );
   }
 
@@ -96,7 +95,7 @@ class DetalleCarroState extends State<DetalleCarro> {
     );
   }
 
-  Widget _buildCart(Carro? carro) {
+  Widget _buildCart(String userId, Carro? carro) {
     if (carro!.productos.isEmpty) {
       return Scaffold(
         appBar: _buildAppBar(),
@@ -105,35 +104,53 @@ class DetalleCarroState extends State<DetalleCarro> {
         ),
       );
     }
+
+    final productKeys = carro.productos.keys.toList();
+
     return Scaffold(
       appBar: _buildAppBar(),
-      body: Column(
+      body: Stack(
         children: [
-          SizedBox(
-            width: double.infinity,
-            height: 150.0,
-            child: Lottie.asset('assets/json/productos.json'),
+          Align(
+            alignment: Alignment.topCenter,
+            child: SizedBox(
+              width: double.infinity,
+              height: 300.0,
+              child: Lottie.asset('assets/json/productos.json'),
+            ),
           ),
-          Expanded(
-            child: ListView.builder(
+          Align(
+            alignment: Alignment.center,
+            child: ListView.separated(
               itemCount: carro.productos.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 8.0),
               itemBuilder: (BuildContext context, int index) {
-                return Padding(
-                  padding: const EdgeInsets.all(8.0),
+                final productId = productKeys[index];
+                return SizedBox(
+                  height: 55,
                   child: FichaProductoCar(
-                    onTapDelete: () async => _removeProductoCarro(
-                      userId,
-                      carro.productos.keys.elementAt(index),
-                    ),
+                    onTapDelete: () async =>
+                        _removeProductoCarro(userId, productId),
                     userId: userId,
-                    productoId: carro.productos.keys.elementAt(index),
                     carro: futureCarro,
+                    productoId: productId,
+                    onQuantityChange: (value) {
+                      setState(() {
+                        carro.productos[productId] = value;
+                      });
+                    },
                   ),
                 );
               },
             ),
           ),
-          _buildTotalValue(carro),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: SizedBox(
+              height: 50.0,
+              child: _buildTotalValue(carro),
+            ),
+          ),
         ],
       ),
     );
@@ -147,7 +164,7 @@ class DetalleCarroState extends State<DetalleCarro> {
         AsyncSnapshot<List<Producto>> snapshot,
       ) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const CircularProgressIndicator();
+          return const LoadingScreen();
         } else if (snapshot.hasError) {
           return const Text("Error al obtener productos");
         } else {
@@ -161,7 +178,7 @@ class DetalleCarroState extends State<DetalleCarro> {
               final cantidad = carro.productos[prod.id.toString()]!;
               return prev + (prod.precio * cantidad);
             });
-            valorTotalController.text = valorTotal.toString();
+            valorTotalController.text = valorTotal.toStringAsFixed(2);
             return _valorTotalInput();
           }
         }
@@ -169,7 +186,7 @@ class DetalleCarroState extends State<DetalleCarro> {
     );
   }
 
-  void _insetarCarro() async {
+  void _insetarCarro(String userId) async {
     final carro = Carro(
       id: md.ObjectId(),
       productos: {},
@@ -178,8 +195,8 @@ class DetalleCarroState extends State<DetalleCarro> {
     await MongoDB.insertarCr(carro);
   }
 
-  void _removeProductoCarro(String usuarioId, String productoId) async {
-    await MongoDB.removerProdCr(usuarioId, productoId);
+  void _removeProductoCarro(String userId, String productoId) async {
+    await MongoDB.removerProdCr(userId, productoId);
     setState(() {
       futureCarro = MongoDB.getCarroPorUsuario(userId);
       Navigator.pushReplacement(
@@ -194,9 +211,9 @@ class DetalleCarroState extends State<DetalleCarro> {
   Widget _valorTotalInput() {
     return Container(
       padding: const EdgeInsets.only(left: 20.0),
-      decoration: BoxDecoration(
-          color: Colors.lightBlueAccent,
-          borderRadius: BorderRadius.circular(20.0)),
+      decoration: const BoxDecoration(
+        color: Colors.lightBlueAccent,
+      ),
       child: Row(
         children: [
           Expanded(

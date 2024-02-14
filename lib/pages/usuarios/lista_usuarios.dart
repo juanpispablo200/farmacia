@@ -1,3 +1,4 @@
+import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
@@ -5,6 +6,7 @@ import 'package:farmacia/modelos/usuarios.dart';
 import 'package:farmacia/pages/usuarios/ficha_usuario.dart';
 import 'package:farmacia/pages/usuarios/registro_page.dart';
 import 'package:farmacia/widgets/menu_admin.dart';
+import 'package:lottie/lottie.dart';
 
 class ListaUsuarios extends StatefulWidget {
   const ListaUsuarios({Key? key}) : super(key: key);
@@ -20,12 +22,7 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
       future: MongoDB.getUsuarios(),
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return Container(
-            color: Colors.lightBlue,
-            child: const LinearProgressIndicator(
-              backgroundColor: Colors.black87,
-            ),
-          );
+          return const LoadingScreen();
         } else if (snapshot.hasError) {
           return Container(
             color: Colors.pink,
@@ -51,35 +48,37 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
             ),
             body: Stack(
               children: [
-                Container(
-                  margin: const EdgeInsets.only(top: 100.0),
-                  child: ListView.builder(
-                    itemBuilder: (context, index) {
-                      return Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: FichaUsuario(
-                          usuario: Usuario.fromMap(snapshot.data[index]),
-                          onTapDelete: () async {
-                            _eliminarUsuario(
-                                Usuario.fromMap(snapshot.data[index]));
-                          },
-                          onTapEdit: () async {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (BuildContext context) {
-                                      return const RegistroPage();
-                                    },
-                                    settings: RouteSettings(
-                                      arguments:
-                                          Usuario.fromMap(snapshot.data[index]),
-                                    ))).then((value) => setState(() {}));
-                          },
-                        ),
-                      );
-                    },
-                    itemCount: snapshot.data.length,
-                  ),
+                SizedBox(
+                  width: double.infinity,
+                  height: 300.0,
+                  child: Lottie.asset('assets/json/usuario.json'),
+                ),
+                ListView.builder(
+                  itemBuilder: (context, index) {
+                    return Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: FichaUsuario(
+                        usuario: Usuario.fromMap(snapshot.data[index]),
+                        onTapDelete: () async {
+                          _eliminarUsuario(
+                              Usuario.fromMap(snapshot.data[index]));
+                        },
+                        onTapEdit: () async {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (BuildContext context) {
+                                    return const RegistroPage();
+                                  },
+                                  settings: RouteSettings(
+                                    arguments:
+                                        Usuario.fromMap(snapshot.data[index]),
+                                  ))).then((value) => setState(() {}));
+                        },
+                      ),
+                    );
+                  },
+                  itemCount: snapshot.data.length,
                 ),
               ],
             ),

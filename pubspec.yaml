@@ -70,6 +70,7 @@ flutter:
     - assets/json/productos.json
     - assets/json/categorias.json
     - assets/json/ventaonline.json
+    - assets/json/usuario.json
 
     - assets/img/logo_uide.png
     - assets/img/campus.png

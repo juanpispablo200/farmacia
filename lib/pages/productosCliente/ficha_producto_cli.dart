@@ -1,4 +1,7 @@
+import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:farmacia/modelos/categorias.dart';
 
 import 'package:farmacia/modelos/productos.dart';
 
@@ -26,33 +29,111 @@ class FichaProductoCliState extends State<FichaProductoCli> {
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
-      color: Colors.lightBlueAccent,
-      child: ListTile(
-        leading: Text(
-          "${producto.nombre} ${producto.precio}\$ ${producto.stock} en Stock",
-          style: Theme.of(context).textTheme.bodyMedium,
-        ),
-        title: Text(producto.categoria),
-        subtitle: Text(producto.descripcion),
-        trailing: GestureDetector(
-          onTap: () async {
-            setState(() {
-              _isLoading = true;
-            });
-            await widget.onTapAdd();
-            setState(() {
-              _isLoading = false;
-            });
-          },
-          child: _isLoading
-              ? const SizedBox(
-                  height: 20.0,
-                  width: 20.0,
-                  child: CircularProgressIndicator(strokeWidth: 2.0),
-                )
-              : const Icon(Icons.add),
+      color: const Color.fromARGB(174, 64, 195, 255),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16.0),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: ListTile(
+          onTap: _onTap,
+          leading: _buildLeading(),
+          trailing: _buildTrailing(),
         ),
       ),
     );
+  }
+
+  Widget _buildLeading() {
+    return FutureBuilder<Categoria?>(
+      future: obtenerCategoria(producto),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const LoadingScreen();
+        } else if (snapshot.hasError) {
+          return Text('Error: ${snapshot.error}');
+        } else {
+          if (snapshot.data != null) {
+            Categoria categoria = snapshot.data!;
+            return RichText(
+              text: TextSpan(
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyMedium
+                    ?.copyWith(color: Colors.white),
+                children: <TextSpan>[
+                  const TextSpan(
+                      text: 'Nombre: ',
+                      style: TextStyle(fontWeight: FontWeight.bold)),
+                  TextSpan(text: '${producto.nombre} | '),
+                  const TextSpan(
+                      text: 'Precio: ',
+                      style: TextStyle(fontWeight: FontWeight.bold)),
+                  TextSpan(text: '${producto.precio}\$ | '),
+                  const TextSpan(
+                      text: 'Stock: ',
+                      style: TextStyle(fontWeight: FontWeight.bold)),
+                  TextSpan(text: '${producto.stock} | '),
+                  const TextSpan(
+                      text: 'Categoria: ',
+                      style: TextStyle(fontWeight: FontWeight.bold)),
+                  TextSpan(text: '${categoria.nombre} |'),
+                ],
+              ),
+            );
+          } else {
+            return const Text('Incorrect data');
+          }
+        }
+      },
+    );
+  }
+
+  Widget _buildTrailing() {
+    return IconButton(
+      onPressed: _isLoading
+          ? null
+          : () async {
+              setState(() {
+                _isLoading = true;
+              });
+              await widget.onTapAdd();
+              setState(() {
+                _isLoading = false;
+              });
+            },
+      icon: _isLoading
+          ? const SizedBox(
+              height: 20.0,
+              width: 20.0,
+              child: CircularProgressIndicator.adaptive(strokeWidth: 2.0),
+            )
+          : const Icon(Icons.add),
+    );
+  }
+
+  void _onTap() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(widget.producto.nombre),
+          content: Text(widget.producto.descripcion),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('Close'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Future<Categoria?> obtenerCategoria(Producto producto) async {
+    var categoria = MongoDB.getCategoriaPorId(producto.categoria);
+    return categoria;
   }
 }

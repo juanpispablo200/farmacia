@@ -114,19 +114,20 @@ class MongoDB {
     }
   }
 
-  static Future<List<String>> getCategoriasNombres() async {
-    List<String> soloNombres = [];
-
+  static Future<Categoria?> getCategoriaPorId(String categoryId) async {
     try {
-      final categorias = await collectionCategorias.find().toList();
-      for (var categoria in categorias) {
-        soloNombres.add(categoria['nombre']);
+      final categoriaMap = await collectionCategorias.findOne(
+        where.id(
+          ObjectId.parse(categoryId.substring(10, 34)),
+        ),
+      );
+      if (categoriaMap != null) {
+        return Categoria.fromMap(categoriaMap);
       }
-      return soloNombres;
     } catch (e) {
-      logger.e("Error al obtener Nombre de Categorias");
-      return Future.value([]);
+      logger.e("Error al obtener categoria por id $e");
     }
+    return null;
   }
 
   static Future<List<Map<String, dynamic>>> getCarro() async {
@@ -152,17 +153,40 @@ class MongoDB {
     }
   }
 
+  static Future<int> getPrecioTotalCarro(Map<String, int> productos) async {
+    try {
+      final productoIds = productos.keys.toList();
+      final productosMaps = await collectionProductos
+          .find(
+            where.oneFrom(
+              '_id',
+              productoIds
+                  .map((id) => ObjectId.parse(id.substring(10, 34)))
+                  .toList(),
+            ),
+          )
+          .toList();
+
+      final precioTotal = productosMaps.fold<int>(0, (prev, prod) {
+        final cantidad = productos[prod['_id'].toString()]!;
+        return (prev + (prod['precio'] * cantidad)).toInt();
+      });
+
+      return precioTotal;
+    } catch (e) {
+      logger.e("Error al obtener precio total del carro");
+      return Future.value(0);
+    }
+  }
+
   static Future<List<Map<String, dynamic>>> getProductosPorCategoria(
       Categoria categoria) async {
-    try {
-      final productos = await collectionProductos
-          .find({'categoria': categoria.nombre}).toList();
+    final id = categoria.id.toString().substring(10, 34);
+    logger.i(id);
+    List<Map<String, dynamic>> productos =
+        await collectionProductos.find({'categoria': id}).toList();
 
-      return productos;
-    } catch (e) {
-      logger.e("Error al obtener carro");
-      return Future.value([]);
-    }
+    return productos;
   }
 
   //USUARIOS

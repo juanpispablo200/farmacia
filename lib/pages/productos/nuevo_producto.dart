@@ -23,12 +23,12 @@ class _NuevoProductoState extends State<NuevoProducto> {
     _getCategorias();
   }
 
-  TextEditingController nombreController = TextEditingController();
-  TextEditingController descripcionController = TextEditingController();
   TextEditingController imgController = TextEditingController();
-  TextEditingController precioController = TextEditingController();
   TextEditingController stockController = TextEditingController();
+  TextEditingController precioController = TextEditingController();
+  TextEditingController nombreController = TextEditingController();
   TextEditingController categoriaController = TextEditingController();
+  TextEditingController descripcionController = TextEditingController();
 
   List<Map<String, dynamic>> _categorias = [];
 
@@ -45,7 +45,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       descripcionController.text = producto.descripcion;
       imgController.text = producto.img;
       precioController.text = producto.precio.toString();
-      stockController.text = producto.stock;
+      stockController.text = producto.stock.toString();
       categoriaController.text = producto.categoria;
       textoWidget = "Editar Producto";
     }
@@ -96,9 +96,9 @@ class _NuevoProductoState extends State<NuevoProducto> {
                             fontSize: 20.0,
                           ),
                         ),
+                        _mostrarcategorias(context),
                         _nombreInput(),
                         _descripcionInput(),
-                        _mostrarcategorias(context),
                         _imgInput(),
                         _stockInput(),
                         _precioInput(),
@@ -108,25 +108,26 @@ class _NuevoProductoState extends State<NuevoProducto> {
                             padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
                             child: ElevatedButton(
                               child: Text(textoWidget),
-                              onPressed: () {
+                              onPressed: () async {
+                                final scaffoldMessenger =
+                                    ScaffoldMessenger.of(context);
+                                final navigator = Navigator.of(context);
                                 if (operacion == edicion) {
-                                  // editar el objeto
-                                  _actualizarProducto(producto!);
-                                  ScaffoldMessenger.of(context).showSnackBar(
+                                  await _actualizarProducto(producto!);
+                                  scaffoldMessenger.showSnackBar(
                                     const SnackBar(
                                         content: Text(
                                             'Producto actualizado Correctamente')),
                                   );
                                 } else {
-                                  //Insertar el componente
-                                  _insetarProducto();
-                                  ScaffoldMessenger.of(context).showSnackBar(
+                                  await _insetarProducto();
+                                  scaffoldMessenger.showSnackBar(
                                     const SnackBar(
                                         content:
                                             Text('Nuevo producto con exito')),
                                   );
                                 }
-                                Navigator.pop(context);
+                                navigator.pop(true);
                               },
                             ),
                           ),
@@ -149,7 +150,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       nombre: nombreController.text,
       descripcion: descripcionController.text,
       categoria: _selectedCategoria ?? 'default',
-      stock: stockController.text,
+      stock: int.parse(stockController.text),
       img: imgController.text,
       precio: double.parse(precioController.text),
     );
@@ -162,7 +163,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       nombre: nombreController.text,
       descripcion: descripcionController.text,
       categoria: _selectedCategoria ?? 'default',
-      stock: stockController.text,
+      stock: int.parse(stockController.text),
       img: imgController.text,
       precio: double.parse(precioController.text),
     );
@@ -256,7 +257,6 @@ class _NuevoProductoState extends State<NuevoProducto> {
             prefixIcon: Icon(Icons.category, color: Colors.pink),
             border: InputBorder.none),
         child: DropdownButtonHideUnderline(
-          // This hides the default underline of DropdownButton
           child: DropdownButton<String>(
             isExpanded: true,
             value: _selectedCategoria,
