@@ -51,7 +51,6 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
                   )
                 ],
               ),
-              // agregar un componente que permita
               Transform.translate(
                 offset: const Offset(0.0, -20.0),
                 child: Container(
@@ -74,9 +73,6 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
                             fontSize: 20.0,
                           ),
                         ),
-
-                        //vamos a agregar los textfieldd para el correo y contra
-                        // vamos agregar widgets propios para el proyecto
                         _nombreInput(),
                         _descripcionInput(),
                         Align(
@@ -85,19 +81,20 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
                             padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
                             child: ElevatedButton(
                               child: Text(textoWidget),
-                              onPressed: () {
+                              onPressed: () async {
+                                final scaffoldMessenger =
+                                    ScaffoldMessenger.of(context);
                                 if (operacion == edicion) {
                                   // editar el objeto
-                                  _actualizarCategoria(categoria!);
-                                  ScaffoldMessenger.of(context).showSnackBar(
+                                  await _actualizarCategoria(categoria!);
+                                  scaffoldMessenger.showSnackBar(
                                     const SnackBar(
                                         content: Text(
                                             'Registro actualizado Correctamente')),
                                   );
                                 } else {
-                                  //Insertar el componente
-                                  _insetarCategoria();
-                                  ScaffoldMessenger.of(context).showSnackBar(
+                                  await _insetarCategoria();
+                                  scaffoldMessenger.showSnackBar(
                                     const SnackBar(
                                         content: Text(
                                             'Registro con exito Categoria')),
@@ -139,7 +136,6 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
     await MongoDB.actualizarC(categoriaActulizada);
   }
 
-  //widget para el correo
   Widget _nombreInput() {
     return Container(
       margin: const EdgeInsets.only(top: 15.0),

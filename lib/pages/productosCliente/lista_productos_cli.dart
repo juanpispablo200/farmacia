@@ -60,6 +60,7 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                   child: Lottie.asset('assets/json/productos.json'),
                 ),
                 ListView.builder(
+                  itemCount: snapshot.data.length,
                   itemBuilder: (context, index) {
                     return Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -72,7 +73,6 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
                       ),
                     );
                   },
-                  itemCount: snapshot.data.length,
                 ),
               ],
             ),

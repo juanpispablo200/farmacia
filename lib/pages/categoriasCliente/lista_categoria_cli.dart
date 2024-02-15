@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/modelos/categorias.dart';
 import 'package:farmacia/widgets/menu_cliente.dart';
 import 'package:farmacia/widgets/loading_screen.dart';
+import 'package:farmacia/pages/categoriasCliente/ficha_categoria_producto_cli.dart';
 
 class ListaCategoriasCli extends StatefulWidget {
   const ListaCategoriasCli({Key? key}) : super(key: key);
@@ -20,30 +22,56 @@ class _ListaCategoriasCliState extends State<ListaCategoriasCli> {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const LoadingScreen();
         } else if (snapshot.hasError) {
-          return Container(
-            color: Colors.pink,
-            child: Center(
-              child: Text(
-                "Lo sentimos existe un error de conexión",
-                style: Theme.of(context).textTheme.headlineLarge,
-              ),
-            ),
-          );
+          return _buildErrorWidget(context);
         } else {
-          return Scaffold(
-            appBar: AppBar(
-              title: const Text("Produtos"),
-              leading: IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () {
-                    Navigator.pushNamed(context, 'lista_productos_cli');
-                  }),
-              actions: [menuCliente(context)],
-            ),
-            body: Text("hello world ${snapshot.data}"),
-          );
+          return _buildMainWidget(snapshot);
         }
       },
+    );
+  }
+
+  Widget _buildErrorWidget(BuildContext context) {
+    return Container(
+      color: Colors.pink,
+      child: Center(
+        child: Text(
+          "Lo sentimos existe un error de conexión",
+          style: Theme.of(context).textTheme.headlineLarge,
+        ),
+      ),
+    );
+  }
+
+  Widget _buildMainWidget(AsyncSnapshot snapshot) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Categorias"),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pushNamed(context, 'lista_productos_cli');
+          },
+        ),
+        actions: [menuCliente(context)],
+      ),
+      body: Stack(
+        children: [
+          ListView.builder(
+            itemCount: snapshot.data.length,
+            itemBuilder: (BuildContext context, int index) {
+              final Categoria categoria =
+                  Categoria.fromMap(snapshot.data[index]);
+              return Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: SizedBox(
+                  height: 290,
+                  child: FichaCategoriaProducto(categoria: categoria),
+                ),
+              );
+            },
+          ),
+        ],
+      ),
     );
   }
 }

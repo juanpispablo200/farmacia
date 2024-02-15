@@ -11,6 +11,7 @@ void main() async {
     create: (context) => UserProvider(),
     child: const MyApp(),
   ));
+  WidgetsFlutterBinding.ensureInitialized();
 }
 
 class MyApp extends StatelessWidget {

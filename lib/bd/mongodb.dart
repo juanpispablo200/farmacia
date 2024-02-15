@@ -181,14 +181,17 @@ class MongoDB {
 
   static Future<List<Map<String, dynamic>>> getProductosPorCategoria(
       Categoria categoria) async {
-    final id = categoria.id.toString().substring(10, 34);
-    logger.i(id);
-    List<Map<String, dynamic>> productos =
-        await collectionProductos.find({'categoria': id}).toList();
+    try {
+      var productos = await collectionProductos
+          .find(where.eq('categoria', categoria.id.toString()))
+          .toList();
 
-    return productos;
+      return productos;
+    } catch (e) {
+      logger.e("Error al obtener productos por categoria");
+      return Future.value([]);
+    }
   }
-
   //USUARIOS
 
   static insertar(Usuario usuario) async {
