@@ -3,9 +3,9 @@ import 'package:provider/provider.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/usuarios.dart';
-import 'package:farmacia/widgets/loading_screen.dart';
-import 'package:farmacia/widgets/menu_cliente.dart';
 import 'package:farmacia/pages/login_page.dart';
+import 'package:farmacia/widgets/appbar_cli.dart';
+import 'package:farmacia/widgets/loading_screen.dart';
 
 class PerfilClientePage extends StatefulWidget {
   const PerfilClientePage({Key? key}) : super(key: key);
@@ -41,17 +41,9 @@ class PerfilClienteState extends State<PerfilClientePage> {
                   ),
                 ),
                 child: Scaffold(
-                  backgroundColor: Colors
-                      .transparent, // Make the Scaffold background transparent
-                  appBar: AppBar(
-                    title: const Text("Perfil"),
-                    leading: IconButton(
-                      icon: const Icon(Icons.arrow_back),
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                    ),
-                    actions: [menuCliente(context)],
+                  backgroundColor: Colors.transparent,
+                  appBar: const AppBarCli(
+                    title: 'Perfil',
                   ),
                   body: Padding(
                     padding: const EdgeInsets.all(8.0),

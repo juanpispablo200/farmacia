@@ -1,9 +1,11 @@
-import 'package:flutter/material.dart';
+import 'package:farmacia/widgets/appbar.dart';
+import 'package:farmacia/widgets/loading_screen.dart';
 
-import 'package:farmacia/widgets/menu_cliente.dart';
+import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class ConfigPage extends StatefulWidget {
-  const ConfigPage({super.key});
+  const ConfigPage({Key? key}) : super(key: key);
 
   @override
   ConfigPageState createState() => ConfigPageState();
@@ -12,45 +14,96 @@ class ConfigPage extends StatefulWidget {
 class ConfigPageState extends State<ConfigPage> {
   bool _notifications = false;
   bool _darkMode = false;
+  late Future<void> _loadConfigFuture;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadConfigFuture = loadConfig();
+  }
 
   @override
   Widget build(BuildContext context) {
+    return FutureBuilder(
+      future: _loadConfigFuture,
+      builder: (BuildContext context, AsyncSnapshot snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const LoadingScreen();
+        } else if (snapshot.hasError) {
+          return Text('Error: ${snapshot.error}');
+        } else {
+          return _buildScaffold();
+        }
+      },
+    );
+  }
+
+  Scaffold _buildScaffold() {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Configuraciones"),
-        leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pop(context);
-            }),
-        actions: [menuCliente(context)],
+      appBar: const AppBarAdmin(
+        title: 'Configuración Admin',
       ),
       body: ListView(
         children: <Widget>[
-          ListTile(
-            title: const Text('Notifications'),
-            trailing: Switch(
-              value: _notifications,
-              onChanged: (bool value) {
-                setState(() {
-                  _notifications = value;
-                });
-              },
-            ),
+          _buildSwitchListTile(
+            title: 'Notificaciones',
+            value: _notifications,
+            onChanged: (bool value) {
+              setState(() {
+                _notifications = value;
+                saveConfig();
+              });
+            },
           ),
-          ListTile(
-            title: const Text('Dark Mode'),
-            trailing: Switch(
-              value: _darkMode,
-              onChanged: (bool value) {
-                setState(() {
-                  _darkMode = value;
-                });
-              },
-            ),
+          _buildSwitchListTile(
+            title: 'Dark Mode',
+            value: _darkMode,
+            onChanged: (bool value) {
+              setState(() {
+                _darkMode = value;
+                saveConfig();
+              });
+            },
           ),
         ],
       ),
     );
+  }
+
+  ListTile _buildSwitchListTile({
+    required String title,
+    required bool value,
+    required ValueChanged<bool> onChanged,
+  }) {
+    return ListTile(
+      title: Text(title),
+      trailing: Switch(
+        value: value,
+        onChanged: (bool newValue) {
+          onChanged(newValue);
+          if (title == 'Dark Mode') {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text('Dark mode settings will apply after restart.'),
+              ),
+            );
+          }
+        },
+      ),
+    );
+  }
+
+  Future<void> loadConfig() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      _notifications = prefs.getBool('notifications') ?? false;
+      _darkMode = prefs.getBool('darkMode') ?? false;
+    });
+  }
+
+  void saveConfig() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool('notifications', _notifications);
+    prefs.setBool('darkMode', _darkMode);
   }
 }

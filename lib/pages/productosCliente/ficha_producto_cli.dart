@@ -29,16 +29,23 @@ class FichaProductoCliState extends State<FichaProductoCli> {
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
-      color: const Color.fromARGB(174, 64, 195, 255),
+      color: Theme.of(context).colorScheme.primary.withOpacity(0.7),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16.0),
       ),
       child: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: ListTile(
+        child: InkWell(
           onTap: _onTap,
-          leading: _buildLeading(),
-          trailing: _buildTrailing(),
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                flex: 5,
+                child: _buildLeading(),
+              ),
+              _buildTrailing(),
+            ],
+          ),
         ),
       ),
     );

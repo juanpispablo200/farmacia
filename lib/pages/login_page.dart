@@ -30,9 +30,9 @@ class LoginPage extends StatelessWidget {
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color.fromARGB(255, 31, 162, 255),
-              Color.fromARGB(255, 18, 216, 250),
-              Color.fromARGB(255, 166, 255, 203),
+              Color.fromRGBO(31, 162, 255, 1),
+              Color.fromRGBO(18, 216, 250, 1),
+              Color.fromRGBO(166, 255, 203, 1),
             ],
           ),
         ),
@@ -44,7 +44,7 @@ class LoginPage extends StatelessWidget {
                 child: Lottie.asset('assets/json/login.json'),
               ),
               Card(
-                color: const Color.fromARGB(160, 255, 255, 255),
+                color: const Color.fromRGBO(255, 255, 255, 0.63),
                 shadowColor: Colors.white,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16.0),
@@ -121,9 +121,11 @@ class LoginPage extends StatelessWidget {
       padding: const EdgeInsets.only(left: 30.0),
       child: TextField(
         controller: _correoController,
+        style: const TextStyle(color: Colors.black),
         keyboardType: TextInputType.emailAddress,
         decoration: const InputDecoration(
           hintText: "Correo Electronico",
+          hintStyle: TextStyle(color: Colors.black),
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.email,
@@ -144,9 +146,11 @@ class LoginPage extends StatelessWidget {
       ),
       child: TextField(
         controller: _passwordController,
+        style: const TextStyle(color: Colors.black),
         obscureText: true,
         decoration: const InputDecoration(
           hintText: "Contraseña",
+          hintStyle: TextStyle(color: Colors.black),
           border: OutlineInputBorder(borderSide: BorderSide.none),
           prefixIcon: Icon(
             Icons.key,

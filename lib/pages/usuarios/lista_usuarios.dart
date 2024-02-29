@@ -1,12 +1,12 @@
-import 'package:farmacia/widgets/loading_screen.dart';
+import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/widgets/appbar.dart';
 import 'package:farmacia/modelos/usuarios.dart';
+import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:farmacia/pages/usuarios/ficha_usuario.dart';
 import 'package:farmacia/pages/usuarios/registro_page.dart';
-import 'package:farmacia/widgets/menu_admin.dart';
-import 'package:lottie/lottie.dart';
 
 class ListaUsuarios extends StatefulWidget {
   const ListaUsuarios({Key? key}) : super(key: key);
@@ -35,16 +35,8 @@ class _ListaUsuariosState extends State<ListaUsuarios> {
           );
         } else {
           return Scaffold(
-            appBar: AppBar(
-              title: const Text("Usuarios Admin"),
-              leading: IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () {
-                    Navigator.pushNamed(context, 'login');
-                  }),
-              actions: [
-                menuAdmin(context),
-              ],
+            appBar: const AppBarAdmin(
+              title: 'Usuarios Admin',
             ),
             body: Stack(
               children: [

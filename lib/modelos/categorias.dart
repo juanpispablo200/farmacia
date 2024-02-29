@@ -2,8 +2,7 @@ import 'package:mongo_dart/mongo_dart.dart';
 
 class Categoria {
   final ObjectId id;
-  final String nombre;
-  final String descripcion;
+  final String nombre, descripcion;
 
   const Categoria({
     required this.id,

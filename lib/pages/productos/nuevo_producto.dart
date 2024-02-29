@@ -1,3 +1,4 @@
+import 'package:farmacia/widgets/appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:mongo_dart/mongo_dart.dart' as md;
@@ -50,14 +51,7 @@ class _NuevoProductoState extends State<NuevoProducto> {
       textoWidget = "Editar Producto";
     }
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Nuevo Producto"),
-        leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pop(context);
-            }),
-      ),
+      appBar: const AppBarAdmin(title: "Nuevo Producto", showMenu: false),
       body: ListView(
         children: [
           Column(

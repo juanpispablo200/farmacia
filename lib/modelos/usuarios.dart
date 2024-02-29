@@ -2,14 +2,14 @@ import 'package:mongo_dart/mongo_dart.dart';
 
 class Usuario {
   final ObjectId id;
-  final String nombres;
-  final String apellidos;
-  final String correo;
-  final String password;
-  final String cedula;
-  final String telefono;
-  final String carrera;
-  final String rol;
+  final String nombres,
+      apellidos,
+      correo,
+      password,
+      cedula,
+      telefono,
+      carrera,
+      rol;
 
   const Usuario({
     required this.id,

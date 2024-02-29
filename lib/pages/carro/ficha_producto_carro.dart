@@ -5,8 +5,7 @@ import 'package:farmacia/modelos/productos.dart';
 import 'package:farmacia/widgets/loading_screen.dart';
 
 class FichaProductoCar extends StatefulWidget {
-  final String userId;
-  final String productoId;
+  final String userId, productoId;
   final ValueChanged<int> onQuantityChange;
   final Future<Map<String, dynamic>?> carro;
   final Future<void> Function() onTapDelete;
@@ -50,7 +49,7 @@ class FichaProductoCarState extends State<FichaProductoCar> {
       padding: const EdgeInsets.symmetric(horizontal: 8.0),
       child: Material(
         elevation: 2.0,
-        color: const Color.fromARGB(174, 64, 195, 255),
+        color: Theme.of(context).colorScheme.primary.withOpacity(0.7),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16.0),
         ),
@@ -76,11 +75,19 @@ class FichaProductoCarState extends State<FichaProductoCar> {
             children: [
               Text(
                 producto!.nombre,
-                style: Theme.of(context).textTheme.bodyLarge,
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyLarge
+                    ?.copyWith(color: Colors.white),
               ),
               const SizedBox(width: 8.0),
-              Text("${producto.precio}\$",
-                  style: Theme.of(context).textTheme.bodyMedium),
+              Text(
+                "${producto.precio}\$",
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyMedium
+                    ?.copyWith(color: Colors.white),
+              ),
               const Spacer(),
               _buildCounter(),
               _buildRemove(),
@@ -101,7 +108,9 @@ class FichaProductoCarState extends State<FichaProductoCar> {
       ),
       ValueListenableBuilder<int>(
         valueListenable: _currentQuantity,
-        builder: (_, value, __) => Text(value.toString()),
+        builder: (_, value, __) => Text(
+          value.toString(),
+        ),
       ),
       IconButton(
         icon: const Icon(Icons.add),

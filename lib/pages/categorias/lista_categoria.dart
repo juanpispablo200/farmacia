@@ -1,9 +1,9 @@
+import 'package:farmacia/widgets/appbar.dart';
 import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/categorias.dart';
-import 'package:farmacia/widgets/menu_admin.dart';
 import 'package:farmacia/pages/categorias/ficha_categoria.dart';
 import 'package:farmacia/pages/categorias/nueva_categoria.dart';
 
@@ -34,16 +34,8 @@ class _ListaCategoriasState extends State<ListaCategorias> {
           );
         } else {
           return Scaffold(
-            appBar: AppBar(
-              title: const Text("Categorias Admin"),
-              leading: IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () {
-                    Navigator.pushNamed(context, 'lista_usuarios');
-                  }),
-              actions: [
-                menuAdmin(context),
-              ],
+            appBar: const AppBarAdmin(
+              title: "Categorias Admin",
             ),
             body: Stack(
               children: [

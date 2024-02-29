@@ -1,12 +1,12 @@
+import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
+import 'package:farmacia/widgets/appbar.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/productos.dart';
-import 'package:farmacia/widgets/menu_admin.dart';
 import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:farmacia/pages/productos/ficha_producto.dart';
 import 'package:farmacia/pages/productos/nuevo_producto.dart';
-import 'package:lottie/lottie.dart';
 
 class ListaProductos extends StatefulWidget {
   const ListaProductos({Key? key}) : super(key: key);
@@ -56,15 +56,7 @@ class _ListaProductosState extends State<ListaProductos> {
 
   Widget _buildMainWidget(AsyncSnapshot snapshot) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Productos Admin"),
-        leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pushNamed(context, 'lista_usuarios');
-            }),
-        actions: [menuAdmin(context)],
-      ),
+      appBar: const AppBarAdmin(title: "Productos Admin"),
       body: Stack(
         children: [
           SizedBox(

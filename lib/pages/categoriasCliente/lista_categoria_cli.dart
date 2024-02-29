@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/modelos/categorias.dart';
-import 'package:farmacia/widgets/menu_cliente.dart';
+import 'package:farmacia/widgets/appbar_cli.dart';
 import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:farmacia/pages/categoriasCliente/ficha_categoria_producto_cli.dart';
 
@@ -44,15 +44,8 @@ class _ListaCategoriasCliState extends State<ListaCategoriasCli> {
 
   Widget _buildMainWidget(AsyncSnapshot snapshot) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Categorias"),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () {
-            Navigator.pushNamed(context, 'lista_productos_cli');
-          },
-        ),
-        actions: [menuCliente(context)],
+      appBar: const AppBarCli(
+        title: 'Categorias',
       ),
       body: Stack(
         children: [

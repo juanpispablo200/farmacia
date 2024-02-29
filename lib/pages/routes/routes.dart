@@ -1,4 +1,5 @@
 import 'package:farmacia/pages/chatbot/chabot_cli.dart';
+import 'package:farmacia/pages/config/config_page.dart';
 import 'package:flutter/material.dart';
 
 //paginas
@@ -14,7 +15,7 @@ import 'package:farmacia/pages/productosCliente/lista_productos_cli.dart';
 import 'package:farmacia/pages/categoriasCliente/lista_categoria_cli.dart';
 import 'package:farmacia/pages/carro/detalle_carro.dart';
 import 'package:farmacia/pages/perfilCliente/perfil_cliente.dart';
-import 'package:farmacia/pages/config/config_page.dart';
+import 'package:farmacia/pages/config/config_page_cli.dart';
 
 final routes = <String, WidgetBuilder>{
   'welcome': (BuildContext context) => const WelcomePage(),
@@ -30,5 +31,6 @@ final routes = <String, WidgetBuilder>{
   'carrito': (BuildContext context) => const DetalleCarro(),
   'perfil': (BuildContext context) => const PerfilClientePage(),
   'config': (BuildContext context) => const ConfigPage(),
+  'config_cli': (BuildContext context) => const ConfigPageCli(),
   'chatbot_cli': (BuildContext context) => const ChatBotScreen()
 };

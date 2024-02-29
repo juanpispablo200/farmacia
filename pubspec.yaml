@@ -32,26 +32,41 @@ dependencies:
     sdk: flutter
   mongo_dart: any
   lottie: any
-  logger: any
   popup_menu: any
   dialogflow_flutter: any
   provider: any
   bubble: any
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  logger: any
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
+  flutter_launcher_icons: any
   flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  image_path_ios: "assets/logo/ios/AppIcon~ipad.png"
+  image_path_android: "assets/logo/android/ic_launcher.png"
+
+  adaptive_icon_background: "assets/logo/android/ic_launcher_background.png"
+  adaptive_icon_foreground: "assets/logo/android/ic_launcher_foreground.png"
+  adaptive_icon_monochrome: "assets/logo/android/ic_launcher_monochrome.png"
+
+  android: true
+  ios: true
+  remove_alpha_ios: true
+
+  web:
+    generate: true
+    image_path: "assets/logo/web/icon-512.png"
+  windows:
+    generate: true
+    image_path: "assets/logo/web/icon-512.png"
+  macos:
+    generate: true
+    image_path: "assets/logo/web/icon-512.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

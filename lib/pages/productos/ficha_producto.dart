@@ -20,7 +20,7 @@ class FichaProducto extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       elevation: 2.0,
-      color: const Color.fromARGB(174, 64, 195, 255),
+      color: Theme.of(context).colorScheme.primary.withOpacity(0.7),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16.0),
       ),

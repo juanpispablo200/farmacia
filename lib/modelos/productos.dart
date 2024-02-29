@@ -2,10 +2,7 @@ import 'package:mongo_dart/mongo_dart.dart';
 
 class Producto {
   final ObjectId id;
-  final String nombre;
-  final String descripcion;
-  final String categoria;
-  final String img;
+  final String nombre, descripcion, categoria, img;
   final double precio;
   final int stock;
 

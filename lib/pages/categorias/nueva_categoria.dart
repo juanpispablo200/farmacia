@@ -1,3 +1,4 @@
+import 'package:farmacia/widgets/appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:mongo_dart/mongo_dart.dart' as md;
 
@@ -32,13 +33,9 @@ class _NuevaCategoriaState extends State<NuevaCategoria> {
       textoWidget = "Editar Categoria";
     }
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Nueva Categoria"),
-        leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pop(context);
-            }),
+      appBar: const AppBarAdmin(
+        title: 'Nueva Categoria',
+        showMenu: false,
       ),
       body: ListView(
         children: [

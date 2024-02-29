@@ -18,7 +18,7 @@ class FichaCategoria extends StatelessWidget {
       width: MediaQuery.of(context).size.width * 0.6,
       child: Material(
         elevation: 2.0,
-        color: const Color.fromARGB(174, 64, 195, 255),
+        color: Theme.of(context).colorScheme.primary.withOpacity(0.7),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16.0),
         ),

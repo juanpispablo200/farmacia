@@ -1,3 +1,4 @@
+import 'package:farmacia/widgets/appbar_cli.dart';
 import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
 import 'package:mongo_dart/mongo_dart.dart' as md;
@@ -45,13 +46,9 @@ class _RegistroPageState extends State<RegistroPage> {
       rolController.text = 'cliente';
     }
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Registro"),
-        leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.pushNamed(context, 'login');
-            }),
+      appBar: const AppBarCli(
+        title: 'Registro',
+        showMenu: false,
       ),
       body: ListView(
         children: [

@@ -1,3 +1,4 @@
+import 'package:farmacia/widgets/appbar_cli.dart';
 import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -5,7 +6,6 @@ import 'package:provider/provider.dart';
 import 'package:farmacia/bd/mongodb.dart';
 import 'package:farmacia/pages/login_page.dart';
 import 'package:farmacia/modelos/productos.dart';
-import 'package:farmacia/widgets/menu_cliente.dart';
 import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:farmacia/pages/carro/detalle_carro.dart';
 import 'package:farmacia/pages/productosCliente/ficha_producto_cli.dart';
@@ -41,17 +41,7 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
           );
         } else {
           return Scaffold(
-            appBar: AppBar(
-              title: const Text("Produtos"),
-              leading: IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () {
-                    Navigator.pushNamed(context, 'login');
-                  }),
-              actions: [
-                menuCliente(context),
-              ],
-            ),
+            appBar: const AppBarCli(title: 'Productos'),
             body: Stack(
               children: [
                 SizedBox(

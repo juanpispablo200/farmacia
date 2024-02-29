@@ -9,10 +9,10 @@ import 'package:farmacia/utilitarios/constantes.dart';
 
 class MongoDB {
   static Db? db;
-  static late DbCollection collectionUsuarios;
-  static late DbCollection collectionCategorias;
-  static late DbCollection collectionProductos;
-  static late DbCollection collectionCarro;
+  static late DbCollection collectionUsuarios,
+      collectionProductos,
+      collectionCategorias,
+      collectionCarro;
 
   static Future<void> conectar() async {
     Db db = await Db.create(conexion);

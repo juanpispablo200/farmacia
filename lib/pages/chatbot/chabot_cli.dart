@@ -5,8 +5,8 @@ import 'package:dialogflow_flutter/language.dart';
 import 'package:dialogflow_flutter/googleAuth.dart';
 import 'package:dialogflow_flutter/dialogflowFlutter.dart';
 
+import 'package:farmacia/widgets/appbar_cli.dart';
 import 'package:farmacia/utilitarios/logger.dart';
-import 'package:farmacia/widgets/menu_cliente.dart';
 
 class ChatBotScreen extends StatefulWidget {
   const ChatBotScreen({super.key});
@@ -41,16 +41,7 @@ class ChatBotScreenState extends State<ChatBotScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Carro"),
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
-        actions: [menuCliente(context)],
-      ),
+      appBar: const AppBarCli(title: "Carro"),
       body: Column(
         children: <Widget>[
           Flexible(
