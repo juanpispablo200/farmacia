@@ -89,6 +89,10 @@ class ConfigPageState extends State<ConfigPage> {
             );
           }
         },
+        activeTrackColor: Colors.lightBlueAccent,
+        activeColor: Colors.white,
+        inactiveTrackColor: Colors.blueGrey,
+        inactiveThumbColor: Colors.grey,
       ),
     );
   }

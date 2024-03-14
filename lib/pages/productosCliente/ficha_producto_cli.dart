@@ -1,9 +1,11 @@
-import 'package:farmacia/bd/mongodb.dart';
-import 'package:farmacia/widgets/loading_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:farmacia/modelos/categorias.dart';
+import 'package:provider/provider.dart';
 
+import 'package:farmacia/bd/mongodb.dart';
+import 'package:farmacia/pages/login_page.dart';
 import 'package:farmacia/modelos/productos.dart';
+import 'package:farmacia/modelos/categorias.dart';
+import 'package:farmacia/widgets/loading_screen.dart';
 
 class FichaProductoCli extends StatefulWidget {
   final Producto producto;
@@ -23,7 +25,16 @@ class FichaProductoCliState extends State<FichaProductoCli> {
   Producto get producto => widget.producto;
   VoidCallback get onTapAdd => widget.onTapAdd;
 
+  bool _isAdded = false;
   bool _isLoading = false;
+  String userId = '';
+
+  @override
+  void initState() {
+    super.initState();
+    userId = Provider.of<UserProvider>(context, listen: false).userId;
+    _checkProductAdded();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -97,25 +108,32 @@ class FichaProductoCliState extends State<FichaProductoCli> {
   }
 
   Widget _buildTrailing() {
-    return IconButton(
-      onPressed: _isLoading
-          ? null
-          : () async {
-              setState(() {
-                _isLoading = true;
-              });
-              await widget.onTapAdd();
-              setState(() {
-                _isLoading = false;
-              });
-            },
-      icon: _isLoading
-          ? const SizedBox(
-              height: 20.0,
-              width: 20.0,
-              child: CircularProgressIndicator.adaptive(strokeWidth: 2.0),
-            )
-          : const Icon(Icons.add),
+    return SizedBox(
+      width: 50.0,
+      height: 50.0,
+      child: IconButton(
+        onPressed: _isLoading || _isAdded
+            ? null
+            : () async {
+                setState(() {
+                  _isLoading = true;
+                });
+                await widget.onTapAdd();
+                setState(() {
+                  _isLoading = false;
+                  _isAdded = true;
+                });
+              },
+        icon: _isLoading
+            ? const SizedBox(
+                height: 24.0,
+                width: 24.0,
+                child: CircularProgressIndicator(strokeWidth: 2.0),
+              )
+            : _isAdded
+                ? const Icon(Icons.check)
+                : const Icon(Icons.add),
+      ),
     );
   }
 
@@ -137,6 +155,13 @@ class FichaProductoCliState extends State<FichaProductoCli> {
         );
       },
     );
+  }
+
+  void _checkProductAdded() async {
+    _isAdded = await MongoDB.productoEstaEnCarro(userId, producto.id);
+    if (mounted) {
+      setState(() {});
+    }
   }
 
   Future<Categoria?> obtenerCategoria(Producto producto) async {

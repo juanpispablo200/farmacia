@@ -119,8 +119,8 @@ class DetalleCarroState extends State<DetalleCarro> {
             separatorBuilder: (_, __) => const SizedBox(height: 8.0),
             itemBuilder: (BuildContext context, int index) {
               final productId = productKeys[index];
-              return SizedBox(
-                height: 55,
+              return Padding(
+                padding: const EdgeInsets.all(8.0),
                 child: FichaProductoCar(
                   onTapDelete: () async =>
                       _removeProductoCarro(userId, productId),

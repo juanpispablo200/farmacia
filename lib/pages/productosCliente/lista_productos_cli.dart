@@ -85,6 +85,5 @@ class _ListaProductosCliState extends State<ListaProductosCli> {
 
   _agregarProducto(String userId, Producto producto) async {
     await MongoDB.insertarProdCr(userId, producto);
-    setState(() {});
   }
 }

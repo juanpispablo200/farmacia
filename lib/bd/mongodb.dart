@@ -140,6 +140,23 @@ class MongoDB {
     }
   }
 
+  static Future<bool> productoEstaEnCarro(
+    String userId,
+    ObjectId productId,
+  ) async {
+    var carro = await collectionCarro.findOne(
+      {
+        'usuarioId': ObjectId.parse(userId),
+      },
+    );
+    if (carro != null) {
+      if (carro['productos'] != null) {
+        return carro['productos'][productId.toString()] != null;
+      }
+    }
+    return false;
+  }
+
   static Future<Map<String, dynamic>?> getCarroPorUsuario(
       String usuarioId) async {
     try {

@@ -1109,3 +1109,919 @@
 [38;5;12m💡 Conectado a la base de datos: test[0m
 [38;5;12m💡 Intentando conectar a la base de datos[0m
 [38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Intentando conectar a la base de datos[0m
+[38;5;12m💡 Conectado a la base de datos: test[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 Carro: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 14, ObjectId("659f0d7a09924e7c9b6fbbd6"): 14, ObjectId("659f0d8509924e7c9b6fbbd7"): 20, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1}[0m
+[38;5;12m💡 Producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 Existe: null[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("65e00e464e30380958599891")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 {[0m
+[38;5;12m💡   "ObjectId(\"659f0d6c09924e7c9b6fbbd5\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d7a09924e7c9b6fbbd6\")": 14,[0m
+[38;5;12m💡   "ObjectId(\"659f0d8509924e7c9b6fbbd7\")": 20,[0m
+[38;5;12m💡   "ObjectId(\"65e00ce9e5065dc98d5a309f\")": 1,[0m
+[38;5;12m💡   "ObjectId(\"65e00981a32e4e4c4e659bb6\")": 1[0m
+[38;5;12m💡 }[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}[0m
+[38;5;12m💡 producto: null[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}} [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995") [0m
+[38;5;12m💡 [0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d7a09924e7c9b6fbbd6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d8509924e7c9b6fbbd7")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e0092583901ca0694fe34c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00981a32e4e4c4e659bb6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e009b0f02048eeb28b876a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a060c7bfad4c3c18276")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00a7bcb12934e997500a4")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ae7d5f4bd43ab7512b6")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00b5b0bcc114eca28440a")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bc66e273a369df939b9")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00bf9bfb8d2ab3358ab8c")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c21061d6a9eb1967946")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00c53dda9fe7c76f4dce3")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00ce9e5065dc98d5a309f")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00d7d27d93ad2480b0803")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00de4b0c15bda1950f995")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00e464e30380958599891")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("65e00e464e30380958599891")[0m
+[38;5;12m💡 carro: {_id: ObjectId("65ba7f9e1ea1719523000000"), usuarioId: ObjectId("65984bfae7c7db78b39f3d5c"), productos: {ObjectId("659f0d6c09924e7c9b6fbbd5"): 1, ObjectId("659f0d7a09924e7c9b6fbbd6"): 1, ObjectId("659f0d8509924e7c9b6fbbd7"): 1, ObjectId("65e00ce9e5065dc98d5a309f"): 1, ObjectId("65e00981a32e4e4c4e659bb6"): 1, ObjectId("65e0092583901ca0694fe34c"): 1}}[0m
+[38;5;12m💡 producto: ObjectId("659f0d6c09924e7c9b6fbbd5")[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m
+[38;5;196m⛔ Error al obtener categoria por id MongoDart Error: No master connection[0m

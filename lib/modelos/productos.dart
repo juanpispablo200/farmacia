@@ -33,6 +33,8 @@ class Producto {
         descripcion = map['descripcion'],
         categoria = map['categoria'],
         img = map['img'],
-        precio = map['precio'],
+        precio = map['precio'] is int
+            ? (map['precio'] as int).toDouble()
+            : map['precio'],
         stock = map['stock'];
 }

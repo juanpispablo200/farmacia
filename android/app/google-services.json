@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171119924602",
+    "project_id": "dialogflowfarmacia",
+    "storage_bucket": "dialogflowfarmacia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171119924602:android:66972f2cb3403958e272c3",
+        "android_client_info": {
+          "package_name": "com.example.farmacia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUTVzNZroABSunKYi-Jkeekvr7xZFGGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

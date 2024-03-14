@@ -45,17 +45,24 @@ class FichaProductoCarState extends State<FichaProductoCar> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8.0),
-      child: Material(
-        elevation: 2.0,
-        color: Theme.of(context).colorScheme.primary.withOpacity(0.7),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(16.0),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: _buildLeading(),
+    return Material(
+      elevation: 2.0,
+      color: Theme.of(context).colorScheme.primary.withOpacity(0.7),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16.0),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: InkWell(
+          onTap: _onTap,
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                flex: 5,
+                child: _buildLeading(),
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -160,5 +167,28 @@ class FichaProductoCarState extends State<FichaProductoCar> {
             )
           : const Icon(Icons.delete),
     );
+  }
+
+  void _onTap() async {
+    final producto = await _productoFuture;
+    if (producto != null && mounted) {
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text(producto.nombre),
+            content: Text(producto.descripcion),
+            actions: <Widget>[
+              TextButton(
+                child: const Text('Close'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+            ],
+          );
+        },
+      );
+    }
   }
 }

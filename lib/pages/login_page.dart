@@ -6,7 +6,6 @@ import 'package:farmacia/bd/mongodb.dart';
 
 class UserProvider with ChangeNotifier {
   String _userId = '';
-
   String get userId => _userId;
 
   void setUserId(String id) {
